@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<title>Sim Masters Versenynaptár</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../src/styles/theme.css">
+<link rel="stylesheet" href="../../src/styles/base.css">
+<link rel="stylesheet" href="../../src/styles/components.css">
+<link rel="stylesheet" href="../../src/styles/animations.css">
+<link rel="stylesheet" href="../../src/styles/pages.css">
+</head>
+
+<body>
+
+<div class="bg-glow animate"></div>
+
+<div class="back-button" onclick="goBack()">
+  ← Vissza
+</div>
+
+<div class="theme-toggle" onclick="toggleTheme()">
+  🌙
+</div>
+
+<div class="header">
+  <div class="title">Rajtvonal <span>Sim Masters</span></div>
+  <div class="subtitle">VERSENYNAPTÁR</div>
+</div>
+
+<div class="container tablazat calendar">
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Pálya</th>
+<th>Időpont</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody id="tbody"></tbody>
+</table>
+</div>
+
+<div class="footer">
+  Rajtvonal Sim Masters • Versenynaptár
+</div>
+
+<div class="container-sponsor-left"></div>
+<div class="container-sponsor-right"></div>
+<div class="container-sponsor-bottom"></div>
+
+
+<script src="../../src/scripts/components/sponsor-paths.js"></script>
+<script src="../../src/scripts/components/sponsors.js"></script>
+<script>loadSponsors();</script>
+<script src="../../src/scripts/common/theme.js"></script>
+<script src="../../src/scripts/common/navigation.js"></script>
+</body>
+</html>

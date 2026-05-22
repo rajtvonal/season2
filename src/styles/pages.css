@@ -1,0 +1,319 @@
+/* =========================
+   MAIN MENU CONTAINER
+========================= */
+.container.menu {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+/* =========================
+   MAIN MENU BUTTONS
+========================= */
+.container.menu button {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container.menu button:hover {
+  transform: translateY(-2px);
+}
+
+
+
+/* =========================
+   NAVBAR CONTAINER
+========================= */
+.container.navbar {
+  margin-top: 30px;
+  max-width: 100%;
+}
+/* =========================
+   NAVBAR BUTTONS
+========================= */
+.container.navbar button {
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+
+
+/* =========================
+   TÁBLÁZAT CONTAINER
+========================= */
+.container.tablazat {
+  max-width: 1000px;
+}
+
+.container.elokvali {
+  max-width: 750px;
+}
+.container.results {
+  max-width: 1200px;
+}
+.container.results.main {
+  max-width: 1200px;
+}
+.container.results.individual {
+  max-width: 700px;
+}
+.container.results.teams {
+  max-width: 600px;
+}
+.container.results.statistics {
+  max-width: 1200px;
+}
+.container.results.races {
+  max-width: 1200px;
+}
+
+/* =========================
+   TÁBLA ÉRTÉKEK
+========================= */
+td.pos {
+  text-align: center;
+  width: 50px;
+  height: 20px;
+}
+td.name {
+  text-align: left;
+  font-weight: 700;
+  width: 300px;
+}
+td.team {
+  width: 300px;
+}
+td.racces {
+  width: 50px;
+  font-weight: 200;
+}
+td.gain {
+  width: 50px;
+  font-weight: 300;
+}
+td.empty-state {
+  padding: 36px;
+  color: var(--text-secondary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+.elokvali td.pos {
+  width: 50px;
+  height: 50px;
+}
+.elokvali td.time {
+  color: var(--text-secondary);
+  width: 100px;
+}
+.elokvali td.total {
+  color: var(--color-total);
+  width: 100px;
+  font-weight: 700;
+}
+.elokvali .delta {
+  color: var(--color-accent);
+  font-size: 11px;
+}
+
+
+/* =========================
+   SZABÁLYZAT
+========================= */
+.container.rule {
+    max-width: 900px;
+}
+/* =========================
+   SZABÁLYPONT-RENDSZER
+========================= */
+.level-1 { margin-top: 40px; }
+.level-2 { margin-left: 20px; margin-top: 20px; }
+.level-3 { margin-left: 40px; margin-top: 15px; }
+
+.level-1-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--color-accent);
+}
+.level-2-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.level-3-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.level-text {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+
+/* =========================
+   VERSENY NAPTÁR
+========================= */
+.container.tablazat.calendar {
+  max-width: 600px;
+}
+
+
+/* =========================
+   VERSENY BEÁLLÍTÁSOK
+========================= */
+.container.settings {
+  max-width: 600px;
+}
+.level-2 span {
+  color: var(--text-secondary);
+}
+
+
+/* =========================
+   IDOJARAS
+========================= */
+.container.weather {
+  max-width: 900px;
+}
+.weather-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+.weather-track img {
+  width: 64px;
+  height: 44px;
+  object-fit: cover;
+  border: 1px solid var(--border-primary);
+  border-radius: 6px;
+}
+.weather-track-name {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--text-primary);
+  text-transform: uppercase;
+}
+.weather-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 18px;
+}
+.weather-metric {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 22px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+}
+.weather-icon {
+  width: 72px;
+  font-size: 3rem;
+  text-align: center;
+}
+.weather-label {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.weather-value {
+  margin-top: 8px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-total);
+}
+.weather-details {
+  margin-top: 34px;
+}
+
+@media screen and (max-width: 760px) {
+  .weather-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .weather-track {
+    flex-direction: column;
+  }
+
+  .weather-track-name {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+}
+
+
+/* =========================
+   TELEFONOS ES TABLET NEZET
+========================= */
+@media screen and (max-width: 1000px) {
+  .container {
+    width: calc(100% - 24px);
+    max-width: none;
+    box-sizing: border-box;
+  }
+
+  .container.results,
+  .container.elokvali,
+  .container.tablazat {
+    overflow-x: auto;
+    padding: 12px;
+  }
+
+  table {
+    min-width: 720px;
+  }
+
+  .container.results.main table,
+  .container.results.races table,
+  .container.results.statistics table {
+    min-width: 980px;
+  }
+
+  .title {
+    font-size: 2.2rem;
+    overflow-wrap: anywhere;
+  }
+
+  .subtitle {
+    letter-spacing: 0.18em;
+  }
+
+  td.name,
+  td.team {
+    width: auto;
+    min-width: 160px;
+  }
+
+  .search-box input {
+    width: min(320px, calc(100% - 48px));
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .back-button,
+  .theme-toggle {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .container.navbar button {
+    flex: 1 1 140px;
+  }
+}
