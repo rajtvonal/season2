@@ -16,15 +16,25 @@ function createResultsHeader(totalRaces) {
 }
 
 async function loadSimMastersData() {
-  const [teams, races, qualis] = await Promise.all([
+  const [teams, drivers, races, qualis] = await Promise.all([
     loadTeams(),
+    loadDrivers(),
     loadJsonSeries("races", "R"),
     loadJsonSeries("qualis", "Q")
   ]);
 
   smResultsState.teams = teams;
+  smResultsState.drivers = drivers;
   smResultsState.races = races;
   smResultsState.qualis = qualis;
+}
+
+async function loadDrivers() {
+  const text = await fetch(`${smResultsConfig.databasePath}/drivers.csv?v=${Date.now()}`)
+    .then(response => response.ok ? response.text() : "")
+    .catch(() => "");
+
+  return text.trim() ? parseDrivers(text) : {};
 }
 
 async function loadTeams() {
@@ -61,4 +71,13 @@ function parseTeams(text) {
     drivers.forEach(driver => { teams[driver] = team; });
   });
   return teams;
+}
+
+function parseDrivers(text) {
+  const drivers = {};
+  text.trim().split("\n").forEach(line => {
+    const [country, name, driverClass, car] = line.split(",").map(value => value.trim());
+    drivers[name] = { country, driverClass, car };
+  });
+  return drivers;
 }

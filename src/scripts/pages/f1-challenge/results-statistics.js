@@ -2,6 +2,7 @@ function createStatistics(data) {
   return [...data]
     .map(driver => ({
       name: driver.name,
+      country: driver.country,
       wins: countWins(driver),
       poles: countPoles(driver),
       averagePoints: calculateAveragePoints(driver),
@@ -12,38 +13,32 @@ function createStatistics(data) {
 }
 
 function countWins(driver) {
-  return driver.results.filter(result => result === "1").length;
+  return driver.raceDetails.filter(result => result?.position === "1").length;
 }
 
 function countPoles(driver) {
-  return getQualifyingResults(driver).filter(result => result === "1").length;
+  return driver.idomeroeredmenyek.filter(result => result === "1").length;
 }
 
 function calculateAveragePoints(driver) {
-  const raceCount = driver.results.filter(Boolean).length;
-  return raceCount ? driver.total / raceCount : null;
+  const starts = driver.raceDetails.filter(Boolean).length;
+  return starts ? driver.total / starts : null;
 }
 
 function calculateAverageQualifying(driver) {
-  const positions = getNumericPositions(getQualifyingResults(driver));
-  return average(positions);
+  return average(getNumericPositions(driver.idomeroeredmenyek));
 }
 
 function calculateAveragePositionGain(driver) {
-  const qualifying = getQualifyingResults(driver);
-  const gains = driver.results
+  const gains = driver.raceDetails
     .map((raceResult, index) => {
-      const racePosition = parsePosition(raceResult);
-      const qualifyingPosition = parsePosition(qualifying[index]);
+      const racePosition = parsePosition(raceResult?.position);
+      const qualifyingPosition = parsePosition(driver.idomeroeredmenyek[index]);
       return racePosition && qualifyingPosition ? qualifyingPosition - racePosition : null;
     })
     .filter(value => value !== null);
 
   return average(gains);
-}
-
-function getQualifyingResults(driver) {
-  return driver.idomeroeredmenyek || [];
 }
 
 function getNumericPositions(values) {

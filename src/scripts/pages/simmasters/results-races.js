@@ -38,7 +38,7 @@ function createSmRaceRow(driver, index) {
   tr.className = "row";
   tr.innerHTML = `
     <td class="pos rank-${index + 1} top-${index + 1}">${formatRacePosition(driver)}</td>
-    ${createNameCell(driver.id, index)}
+    ${createNameCell(driver.id, index, getDriverCountry(driver.id))}
     <td class="team top-${index + 1}">${getDriverTeam(driver.id)}</td>
     <td class="time top-${index + 1}">${formatMs(driver.totalTime)}</td>
     <td class="time top-${index + 1}">${formatMs(driver.bestLap)}</td>

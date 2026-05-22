@@ -1,98 +1,98 @@
 async function showRaceButtons() {
+  await loadF1Data();
+  setClass("container results", "races");
+  const div = resetEventButtons();
+
+  createRaceEventList().forEach(event => div.appendChild(createEventButton(event)));
+  if (div.querySelector("button")) div.querySelector("button").click();
+}
+
+async function showQualifying(btn) {
+  setActive(btn);
+  await loadF1Data();
+  setClass("container results", "qualifying");
+  const div = resetEventButtons();
+
+  f1ResultsState.qualis.filter(Boolean).forEach(quali => {
+    div.appendChild(createEventButton({ type: "quali", raceNumber: quali.raceNumber, data: quali.rows }));
+  });
+  if (div.querySelector("button")) div.querySelector("button").click();
+}
+
+function resetEventButtons() {
   const div = document.getElementById("raceButtons");
   div.style.display = "block";
   div.innerHTML = "";
-  const buttons = await createRaceButtons(div);
-  if (buttons.length > 0) buttons[0].click();
+  return div;
 }
 
-async function createRaceButtons(container) {
-  const buttons = [];
-  for (let i = 1; i <= 12; i++) {
-    const button = await createRaceButton(i, buttons);
-    if (!button) continue;
-
-    buttons.push(button);
-    container.appendChild(button);
+function createRaceEventList() {
+  const events = [];
+  for (let i = 1; i <= getResultsConfig().totalRaces; i++) {
+    if (f1ResultsState.sprints[i - 1]) events.push({ type: "sprint", raceNumber: i, data: f1ResultsState.sprints[i - 1].rows });
+    if (f1ResultsState.races[i - 1]) events.push({ type: "race", raceNumber: i, data: f1ResultsState.races[i - 1].rows });
   }
-
-  return buttons;
+  return events;
 }
 
-async function createRaceButton(raceNumber, buttons) {
-  const config = getResultsConfig();
-
-  try {
-    const res = await fetch(`${config.databasePath}/races/R${raceNumber}.csv`, { method: "HEAD" });
-    if (!res.ok) return null;
-
-    const button = document.createElement("button");
-    button.innerText = "R" + raceNumber;
-    button.onclick = () => selectRace(button, buttons, raceNumber);
-    return button;
-  } catch (exception) {
-    return null;
-  }
+function createEventButton(event) {
+  const button = document.createElement("button");
+  button.innerText = getEventLabel(event);
+  button.onclick = () => selectEventButton(button, event);
+  return button;
 }
 
-function selectRace(button, buttons, raceNumber) {
-  const config = getResultsConfig();
+function getEventLabel(event) {
+  const prefix = event.type === "quali" ? "Q" : event.type === "sprint" ? "S" : "R";
+  return prefix + event.raceNumber;
+}
 
-  buttons.forEach(btn => btn.classList.remove("active"));
+function selectEventButton(button, event) {
+  Array.from(button.parentElement.children).forEach(item => item.classList.remove("active"));
   button.classList.add("active");
-
-  fetch(`${config.databasePath}/races/R${raceNumber}.csv?v=${Date.now()}`)
-    .then(response => response.text())
-    .then(text => {
-      renderRaceTable(parseRaceResults(text));
-      updateHeader(["#", "Név", "Idő", "Leggyorsabb Kör", "Box"]);
-    });
-}
-
-function parseRaceResults(text) {
-  return text
-    .trim()
-    .split("\n")
-    .map(line => {
-      const [pos, name, total, best, pits] = line.split(",");
-      return { pos: parseInt(pos), name, time: parseTime(total), best, pits: parseInt(pits) };
-    })
-    .sort((a, b) => a.pos - b.pos);
+  if (event.type === "quali") return renderQualifyingTable(event.data);
+  renderRaceTable(event.data.map(parseRaceRow));
 }
 
 function renderRaceTable(data) {
   const tbody = document.getElementById("tbody");
-  const leaderTime = data[0]?.time || 0;
   tbody.innerHTML = "";
-  data.forEach((driver, index) => {
-    tbody.appendChild(createRaceRow(driver, index, leaderTime));
-  });
+  data.forEach((driver, index) => tbody.appendChild(createRaceRow(driver, index)));
+  updateHeader(["#", "Név", "Idő", "Leggyorsabb Kör", "Box"]);
 }
 
-function createRaceRow(driver, index, leaderTime) {
+function createRaceRow(driver, index) {
   const tr = document.createElement("tr");
   tr.className = "row";
-
   tr.innerHTML = `
-    <td class="pos rank-${index + 1} top-${index + 1}">${driver.pos || "-"}</td>
-    ${createNameCell(driver.name, index)}
-    <td class="time top-${index + 1}">${formatRaceTime(driver, index, leaderTime)}</td>
+    <td class="pos rank-${index + 1} top-${index + 1}">${driver.position}</td>
+    ${createNameCell(driver.name, index, getDriverMeta(driver.name).country)}
+    <td class="time top-${index + 1}">${driver.total}</td>
     <td class="time top-${index + 1}">${driver.best}</td>
     <td class="time top-${index + 1}">${driver.pits}</td>
   `;
-
   return tr;
 }
 
-function formatRaceTime(driver, index, leaderTime) {
-  if (index === 0) return fmt(driver.time);
+function renderQualifyingTable(rows) {
+  const data = rows.map(parseQualiRow).sort((a, b) => Number(a.position) - Number(b.position));
+  const best = getBestQualifyingLap(data);
+  document.getElementById("tbody").innerHTML = "";
+  data.forEach((driver, index) => {
+    document.getElementById("tbody").appendChild(createQualifyingResultRow(driver, index, best));
+  });
+  updateHeader(["#", "Név", "Köridő", "Gumi", "Gap to First"]);
+}
 
-  const diff = driver.time - leaderTime;
-  const lapTime = parseTime(driver.best);
-
-  if (diff > lapTime) {
-    return `+ ${(diff / lapTime).toFixed(0)} Kör`;
-  }
-
-  return `+ ${diff.toFixed(3)}`;
+function createQualifyingResultRow(driver, index, best) {
+  const tr = document.createElement("tr");
+  tr.className = "row";
+  tr.innerHTML = `
+    <td class="pos rank-${index + 1} top-${index + 1}">${driver.position}</td>
+    ${createNameCell(driver.name, index, getDriverMeta(driver.name).country)}
+    <td class="time top-${index + 1}">${driver.lap}</td>
+    <td class="time top-${index + 1}">${driver.tyre}</td>
+    <td class="gain top-${index + 1}" style="color:#ef4444">${formatQualifyingGap(driver, best)}</td>
+  `;
+  return tr;
 }

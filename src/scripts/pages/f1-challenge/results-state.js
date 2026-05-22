@@ -1,11 +1,18 @@
 const f1ResultsState = {
   pointsMap: {},
-  currentData: []
+  sprintPointsMap: {},
+  currentData: [],
+  drivers: {},
+  teams: {},
+  teamRosters: {},
+  races: [],
+  sprints: [],
+  qualis: [],
+  eventColumns: []
 };
 
 const defaultResultsConfig = {
   databasePath: "../../database/F1",
-  resultsFile: "F1Challenge_results.csv",
   totalRaces: 12
 };
 
@@ -24,6 +31,15 @@ function getCurrentData() {
   return f1ResultsState.currentData;
 }
 
-function getPointsForPosition(position) {
-  return f1ResultsState.pointsMap[position.trim()] ?? 0;
+function getPointsForPosition(position, isSprint = false) {
+  const pointsMap = isSprint ? f1ResultsState.sprintPointsMap : f1ResultsState.pointsMap;
+  return pointsMap[String(position).trim()] ?? 0;
+}
+
+function getDriverMeta(name) {
+  return f1ResultsState.drivers[name] || { country: "hu", division: "" };
+}
+
+function getDriverTeam(name) {
+  return f1ResultsState.teams[name] || "Fuggetlen";
 }

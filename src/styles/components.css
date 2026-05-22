@@ -185,6 +185,10 @@ tr:hover {
     justify-items: center;
     gap: 75px;
 }
+.driver-flag {
+  vertical-align: middle;
+  margin-right: 6px;
+}
 
 /* Oldalsó logók*/
 .sponsor,

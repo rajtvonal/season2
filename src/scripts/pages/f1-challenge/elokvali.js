@@ -20,11 +20,11 @@ function parseQualifyingData(text) {
 }
 
 function parseQualifyingRow(row) {
-  const [name, p1, p2, p3] = row.split(",");
+  const [country, name, p1, p2, p3] = row.split(",");
   const a = parseTime(p1);
   const b = parseTime(p2);
   const c = parseTime(p3);
-  return { name, a, b, c, total: a + b + c };
+  return { country, name, a, b, c, total: a + b + c };
 }
 
 function renderTable(data) {
@@ -44,7 +44,7 @@ function createQualifyingRow(item, index, best) {
   const delta = index ? `<div class="delta">(+${(item.total - best).toFixed(3)} s)</div>` : "";
   tr.innerHTML = `
     <td class="pos rank-${index + 1} top-${index + 1}">${index + 1}</td>
-    <td class="name top-${index + 1}"><img src="https://flagcdn.com/w20/hu.png" style="vertical-align:middle;margin-right:6px;">${item.name}</td>
+    <td class="name top-${index + 1}">${createFlagImg(item.country)}${item.name}</td>
     <td class="time top-${index + 1}">${fmt(item.a)}</td>
     <td class="time top-${index + 1}">${fmt(item.b)}</td>
     <td class="time top-${index + 1}">${fmt(item.c)}</td>

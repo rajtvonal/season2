@@ -8,46 +8,37 @@ function hideRaceButtons() {
 }
 
 function updateHeader(cols) {
-  const tr = document.querySelector("thead tr");
-  tr.innerHTML = cols.map(col => `<th>${col}</th>`).join("");
+  document.querySelector("thead tr").innerHTML = cols.map(col => `<th>${col}</th>`).join("");
 }
 
 function renderTable(data, mode = "main") {
   const tbody = document.getElementById("tbody");
   tbody.innerHTML = "";
-
-  data.forEach((driver, index) => {
-    tbody.appendChild(createDriverRow(driver, index, mode));
-  });
+  data.forEach((driver, index) => tbody.appendChild(createDriverRow(driver, index, mode)));
 }
 
 function renderEmptyTable(message) {
-  const tbody = document.getElementById("tbody");
-  tbody.innerHTML = `<tr><td class="empty-state">${message}</td></tr>`;
+  document.getElementById("tbody").innerHTML = `<tr><td class="empty-state">${message}</td></tr>`;
 }
 
 function createDriverRow(driver, index, mode) {
   const tr = document.createElement("tr");
   tr.className = "row";
-
-  tr.innerHTML = mode === "main"
-    ? createMainDriverCells(driver, index)
-    : createIndividualDriverCells(driver, index);
-
+  tr.innerHTML = mode === "main" ? createMainDriverCells(driver, index) : createIndividualDriverCells(driver, index);
   return tr;
 }
 
 function createMainDriverCells(driver, index) {
-  const config = getResultsConfig();
-  const races = Array.from({ length: config.totalRaces }, (_, raceIndex) => {
-    return `<td class="races race-${index + 1} top-${index + 1}">${driver.results[raceIndex] || "-"}</td>`;
+  const results = getResultColumns().map((column, eventIndex) => {
+    const className = column.type || "race";
+    return `<td class="races ${className}-${index + 1} top-${index + 1}">${driver.results[eventIndex] || "-"}</td>`;
   }).join("");
 
   return `
     ${createPositionCell(index)}
-    ${createNameCell(driver.name, index)}
+    ${createNameCell(driver.name, index, driver.country)}
     <td class="team top-${index + 1}">${driver.team}</td>
-    ${races}
+    ${results}
     ${createTotalCell(driver.total, index)}
     ${createGainCell(driver.gain, index)}
   `;
@@ -56,19 +47,25 @@ function createMainDriverCells(driver, index) {
 function createIndividualDriverCells(driver, index) {
   return `
     ${createPositionCell(index)}
-    ${createNameCell(driver.name, index)}
+    ${createNameCell(driver.name, index, driver.country)}
     <td class="team top-${index + 1}">${driver.team}</td>
     ${createTotalCell(driver.total, index)}
+    <td class="gap top-${index + 1}">${formatGapToFirst(driver.gapToFirst)}</td>
     ${createGainCell(driver.gain, index)}
   `;
+}
+
+function getResultColumns() {
+  if (typeof f1ResultsState !== "undefined" && f1ResultsState.eventColumns.length) return f1ResultsState.eventColumns;
+  return Array.from({ length: getResultsConfig().totalRaces }, (_, index) => ({ type: "race", label: `R${index + 1}` }));
 }
 
 function createPositionCell(index) {
   return `<td class="pos rank-${index + 1} top-${index + 1}">${index + 1}</td>`;
 }
 
-function createNameCell(name, index) {
-  return `<td class="name top-${index + 1}"><img src="https://flagcdn.com/w20/hu.png" style="vertical-align:middle;margin-right:6px;">${name}</td>`;
+function createNameCell(name, index, country = "hu") {
+  return `<td class="name top-${index + 1}">${createFlagImg(country)}${name}</td>`;
 }
 
 function createTotalCell(total, index) {
@@ -79,4 +76,9 @@ function createGainCell(gain, index) {
   const color = gain > 0 ? "#4ade80" : gain < 0 ? "#ef4444" : "#888";
   const label = gain > 0 ? `+${gain}` : gain;
   return `<td class="gain top-${index + 1}" style="color:${color}">${label}</td>`;
+}
+
+function formatGapToFirst(gap) {
+  if (!gap) return "-";
+  return `-${gap}`;
 }

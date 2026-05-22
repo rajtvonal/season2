@@ -2,7 +2,8 @@ const smResultsState = {
   currentData: [],
   races: [],
   qualis: [],
-  teams: {}
+  teams: {},
+  drivers: {}
 };
 
 const smResultsConfig = {
@@ -23,5 +24,9 @@ function getResultsConfig() {
 }
 
 function getDriverTeam(name) {
-  return smResultsState.teams[name] || "Független";
+  return smResultsState.teams[name] || "Fuggetlen";
+}
+
+function getDriverCountry(name) {
+  return smResultsState.drivers[name]?.country || "hu";
 }

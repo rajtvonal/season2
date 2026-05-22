@@ -23,7 +23,8 @@ function groupDriversByTeam(data) {
 }
 
 function isIndependentTeam(team) {
-  return team.toLowerCase() === "független";
+  const normalized = team.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return normalized === "fuggetlen";
 }
 
 function calculateTeamTotal(drivers) {

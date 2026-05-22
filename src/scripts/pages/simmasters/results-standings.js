@@ -41,6 +41,7 @@ function getOrCreateDriver(drivers, name) {
     drivers[name] = {
       name,
       team: getDriverTeam(name),
+      country: getDriverCountry(name),
       results: Array(smResultsConfig.totalRaces).fill(""),
       points: Array(smResultsConfig.totalRaces).fill(""),
       racePoints: Array(smResultsConfig.totalRaces).fill(0),
