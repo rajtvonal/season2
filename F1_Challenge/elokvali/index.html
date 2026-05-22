@@ -6,11 +6,11 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="../src/styles/theme.css">
-<link rel="stylesheet" href="../src/styles/base.css">
-<link rel="stylesheet" href="../src/styles/components.css">
-<link rel="stylesheet" href="../src/styles/animations.css">
-<link rel="stylesheet" href="../src/styles/pages.css">
+<link rel="stylesheet" href="../../src/styles/theme.css">
+<link rel="stylesheet" href="../../src/styles/base.css">
+<link rel="stylesheet" href="../../src/styles/components.css">
+<link rel="stylesheet" href="../../src/styles/animations.css">
+<link rel="stylesheet" href="../../src/styles/pages.css">
 </head>
 
 <body>
@@ -30,8 +30,8 @@
   <div class="subtitle">LEADERBOARD</div>
 
   <div class="container navbar">
-    <button id="defaultBtn" onclick="loadData('../database/F1/elokvali.csv', this)">F1 Challenge</button>
-    <button onclick="loadData('../database/SM/elokvali.csv', this)">Sim Masters</button>
+    <button id="defaultBtn" onclick="loadData('../../database/F1/elokvali.csv', this)">F1 Challenge</button>
+    <button onclick="loadData('../../database/SM/elokvali.csv', this)">Sim Masters</button>
   </div>
 </div>
 
@@ -63,11 +63,20 @@
   Legutóbbi módosítás: 2026. 04. 27. | 14:32
 </div>
 
-<script src="../src/scripts/laptimehandle.js"></script>
-<script src="../src/scripts/searchbox.js"></script>
+<div class="container-sponsor-left"></div>
+<div class="container-sponsor-right"></div>
+<div class="container-sponsor-bottom"></div>
+
+
+<script src="../../src/scripts/components/sponsor-paths.js"></script>
+<script src="../../src/scripts/components/sponsors.js"></script>
+<script>loadSponsors();</script>
+<script src="../../src/scripts/common/time.js"></script>
+<script src="../../src/scripts/components/search-config.js"></script>
+<script src="../../src/scripts/components/search.js"></script>
 <script>initSearch({inputId: "search", noResultId: "noResult", mode: "table" });</script>
-<script src="../src/scripts/themeswitch.js"></script>
-<script src="../src/scripts/backbutton.js"></script>
-<script src="script.js"></script>
+<script src="../../src/scripts/common/theme.js"></script>
+<script src="../../src/scripts/common/navigation.js"></script>
+<script src="../../src/scripts/pages/f1-challenge/elokvali.js"></script>
 </body>
 </html>

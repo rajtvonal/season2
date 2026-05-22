@@ -2,7 +2,8 @@
 <html lang="hu">
 <head>
 <meta charset="UTF-8">
-<title>Rajtvonal F1 Challenge</title>
+<meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=on">
+<title>Rajtvonal Main Menu</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
 
@@ -15,30 +16,38 @@
 
 <body>
 
-<div class="bg-glow anaimate"></div>
+<div class="bg-glow animate"></div>
 
 <div class="theme-toggle" onclick="toggleTheme()">
   🌙
 </div>
 
+
+
 <div class="header">
-  <div class="title">Rajtvonal <span>F1 Challenge</span></div>
-  <div class="subtitle">FŐMENÜ</div>
+  <div class="title">Rajtvonal  <span>Ligák</span></div>
+  <div class="subtitle">LIGA VÁLASZTÓ</div>
 </div>
 
 <div class="container menu">
-  <a href="elokvali/"><button>Előkvalifikáció</button></a>
-  <a href="szabalyzat/"><button>Szabályzat</button></a>
-  <a href="versenynaptar/"><button>Versenynaptár</button></a>
-  <a href="verseny-beallitasok/"><button>Verseny Beállítások</button></a>
-  <a href="eredmenyek/"><button>Eredmények</button></a>  
+  <br>
+  <a href="F1_Challenge/"><button>F1 Challenge</button></a>
+  <a href="SimMasters/"><button>Sim Masters</button></a>
+  <br>
+
 </div>
 
 <div class="footer">
-  Rajtvonal F1 Challenge • 2026
+  Rajtvonal Magazin • 2026
 </div>
 
-<script src="src/scripts/themeswitch.js"></script>
-<script src="src/scripts/backbutton.js"></script>
+<div class="container-sponsor-left"></div>
+<div class="container-sponsor-right"></div>
+<div class="container-sponsor-bottom"></div>
+
+<script src="src/scripts/common/theme.js"></script>
+<script src="src/scripts/components/sponsor-paths.js"></script>
+<script src="src/scripts/components/sponsors.js"></script>
+<script>loadSponsors();</script>
 </body>
 </html>

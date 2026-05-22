@@ -6,11 +6,11 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="../src/styles/theme.css">
-<link rel="stylesheet" href="../src/styles/base.css">
-<link rel="stylesheet" href="../src/styles/components.css">
-<link rel="stylesheet" href="../src/styles/animations.css">
-<link rel="stylesheet" href="../src/styles/pages.css">
+<link rel="stylesheet" href="../../src/styles/theme.css">
+<link rel="stylesheet" href="../../src/styles/base.css">
+<link rel="stylesheet" href="../../src/styles/components.css">
+<link rel="stylesheet" href="../../src/styles/animations.css">
+<link rel="stylesheet" href="../../src/styles/pages.css">
 </head>
 
 <body>
@@ -44,10 +44,15 @@
   Rajtvonal F1 Challenge • Szabályzat
 </div>
 
-<script src="../src/scripts/searchbox.js"></script>
+
+<script src="../../src/scripts/common/dom.js"></script>
+<script src="../../src/scripts/components/rules.js"></script>
+<script src="../../src/scripts/components/search-config.js"></script>
+<script src="../../src/scripts/components/search.js"></script>
 <script>initSearch({inputId: "search", noResultId: "noResult", mode: "rules" });</script>
-<script src="../src/scripts/themeswitch.js"></script>
-<script src="../src/scripts/backbutton.js"></script>
-<script src="script.js"></script>
+<script src="../../src/scripts/common/theme.js"></script>
+<script src="../../src/scripts/common/navigation.js"></script>
+<script>window.RAJTVONAL_RULES_DATABASE_PATH = "../../database/F1";</script>
+<script src="../../src/scripts/pages/f1-challenge/rules.js"></script>
 </body>
 </html>

@@ -1,0 +1,345 @@
+/* =========================
+   DEFAULT CONTAINER
+========================= */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* =========================
+   DEFAULT BUTTONS
+========================= */
+button {
+  background: var(--bg-button);
+  border: 1px solid var(--border-primary);
+  color: var(--text-primary);
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  border-color: var(--color-accent);
+  background: var(--bg-hover);
+}
+button.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--text-strong);
+}
+
+
+
+/* =========================
+   BACK and THEME BUTTON
+========================= */
+.back-button,
+.theme-toggle {
+  position: fixed;
+  padding: 10px 14px;
+  background: var(--bg-button);
+  border: 1px solid var(--border-primary);
+  color: var(--text-primary);
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 999;
+  transition: 0.2s;
+}
+.back-button { top: 40px; left: 40px; }
+.theme-toggle { top: 40px; right: 40px; }
+
+.back-button:hover,
+.theme-toggle:hover {
+  color: var(--color-accent);
+  background: var(--bg-hover);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 12px var(--color-accent-glow);
+}
+.back-button:active {
+  transform: scale(0.95);
+}
+
+
+
+/* =========================
+   TABLE
+========================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+}
+
+th {
+  background: var(--bg-header);
+  padding: 12px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  border-bottom: 2px solid var(--color-accent);
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid var(--border-primary);
+}
+
+tr:nth-child(even) {
+  background: var(--bg-row-even);
+}
+tr:nth-child(odd) {
+  background: var(--bg-row-odd);
+}
+tr:hover {
+  background: var(--bg-hover);
+}
+
+/* =========================
+   SPECIFIC TEXT COLORS
+========================= */
+.top-1 { background: var(--bg-top1); }
+.top-2 { background: var(--bg-top2); }
+.top-3 { background: var(--bg-top3); }
+.rank-1 { border-left: 3px solid var(--color-gold);   color: var(--color-gold);   font-weight: 900; }
+.rank-2 { border-left: 3px solid var(--color-silver); color: var(--color-silver); font-weight: 900; }
+.rank-3 { border-left: 3px solid var(--color-bronze); color: var(--color-bronze); font-weight: 900; }
+
+
+
+/* =========================
+   SEARCH BOX
+========================= */
+.search-box {
+  text-align: center;
+  margin: 40px 0;
+}
+.search-box input {
+  width: 300px;
+  padding: 10px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  color: var(--text-primary);
+  border-radius: 6px;
+}
+.highlight {
+  background: var(--color-accent-glow);
+  border-radius: 4px;
+  padding: 1px 3px;
+}
+.no-result {
+  text-align: center;
+  color: var(--color-accent);
+  font-size: 2rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  display: none;
+}
+
+
+/* =========================
+   SPONZORS
+========================= */
+.container-sponsor-left {
+    position: fixed;
+    top: 125px;
+    left: 100px;
+    z-index: 20;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+}
+.container-sponsor-right {
+    position: fixed;
+    top: 125px;
+    right: 100px;
+    z-index: 20;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+}
+.container-sponsor-bottom{
+    position: absolute;
+    margin-top: 0px;
+    z-index: 20;
+    
+    left: 50%;
+    transform: translateX(-47.5%);
+
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+    align-items: center;
+    justify-items: center;
+    gap: 75px;
+}
+
+/* Oldalsó logók*/
+.sponsor,
+.sponsor-small,
+.sponsor-wide {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: var(--text-primary);
+    overflow: visible;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    box-shadow: none;
+    transition: 0.2s;
+    position: relative;
+    z-index: 21;
+}
+.sponsor:hover,
+.sponsor-small:hover,
+.sponsor-wide:hover {
+    background: transparent;
+    transform: translateY(-2px);
+}
+.sponsor {
+    width: 200px;
+    height: 200px;
+}
+.sponsor img {
+    width: 100%;
+    height: 135px;
+    object-fit: contain;
+    background: transparent;
+}
+
+/* Lenti logók*/
+.sponsor-small {
+    width: 100px;
+    height: 100px;
+}
+.sponsor-wide {
+    width: 200px;
+    height: 200px;
+}
+.sponsor-small img,
+.sponsor-wide img {
+    width: 100%;
+    height: 60px;
+    object-fit: contain;
+    background: transparent;
+}
+.sponsor-wide img {
+    height: 135px;
+}
+.sponsor-name {
+    padding: 0 4px 6px;
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center;
+}
+.sponsor-link {
+    padding: 4px;
+    color: var(--text-secondary);
+    font-size: 9px;
+    line-height: 1.2;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+
+
+/* =========================
+   TELEFONOS NÉZET
+========================= */
+@media screen and (max-width: 1400px /*768px*/) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header { order: 1; }
+  .search-box { order: 2; }
+  .container { order: 3; }
+  .no-result { order: 4; }
+  .container-sponsor-left,
+  .container-sponsor-right,
+  .container-sponsor-bottom { order: 20; }
+  .footer { order: 30; }
+
+  .container-sponsor-left,
+  .container-sponsor-right,
+  .container-sponsor-bottom {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: min(420px, calc(100% - 40px));
+    margin: 12px auto;
+  }
+
+  .header {
+    padding-top: 100px;
+  }
+
+  .back-button,
+  .theme-toggle {
+    /*position: absolute;*/
+    top: 20px; 
+  }
+  .back-button {
+    left: 20px;
+  }
+  .theme-toggle {
+    right: 20px;
+  }
+
+  .container.menu {
+    max-width: min(600px, calc(100% - 40px));
+  }
+  .container.menu button {
+    width: 100%;
+  }
+
+  .container.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .container.navbar button {
+    margin: 0;
+    padding: 12px 16px;
+  }
+
+  .sponsor,
+  .sponsor-small,
+  .sponsor-wide {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    padding: 10px 0;
+  }
+
+  .sponsor img,
+  .sponsor-small img,
+  .sponsor-wide img {
+    height: 120px;
+  }
+}

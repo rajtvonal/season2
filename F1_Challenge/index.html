@@ -2,20 +2,25 @@
 <html lang="hu">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=on">
 <title>Rajtvonal F1 Challenge</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="src/styles/theme.css">
-<link rel="stylesheet" href="src/styles/base.css">
-<link rel="stylesheet" href="src/styles/components.css">
-<link rel="stylesheet" href="src/styles/animations.css">
-<link rel="stylesheet" href="src/styles/pages.css">
+<link rel="stylesheet" href="../src/styles/theme.css">
+<link rel="stylesheet" href="../src/styles/base.css">
+<link rel="stylesheet" href="../src/styles/components.css">
+<link rel="stylesheet" href="../src/styles/animations.css">
+<link rel="stylesheet" href="../src/styles/pages.css">
 </head>
 
 <body>
 
-<div class="bg-glow anaimate"></div>
+<div class="bg-glow animate"></div>
+
+<div class="back-button" onclick="goBack()">
+  ← Liga Választó
+</div>
 
 <div class="theme-toggle" onclick="toggleTheme()">
   🌙
@@ -38,7 +43,15 @@
   Rajtvonal F1 Challenge • 2026
 </div>
 
-<script src="src/scripts/themeswitch.js"></script>
-<script src="src/scripts/backbutton.js"></script>
+<div class="container-sponsor-left"></div>
+<div class="container-sponsor-right"></div>
+<div class="container-sponsor-bottom"></div>
+
+
+<script src="../src/scripts/common/theme.js"></script>
+<script src="../src/scripts/common/navigation.js"></script>
+<script src="../src/scripts/components/sponsor-paths.js"></script>
+<script src="../src/scripts/components/sponsors.js"></script>
+<script>loadSponsors();</script>
 </body>
 </html>
