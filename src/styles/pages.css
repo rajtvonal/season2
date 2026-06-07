@@ -1,0 +1,590 @@
+/* =========================
+   MAIN MENU CONTAINER
+========================= */
+.container.menu {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+/* =========================
+   MAIN MENU BUTTONS
+========================= */
+.container.menu button {
+  width: 100%;
+  padding: 20px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container.menu button:hover {
+  transform: translateY(-2px);
+}
+
+
+.bekuldes.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: var(--color-accent);
+  text-transform: uppercase;
+}
+.bekuldes.subtitle {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  color: var(--text-secondary);
+}
+.bekuldes.link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 28px;
+  letter-spacing: 0.3em;
+  color: var(--text-secondary);
+  /* text-decoration: none; */
+}
+
+
+
+/* =========================
+   NAVBAR CONTAINER
+========================= */
+.container.navbar {
+  margin-top: 30px;
+  max-width: 70%;
+}
+/* =========================
+   NAVBAR BUTTONS
+========================= */
+.container.navbar button {
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+
+
+/* =========================
+   TÁBLÁZAT CONTAINER
+========================= */
+.container.tablazat {
+  max-width: 1000px;
+}
+.container.elokvali {
+  max-width: 750px;
+}
+.container.results {
+  max-width: 1200px;
+}
+.container.results.main {
+  max-width: 1200px;
+}
+.container.results.individual {
+  max-width: 700px;
+}
+.container.results.teams {
+  max-width: 600px;
+}
+.container.results.teams td.team {
+  font-weight: 700;
+  text-align: left;
+}
+.container.results.statistics {
+  max-width: 950px;
+}
+.container.results.races {
+  max-width: 1200px;
+}
+.container.results.qualifying {
+  max-width: 700px;
+}
+.race-class-block table {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 6px;
+}
+.container.results.sm-event-table,
+.race-class-block {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* =========================
+   TÁBLA ÉRTÉKEK
+========================= */
+td.pos {
+  text-align: center;
+  width: 50px;
+  height: 20px;
+}
+td.name {
+  text-align: left;
+  font-weight: 700;
+  width: 300px;
+}
+td.team {
+  width: 300px;
+}
+td.drivers {
+  width: 300px;
+}
+.container.results.teams td.team {
+  width: 200px;
+}
+.container.results.teams td.drivers {
+  width: 300px;
+}
+td.races {
+  width: 50px;
+  font-weight: 200;
+}
+td.gain {
+  width: 50px;
+  font-weight: 600;
+}
+td.empty-state {
+  padding: 36px;
+  color: var(--text-secondary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.driver-flag {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.elokvali td.pos {
+  width: 50px;
+  height: 50px;
+}
+.elokvali td.time {
+  color: var(--text-secondary);
+  width: 100px;
+}
+.elokvali td.total {
+  color: var(--color-total);
+  width: 100px;
+  font-weight: 700;
+}
+.elokvali .delta {
+  color: var(--color-accent);
+  font-size: 11px;
+}
+
+
+/* =========================
+   SZABÁLYZAT
+========================= */
+.container.rule {
+    max-width: 900px;
+}
+/* =========================
+   SZABÁLYPONT-RENDSZER
+========================= */
+.level-1 { margin-top: 0px; }
+.level-2 { margin-left: 20px; margin-top: 20px; }
+.level-3 { margin-left: 20px; margin-top: 15px; }
+
+.level-1-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--color-accent);
+}
+.level-2-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.level-3-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.level-text {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-left: 20px;
+  color: var(--text-secondary);
+  text-align: justify;
+}
+
+
+
+
+/* =========================
+   VERSENY NAPTÁR F1
+========================= */
+.container.tablazat.calendar {
+  max-width: 600px;
+}
+
+.container.calendar-page {
+  max-width: 1000px;
+}
+.next-race-box {
+  width: min(420px, 100%);
+  min-height: 92px;
+  margin: 0 auto 42px;
+  padding: 20px;
+  background-color: var(--bg-secondary);
+  border: 4px solid var(--border-primary);
+  border-radius: 16px;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  overflow: hidden;
+}
+.next-race-box strong {
+  color: var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.2;
+}
+.next-race-box span {
+  white-space: nowrap;
+}
+.drawn-track {
+  width: 100%;
+  min-height: 92px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  gap: 0;
+}
+.drawn-track-flag,
+.drawn-track-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+.drawn-track-flag {
+  padding: 8px;
+  overflow: hidden;
+}
+.drawn-track-flag .driver-flag {
+  width: 100%;
+  max-width: 150px;
+  height: 74px;
+  object-fit: contain;
+  margin: 0;
+}
+.drawn-track-info {
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+.drawn-track-name {
+  max-width: 100%;
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+.drawn-track-live {
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px var(--color-accent-glow), 0 0 18px var(--color-accent);
+}
+.container-trackpool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 34px;
+  max-width: 960px;
+  margin: 0 auto 46px;
+}
+.track-card {
+  width: 280px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 4px solid var(--border-primary);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--bg-primary);
+}
+.track-card-info {
+  padding: 20px;
+  border-right: 3px solid var(--border-primary);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  margin-left: 6px;
+}
+.track-card-info img {
+  border-radius: 8px;
+}
+.track-card-info .driver-flag {
+  width: 112px;
+  height: 64px;
+  object-fit: cover;
+  border: 1px solid var(--bg-primary);
+}
+.track-name {
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 100%;
+}
+.track-map {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.track-lists {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 72px;
+  align-items: start;
+  justify-items: center;
+}
+.track-list-panel {
+  border: 1px solid var(--border-primary);
+  background-color: var(--bg-primary);
+  min-height: 96px;
+  width: 100%;
+  max-width: 350px;
+}
+.track-list-title {
+  padding: 12px;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.track-list-panel table {
+  border: 0;
+}
+
+
+
+/* ==========================
+   VERSENYNAPTÁR LMU
+========================== */
+.event-calendar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.event-track-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 120px;
+  grid-template-rows: 150px 70px;
+  border: 4px solid var(--border-primary);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--bg-primary);
+  z-index: 0;
+}
+.event-status {
+  grid-column: 1 / span 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  border-top: 3px solid var(--border-primary);
+}
+.event-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 3px solid var(--border-primary);
+}
+.event-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.event-link:hover {
+  color: var(--color-accent);
+}
+.event-done {
+  color: var(--text-secondary);
+  font-weight: 900;
+}
+.event-next {
+  color: var(--color-accent);
+}
+
+
+
+
+/* =========================
+   VERSENY BEÁLLÍTÁSOK
+========================= */
+.container.settings {
+  max-width: 600px;
+}
+.level-2 span {
+  color: var(--text-secondary);
+}
+
+
+/* =========================
+   IDOJARAS
+========================= */
+.container.weather {
+  max-width: 900px;
+}
+.weather-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+.weather-track img {
+  width: 64px;
+  height: 44px;
+  object-fit: cover;
+  border: 1px solid var(--border-primary);
+  border-radius: 6px;
+}
+.weather-track-name {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--text-primary);
+  text-transform: uppercase;
+}
+/*
+.weather-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 30px;
+}
+.weather-metric {
+  display: flex;
+  align-items: center;
+  gap: 12x;
+  padding: 22px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 16px;
+}
+*/
+.weather-summary {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.weather-metric {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+  padding: 22px 50px;
+
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 16px;
+}
+.weather-icon {
+  width: 72px;
+  font-size: 3rem;
+  text-align: center;
+}
+.weather-label {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.weather-value {
+  margin-top: 8px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-total);
+}
+.weather-details {
+  margin-top: 34px;
+}
+
+
+
+/* =========================
+   LOGIN
+========================= */
+.login-panel {
+  width: 400px;
+  max-width: 90%;
+  margin: auto;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+.login-panel input {
+  padding: 12px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 15px;
+}
+.login-panel input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+.login-panel button {
+  margin: 0;
+}
+.login-error {
+  text-align: center;
+  color: var(--color-accent);
+  min-height: 20px;
+}
+
+

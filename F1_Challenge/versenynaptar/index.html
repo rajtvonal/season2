@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<title>F1 Challenge Versenynaptar</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../src/styles/theme.css">
+<link rel="stylesheet" href="../../src/styles/base.css">
+<link rel="stylesheet" href="../../src/styles/components.css">
+<link rel="stylesheet" href="../../src/styles/animations.css">
+<link rel="stylesheet" href="../../src/styles/pages.css">
+<link rel="stylesheet" href="../../src/styles/phone.css">
+
+</head>
+
+<body>
+
+<div class="bg-glow animate"></div>
+<canvas id="particles"></canvas>
+
+<div class="back-button" onclick="goBack()">
+  ← Vissza
+</div>
+
+<div class="theme-toggle" onclick="toggleTheme()">
+  🌙
+</div>
+
+<div class="header">
+  <div class="title">Rajtvonal <span>F1 Challenge</span></div>
+  <div class="subtitle">VERSENYNAPTAR</div>
+</div>
+
+<div class="container calendar-page">
+  <div class="next-race-box" id="nextRaceBox"></div>
+
+  <div class="subtitle" style="margin-bottom:40px; text-align:center; line-height:1.8;">
+    <span style="display:block; margin-bottom:10px; color: var(--color-accent); font-size: 20px; font-weight: 800;">
+      A sorsolás menete:
+    </span>
+    A kiemelt 5 pálya közül a verseny kezdése előtt véletlenszerűen kiválasztunk egyet. Ezen versenyzünk.<br>
+    Ezen kívül még egy pályát kiválasztunk, ami a kizárt pályák közé kerül.<br>
+    A maradék 3 mellé 2 további pályát választunk a szabad pályák közül, ezzel tartva az 5 lehetőséget
+  </div>
+
+  <div class="container-trackpool" id="trackpool"></div>
+
+  <div class="track-lists">
+    <div class="track-list-panel">
+      <table>
+        <thead><tr><th class="track-list-title">Kiválasztott / kizárt pályák</th></tr></thead>
+        <tbody id="excludedTracks"></tbody>
+      </table>
+    </div>
+
+    <div class="track-list-panel">
+      <table>
+        <thead><tr><th class="track-list-title">Szabad pályák</th></tr></thead>
+        <tbody id="optionTracks"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  Rajtvonal F1 Challenge • Versenynaptar
+</div>
+
+<div class="container-sponsor-left"></div>
+<div class="container-sponsor-right"></div>
+<div class="container-sponsor-bottom"></div>
+
+<script src="../../src/scripts/components/sponsor-paths.js"></script>
+<script src="../../src/scripts/components/sponsors.js"></script>
+<script>loadSponsors();</script>
+<script src="../../src/scripts/common/flags.js"></script>
+<script src="../../src/scripts/common/theme.js"></script>
+<script src="../../src/scripts/common/navigation.js"></script>
+<script src="../../src/scripts/pages/f1-challenge/calendar-data.js"></script>
+<script src="../../src/scripts/pages/f1-challenge/calendar-state.js"></script>
+<script src="../../src/scripts/pages/f1-challenge/calendar-render.js"></script>
+<script src="../../src/scripts/pages/f1-challenge/calendar.js"></script>
+<script src="../../src/scripts/common/fallingpx.js"></script>
+<!--
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+    await resetF1CalendarTracks();
+});
+</script>
+-->
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* =========================
+   ANIMATIONS
+========================= */
+@keyframes glowMove {
+  0% { transform: translateX(-50%) translateY(0); opacity: 0.5; }
+  100% { transform: translateX(-50%) translateY(0); opacity: 1; }
+}
+.bg-glow.animate {
+  animation: glowMove 5s ease-in-out infinite alternate;
+}
+
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+tr.row {
+  animation: fadeUp 0.3s ease forwards;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.3s;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.2s;
+}
+
+.container.menu button:hover {
+  transform: translateY(-2px);
+}
+
+.back-button:active {
+  transform: scale(0.95);
+}
+
+
+
+
+#particles {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 900px;
+  height: 100vh;
+
+  pointer-events: none;
+  z-index: -0.5;
+}
+#edgeTriangles{
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
