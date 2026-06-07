@@ -286,10 +286,10 @@ tr:hover {
   overflow-wrap: anywhere;
   text-decoration: none;
 }
-.sponsor .sponsor-link {
-  display: none;
-}
-.sponsor-small .sponsor-name {
+.sponsor-small .sponsor-link,
+.sponsor-wide .sponsor-link,
+.sponsor-small .sponsor-name,
+.sponsor-wide .sponsor-name {
   display: none;
 }
 .pos-absolute {
