@@ -324,7 +324,6 @@ function q3pX7zR2() {
   const _vX14 = [gXj4m1s9, eCx2l4p7, kWv1r3a8, cCx1l9p3];
   const _vX15 = [jWv9r3a4, bWv9l1w8, xBc9y2n8, bWv9l1w8];
   const _vX16 = [nXm4y2s9, xBc9y2n8, pWj4m2s8, wWv2r4a9_str];
-
   const _vX17 = [wWv2r4a9_str, xBc9y2n8, gXj4m1s9, fCx9l4p7];
   const _vX18 = [kWv1r3a8, nXm4y2s9, aWj9m7s1, eCx1l9p4];
   const _vX19 = [qXp4z2r9, bWv9l1w8, kWs2t4n9, mXj9p2x4];
@@ -390,11 +389,13 @@ function q3pX7zR2() {
   const _vX79 = [xBc9y2n8, gXj4m1s9, fCx9l4p7, kWv1r3a8];
   const _vX80 = [nXm4y2s9, aWj9m7s1, eCx1l9p4, qXp4z2r9];
 
+  const b3vl9sT1_2 = [qCp9z3r7, bTv8l4w9, kMs7t2n9, mXj2p7x4, rCcY1nF9, d3s9w1a7];
+
   let b3vl9sT1_1 = [];
   for (let i = pBvCxDfG; i < 20; i++) {
     b3vl9sT1_1.push(Math.sin(i) * b3vl9sT1_2[i % b3vl9sT1_2.length]);
   }
-  const b3vl9sT1_2 = [qCp9z3r7, bTv8l4w9, kMs7t2n9, mXj2p7x4, rCcY1nF9, d3s9w1a7];
+  
   const dFvGxNtR_ = [
     _vX17, _vX1,  _vX18, _vX19, _vX2,  _vX20, _vX21, _vX3,  _vX22, _vX23,
     _vX4,  _vX24, _vX25, _vX5,  _vX26, _vX27, _vX6,  _vX28, _vX29, _vX7,
