@@ -1,0 +1,8 @@
+Spa,2026.06.05 19:00,https://example.com
+Monza (egyenes),2026.06.06 21:40,https://xd
+Lusail International,2026.06.06 23:49,https://example.com
+Silverstone International,2026.06.07 15:40,https://example.com
+Imola,2026.08.02 19:00,https://example.com
+Sebring,2026.08.09 19:00,https://example.com
+Interlagos,2026.08.23 19:00,https://example.com
+Circuit de la Sarthe,2026.08.30 19:00,https://example.com
