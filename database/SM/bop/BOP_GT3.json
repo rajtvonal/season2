@@ -1,0 +1,686 @@
+[
+    {
+        "name": "Barnabas Fazekas",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Corvette Z06 LMGT3.R",
+        "carNum": 44,
+        "position": 1,
+        "bop": 24.22,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 1.0,
+            "dominance_factor": 0.9259,
+            "neighbour_factor": 0.2074,
+            "consistency_factor": 0.6796,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Balázs Czuczor",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Porsche 911 GT3 R LMGT3",
+        "carNum": 28,
+        "position": 2,
+        "bop": 11.51,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.4362,
+            "dominance_factor": 0.7185,
+            "neighbour_factor": -0.1519,
+            "consistency_factor": 0.1137,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Zoltán Balogh",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 888,
+        "position": 3,
+        "bop": 11.42,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.3493,
+            "dominance_factor": 0.663,
+            "neighbour_factor": 0.0037,
+            "consistency_factor": 0.3848,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Balázs Juráncsik",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Ferrari 296 LMGT3",
+        "carNum": 16,
+        "position": 4,
+        "bop": 9.65,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.2756,
+            "dominance_factor": 0.6037,
+            "neighbour_factor": -0.0222,
+            "consistency_factor": 0.3038,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Joseph Chada",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Lexus RCF LMGT3",
+        "carNum": 15,
+        "position": 5,
+        "bop": 8.72,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.2376,
+            "dominance_factor": 0.5667,
+            "neighbour_factor": 0.0852,
+            "consistency_factor": 0.1239,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Dorián Németh",
+        "class": "LMGT3 - PRO/AM",
+        "car": "McLaren 720s LMGT3 Evo",
+        "carNum": 999,
+        "position": 6,
+        "bop": 6.7,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.1457,
+            "dominance_factor": 0.4444,
+            "neighbour_factor": 0.0074,
+            "consistency_factor": 0.2636,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Richárd Bacskó",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Aston Martin Vantage AMR LMGT3",
+        "carNum": 14,
+        "position": 7,
+        "bop": 4.45,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0868,
+            "dominance_factor": 0.3148,
+            "neighbour_factor": -0.1222,
+            "consistency_factor": 0.1742,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Balint Horvath",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 228,
+        "position": 8,
+        "bop": 4.34,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0842,
+            "dominance_factor": 0.3074,
+            "neighbour_factor": 0.0333,
+            "consistency_factor": 0.1131,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Levente Szoke",
+        "class": "LMGT3 - PRO/AM",
+        "car": "McLaren 720s LMGT3 Evo",
+        "carNum": 25,
+        "position": 9,
+        "bop": 4.07,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0716,
+            "dominance_factor": 0.2667,
+            "neighbour_factor": -0.0222,
+            "consistency_factor": 0.2123,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Botond Bohács",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Mercedes-AMG LMGT3",
+        "carNum": 32,
+        "position": 10,
+        "bop": 3.58,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0665,
+            "dominance_factor": 0.2481,
+            "neighbour_factor": 0.0296,
+            "consistency_factor": 0.1066,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Dániel Varga",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Porsche 911 GT3 R LMGT3",
+        "carNum": 444,
+        "position": 11,
+        "bop": 2.82,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0548,
+            "dominance_factor": 0.2,
+            "neighbour_factor": -0.0444,
+            "consistency_factor": 0.1104,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Máté Juhász",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Mercedes-AMG LMGT3",
+        "carNum": 666,
+        "position": 12,
+        "bop": 3.8,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.054,
+            "dominance_factor": 0.1963,
+            "neighbour_factor": 0.0,
+            "consistency_factor": 0.3159,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Tamás Balázs Korsós",
+        "class": "LMGT3 - PRO/AM",
+        "car": "McLaren 720s LMGT3 Evo",
+        "carNum": 22,
+        "position": 13,
+        "bop": 3.29,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0532,
+            "dominance_factor": 0.1926,
+            "neighbour_factor": 0.0222,
+            "consistency_factor": 0.1833,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Gergo Bilanszki",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Lexus RCF LMGT3",
+        "carNum": 114,
+        "position": 14,
+        "bop": 2.37,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.048,
+            "dominance_factor": 0.1667,
+            "neighbour_factor": -0.0037,
+            "consistency_factor": 0.0908,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Kovács Dávid",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 4,
+        "position": 15,
+        "bop": 2.24,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0439,
+            "dominance_factor": 0.1444,
+            "neighbour_factor": -0.0037,
+            "consistency_factor": 0.1102,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Tombor Peter",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Lexus RCF LMGT3",
+        "carNum": 33,
+        "position": 16,
+        "bop": 2.24,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0408,
+            "dominance_factor": 0.1259,
+            "neighbour_factor": 0.0037,
+            "consistency_factor": 0.1421,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Dániel Dohányos",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 23,
+        "position": 17,
+        "bop": 1.89,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0373,
+            "dominance_factor": 0.1037,
+            "neighbour_factor": -0.0185,
+            "consistency_factor": 0.1224,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Szalai Dániel",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Ferrari 296 LMGT3",
+        "carNum": 13,
+        "position": 18,
+        "bop": 2.02,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0367,
+            "dominance_factor": 0.1,
+            "neighbour_factor": 0.0148,
+            "consistency_factor": 0.1308,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Bertold Limpár",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 81,
+        "position": 19,
+        "bop": 1.58,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0341,
+            "dominance_factor": 0.0815,
+            "neighbour_factor": -0.0185,
+            "consistency_factor": 0.1053,
+            "catch_up_factor": 1.0
+        }
+    },
+    {
+        "name": "Ambrus Vendel Mondrák",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Ferrari 296 LMGT3",
+        "carNum": 47,
+        "position": 20,
+        "bop": 1.69,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0341,
+            "dominance_factor": 0.0815,
+            "neighbour_factor": 0.0037,
+            "consistency_factor": 0.1818,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Wireless Shark3",
+        "class": "LMGT3 - PRO/AM",
+        "car": "McLaren 720s LMGT3 Evo",
+        "carNum": 9,
+        "position": 21,
+        "bop": 2.86,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0336,
+            "dominance_factor": 0.0778,
+            "neighbour_factor": -0.0037,
+            "consistency_factor": 0.4721,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Voros Botond",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Lexus RCF LMGT3",
+        "carNum": 21,
+        "position": 22,
+        "bop": 1.54,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0336,
+            "dominance_factor": 0.0778,
+            "neighbour_factor": 0.0185,
+            "consistency_factor": 0.127,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Csaba Hegedus",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 333,
+        "position": 23,
+        "bop": 1.26,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0312,
+            "dominance_factor": 0.0593,
+            "neighbour_factor": -0.0185,
+            "consistency_factor": 0.1278,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "László Varga",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Ferrari 296 LMGT3",
+        "carNum": 54,
+        "position": 24,
+        "bop": 1.41,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0312,
+            "dominance_factor": 0.0593,
+            "neighbour_factor": 0.0111,
+            "consistency_factor": 0.1454,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Norbert Prekker",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Ferrari 296 LMGT3",
+        "carNum": 12,
+        "position": 25,
+        "bop": 1.23,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0299,
+            "dominance_factor": 0.0481,
+            "neighbour_factor": -0.0111,
+            "consistency_factor": 0.144,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Porkoláb Adam",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 222,
+        "position": 26,
+        "bop": 2.78,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0299,
+            "dominance_factor": 0.0481,
+            "neighbour_factor": 0.0074,
+            "consistency_factor": 0.5,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "DOBOS Attila",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Mercedes-AMG LMGT3",
+        "carNum": 73,
+        "position": 27,
+        "bop": 1.28,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.029,
+            "dominance_factor": 0.0407,
+            "neighbour_factor": 0.0074,
+            "consistency_factor": 0.1578,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Laszlo Rado",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Ferrari 296 LMGT3",
+        "carNum": 56,
+        "position": 28,
+        "bop": 1.08,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0273,
+            "dominance_factor": 0.0259,
+            "neighbour_factor": -0.0074,
+            "consistency_factor": 0.1496,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Viktor Tevesz",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Porsche 911 GT3 R LMGT3",
+        "carNum": 983,
+        "position": 29,
+        "bop": 0.85,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0265,
+            "dominance_factor": 0.0185,
+            "neighbour_factor": -0.0074,
+            "consistency_factor": 0.1104,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Zoltán Vona",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Lexus RCF LMGT3",
+        "carNum": 51,
+        "position": 30,
+        "bop": 1.48,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0265,
+            "dominance_factor": 0.0185,
+            "neighbour_factor": 0.0185,
+            "consistency_factor": 0.2282,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Tomas Békefy",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Lexus RCF LMGT3",
+        "carNum": 478,
+        "position": 31,
+        "bop": 1.15,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0246,
+            "dominance_factor": 0.0,
+            "neighbour_factor": -0.0185,
+            "consistency_factor": 0.2169,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "András Bodnár",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Aston Martin Vantage AMR LMGT3",
+        "carNum": 69,
+        "position": 32,
+        "bop": 1.24,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0246,
+            "dominance_factor": 0.0,
+            "neighbour_factor": 0.0,
+            "consistency_factor": 0.2373,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Szentesi Péter",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 46,
+        "position": 33,
+        "bop": 1.17,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0246,
+            "dominance_factor": 0.0,
+            "neighbour_factor": 0.0,
+            "consistency_factor": 0.2216,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Mojzer Máté",
+        "class": "LMGT3 - PRO/AM",
+        "car": "McLaren 720s LMGT3 Evo",
+        "carNum": 7,
+        "position": 34,
+        "bop": 1.19,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0246,
+            "dominance_factor": 0.0,
+            "neighbour_factor": 0.0,
+            "consistency_factor": 0.2265,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Milán Tóth",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Mercedes-AMG LMGT3",
+        "carNum": 296,
+        "position": 35,
+        "bop": 1.92,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0246,
+            "dominance_factor": 0.0,
+            "neighbour_factor": 0.0,
+            "consistency_factor": 0.4,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Antonio Dandos",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 19,
+        "position": 36,
+        "bop": 1.4,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0246,
+            "dominance_factor": 0.0,
+            "neighbour_factor": 0.0,
+            "consistency_factor": 0.2759,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Major Dominik",
+        "class": "LMGT3 - PRO/AM",
+        "car": "BMW M4 LMGT3",
+        "carNum": 20,
+        "position": 37,
+        "bop": 1.01,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0246,
+            "dominance_factor": 0.0,
+            "neighbour_factor": 0.0,
+            "consistency_factor": 0.1819,
+            "catch_up_factor": 0.85
+        }
+    },
+    {
+        "name": "Krisztián Sipos",
+        "class": "LMGT3 - PRO/AM",
+        "car": "Mercedes-AMG LMGT3",
+        "carNum": 97,
+        "position": 38,
+        "bop": 0.95,
+        "factors": {
+            "season_progress": 1.0,
+            "track_factor": 1.0981,
+            "fuel_factor": 1.0,
+            "gap_factor": 0.0246,
+            "dominance_factor": 0.0,
+            "neighbour_factor": 0.0,
+            "consistency_factor": 0.1676,
+            "catch_up_factor": 0.85
+        }
+    }
+]
