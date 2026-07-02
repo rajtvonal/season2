@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<title>BOP Rendszer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+    .card {
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-primary);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        page-break-inside: avoid;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    }
+
+    .math-block {
+        background-color: var(--bg-hover);
+        border-radius: 6px;
+        padding: 15px;
+        margin-bottom: 12px;
+        text-align: center;
+        font-size: 12pt;
+        border: 1px solid var(--color-accent);
+    }
+
+    .math {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: bold;
+        color: var(--text-primary);
+    }
+
+    .math-main {
+        font-size: 13pt;
+        color: var(--text-primary);
+    }
+
+    .explanation {
+        font-size: 10pt;
+        color: var(--text-secondary);
+        margin: 0;
+    }
+
+    .explanation p {
+        margin: 6px 0;
+    }
+
+    .highlight {
+        font-weight: 600;
+        color: var(--text-primary);
+    }
+
+    .fraction {
+        display: inline-table;
+        vertical-align: middle;
+        margin: 0 4px;
+        text-align: center;
+        font-size: 11pt;
+    }
+
+    .num {
+        display: table-row;
+        text-align: center;
+        padding-bottom: 2px;
+    }
+
+    .den {
+        display: table-row;
+        text-align: center;
+        border-top: 1px solid #0f172a;
+        padding-top: 2px;
+    }
+
+    .superscript {
+        vertical-align: super;
+        font-size: 0.75em;
+    }
+</style>
+</head>
+
+<body>
+<div class="bg-glow animate"></div>
+<canvas id="particles"></canvas>
+
+<div class="header">
+  <div class="title">Rajtvonal <span>Sim Masters</span></div>
+  <div class="subtitle">BOP RENDSZER</div>
+</div>
+
+
+<div class="container rule">
+  <div class="level-1-title">1. Alappontszám (Score) Kiszámítása</div>
+  <div class="card">
+    <div class="math-block">
+      <span class="math math-main">score = (gap &times; 0.35) + (dominance &times; 0.25) + (consistency &times; 0.15) + (max(0, neighbour) &times; 0.25)</span>
+    </div>
+  </div>
+
+
+  <div class="level-1-title">2. Score Tényezőkinek Kiszámítása</div>
+  <div class="card">
+      <div class="math-block">
+          <span class="math">gap = e</span>
+          <span class="fraction" style="font-size: 9.5pt; position: relative; top: -10px;">
+              <span class="num class math">&minus; (leader_points &minus; own_points)</span>
+              <span class="den class math" style="border-top: 10px solidrgb(255, 4, 4)0;">max(1, max_point_per_race &times; 1.5)</span>
+          </span>
+      </div>
+      <div class="explanation">
+          <p>Azt méri, milyen messze van a pilóta a bajnokság vezetőjétől.</p>
+          <p>&bull; Ha valaki vezeti a bajnokságot (a különbség 0), az értéke <span class="highlight">1.0</span>.</p>
+          <p>&bull; Minél nagyobb a lemaradása, az érték annál közelebb kerül a <span class="highlight">0</span>-hoz.</p>
+          <p>&bull; Ez biztosítja, hogy a hátrányban lévők kevesebb súlyt kapjanak.</p>
+      </div>
+  </div>
+
+  <div class="card">
+      <div class="math-block">
+          <span class="math">dominance = </span>
+          <span class="fraction">
+              <span class="num class math">own_points</span>
+              <span class="den class math" style="border-top: 1px solid #000;">races_done &times; max_point_per_race</span>
+          </span>
+      </div>
+      <div class="explanation">
+          <p>Azt mutatja meg, hogy a pilóta az eddig megszerezhető maximális pontszámnak mekkora részét gyűjtötte be.</p>
+          <p>&bull; A konzisztensen nyerő (domináns) versenyzők ezáltal <span class="highlight">magasabb súlyt</span> kapnak.</p>
+      </div>
+  </div>
+
+  <div class="card">
+      <div class="math-block">
+          <span class="math">consistency = </span>
+          <span class="fraction">
+              <span class="num class math">1</span>
+              <span class="den class math" style="border-top: 1px solid #000;">1 + &sigma;</span>
+          </span>
+          <span class="math" style="margin-left: 20px; color: #475569;">| &sigma;: a futamokon elért helyezések szórása</span>
+      </div>
+      <div class="explanation">
+          <p>A pilóta eredményeinek stabilitását méri.</p>
+          <p>&bull; Ha egy versenyző mindig kiegyensúlyozottan teljesít (kicsi a szórás), a faktor közelebb lesz az <span class="highlight">1.0</span>-hez.</p>
+          <p>&bull; Az ingadozó teljesítményt mutató pilóták <span class="highlight">kevesebb büntetést</span> kapnak.</p>
+      </div>
+  </div>
+
+  <div class="card">
+      <div class="math-block">
+          <span class="math">neighbour = max(&minus;1, min(1, neighbour_advantage))</span>
+          <br><br>
+          <span class="math" style="font-size: 11pt; display: inline-block; margin-top: 8px;">neighbour_advantage = </span>
+          <span class="fraction" style="font-size: 11pt;">
+              <span class="num class math">driver_behind_points &minus; driver_ahead_points</span>
+              <span class="den class math" style="border-top: 1px solid #000;">races_done &times; max_points_per_race</span>
+          </span>
+      </div>
+      <div class="explanation">
+          <p>Ha a mögötte álló sokkal közelebb van hozzá pontszámban, mint amennyire ő van az előtte állóhoz, a faktor <span class="highlight">pozitív</span> lesz (előnyben van a közvetlen környezetéhez képest).</p>
+          <p>&bull; A képletben csak a pozitív értéket vesszük figyelembe <span class="math">max(0, neighbour)</span>, hogy növelje a súlyt, ha a versenyző elnyúlt a közvetlen üldözőitől.</p>
+      </div>
+  </div>
+
+  <div class="level-1-title">3. Szezonális és Környezeti Korrekciós Tényezők</div>
+
+  <div class="card">
+      <div class="math-block">
+          <span class="math">season_progress = min&copy;1, </span>
+          <span class="fraction">
+              <span class="num class math">current_race / races_count</span>
+              <span class="den class math" style="border-top: 1px solid #000;">0.60</span>
+          </span>
+          <span class="math">&copy;</span>
+      </div>
+      <div class="explanation">
+          <p>A szezon első felében (a futamok 60%-áig) mesterségesen visszafogja a BOP súlyokat, hogy az első pár futam véletlenszerű eredményei ne torzítsák el azonnal a bajnokságot.</p>
+          <p>&bull; A szezon végére a hatása fixen maximumra <span class="highlight">(1.0)</span> áll be.</p>
+      </div>
+  </div>
+
+  <div class="card">
+      <div class="math-block">
+          <span class="math" style="font-size: 11pt;">track_factor = max(0.4, min(1.5, (length_f &times; 0.5) + (turns_f &times; 0.2) + (lap_f &times; 0.3)))</span>
+          <br><br>
+          <span class="math" style="font-size: 10pt; display: inline-block; margin-top: 6px;">
+              length_f = <span class="fraction" style="font-size: 9pt;"><span class="num">AVG_LEN</span><span class="den" style="border-top:1px solid #000;">LEN</span></span>, 
+              turns_f = <span class="fraction" style="font-size: 9pt;"><span class="num">18</span><span class="den" style="border-top:1px solid #000;">TURNS</span></span>, 
+              lap_f = <span class="fraction" style="font-size: 9pt;"><span class="num">120000</span><span class="den" style="border-top:1px solid #000;">LAPTIME</span></span>
+          </span>
+      </div>
+      <div class="explanation">
+          <p><span class="math">A_LEN</span>: átlag pályahossz, <span class="math">LEN, TURNS, LAPTIMES</span>: az aktuális pálya adatai.</p>
+          <p>&bull; A rövidebb, kevesebb kanyarral rendelkező, vagy gyorsabb pályákon a pluszsúly sokkal drasztikusabban rontja a köridőt.</p>
+          <p>&bull; <span class="highlight">Ez a faktor kompenzál:</span> ha a pálya rövidebb vagy gyorsabb az átlagnál, a szorzó megnő, így több súlyt ad.</p>
+      </div>
+  </div>
+
+  <div class="card">
+      <div class="math-block">
+          <span class="math">fuel_factor = current_track_fuel_factor</span>
+      </div>
+      <div class="explanation">
+          <p>&bull; Ha a pilóta a tabella első felében van: <span class="highlight">1.0</span></p>
+          <p>&bull; Ha a mezőny hátsó felében: <span class="highlight">0.85</span></p>
+          <p>&bull; A mezőny gyengébb vagy szerencsétlenebb felét automatikusan megsegíti egy <span class="highlight">15%-os súlycsökkentéssel</span>, elősegítve a felzárkózásukat.</p>
+      </div>
+  </div>
+
+  <div class="level-1-title">4. Végső BOP Súly Kiszámítása</div>
+  <div class="card">
+      <div class="math-block" style="background-color: #0f172a; border: none;">
+          <span class="math" style="color: #38bdf8; font-size: 13pt;">bop = max_bop &times; score &times; season_progress &times; track_factor &times; fuel_factor &times; catch_up</span>
+      </div>
+  </div>
+
+  <a class="bekuldes link" style="font-size: 16px; color: var(--color-accent);" target="_blank" href="https://github.com/rajtvonal/season2/tree/main/src/py/BOP.py">https://github.com/rajtvonal/season2/tree/main/src/py/BOP.py</a>
+</div>
+
+
+
+<div class="footer">
+  Rajtvonal Sim Masters • BOP Rendszer
+</div>
+
+<div class="container-sponsor-left"></div>
+<div class="container-sponsor-right"></div>
+<div class="container-sponsor-bottom"></div>
+
+<script type="module" src="../../../src/scripts/router.js"></script>
+</body>
+</html>

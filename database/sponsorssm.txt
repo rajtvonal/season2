@@ -1,0 +1,10 @@
+Bal
+EvoSim,https://evosim.hu,images/evosim.png
+
+Jobb
+GrindVR,https://grindvr.hu,images/grindvr.png
+
+Lent
+Discord,https://discord.gg/UpEYSdjkq5,images/discord.png
+Rajtvonal Magazin,https://rajtvonalmagazin.hu,images/rajtvonal.svg
+Youtube,https://www.youtube.com/@rajtvonalmagazinhu,images/youtube.png
