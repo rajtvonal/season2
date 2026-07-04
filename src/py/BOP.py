@@ -10,36 +10,43 @@ from collections import defaultdict
 PARTICIPANTS_GT3 = 24
 PARTICIPANTS_HYPER = 10
 
-MAX_BOP_GT3 = 30
-MAX_BOP_HYPER = 20
+MAX_BOP_GT3 = 50
+MAX_BOP_HYPER = 30
 
 TOTAL_RACES = 8
 
 SEASON = {
-    1: "Bahrain",
-    2: "Jeddah",
-    3: "Imola",
-    4: "Spa",
-    5: "Hungaroring",
-    6: "Fuji",
-    7: "Austin",
-    8: "Le Mans"
+    1: "Silverstone",
+    2: "Fuji",
+    3: "Sebring",
+    4: "Bahrain",
+    5: "Spa",
+    6: "Le Mans",
+    7: "Interlagos",
+    8: "Monza"
 }
 
 LENGTH, TURNS, LAPTIME, FUEL = 0, 1, 2, 3
 TRACKS = {
 #      Track       Length Turns Laptime Fuel
-    "Bahrain":      [5.412, 15, 95000,  1.00],
-    "Jeddah":       [6.174, 27, 105000, 1.00],
-    "Imola":        [4.909, 19, 93000,  1.00],
-    "Spa":          [7.004, 20, 140000, 1.00],
-    "Hungaroring":  [4.381, 14, 98000,  1.00],
-    "Fuji":         [4.563, 16, 102000, 1.00],
-    "Austin":       [5.513, 20, 108000, 1.00],
-    "Le Mans":      [13.626,38, 220000, 1.00]
+    "Bahrain":      [5.412, 15, 120350, 1.0],
+    "Paul Ricard":  [5.842, 15, 125220, 1.0],
+    "Interlagos":   [4.309, 15, 94790, 1.0],
+    "Lusail":       [5.419, 16, 115730, 1.0],
+    "Silverstone":  [5.891, 18, 119510, 1.0],
+    "Imola":        [4.909, 19, 103350, 1.0],
+    "Spa":          [7.004, 19, 139160, 1.0],
+    "Monza":        [5.793, 11, 110250, 1.0],
+    "Portimao":     [4.653, 15, 104610, 1.0],
+    "Sebring":      [6.020, 17, 121690, 1.0],
+    "Fuji":         [4.563, 16, 101320, 1.0],
+    "Austin":       [5.513, 20, 127440, 1.0],
+    "Le Mans":      [13.626, 27, 238750, 1.0]
 }
-
 AVG_TRACK_LENGTH = ( sum(track[LENGTH] for track in TRACKS.values()) / len(TRACKS) )
+AVG_TRACK_TURNS = 17
+AVG_TRACK_LAPTIME = 120000
+
 
 # RUNTIME GLOBALS
 MAX_POINTS_PER_RACE = 0
@@ -186,8 +193,8 @@ def track_factor():
     length, turns, laptime, fuel_rate = TRACKS[track_name]
 
     length_factor = AVG_TRACK_LENGTH / length
-    turns_factor = 18 / turns
-    lap_factor = 120000 / laptime
+    turns_factor = AVG_TRACK_TURNS / turns
+    lap_factor = AVG_TRACK_LAPTIME / laptime
     factor = (
         length_factor * 0.50 +
         turns_factor * 0.20 +

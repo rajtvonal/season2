@@ -18,7 +18,8 @@ const styleSheets = [
 const commonScripts = [
   //"common/theme.js",
   "common/navigation.js",
-  "common/fallingpx.js"
+  "common/fallingpx.js",
+  "common/icon.js"
 ];
 
 // ==== COMPONENTS ====

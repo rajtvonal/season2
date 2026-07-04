@@ -38,5 +38,11 @@ function isSubPage(path) {
     "/idojaras/"
   ].some(segment => path.includes(segment));
 }
+function isSubPage2(path) {
+  return [
+    "/leiras/",
+    "/bekuldes/"
+  ].some(segment => path.includes(segment));
+}
 
 createBackButton();

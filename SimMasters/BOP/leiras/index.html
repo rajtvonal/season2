@@ -168,12 +168,12 @@
 
   <div class="card">
       <div class="math-block">
-          <span class="math">season_progress = min&copy;1, </span>
+          <span class="math">season_progress = min(1, </span>
           <span class="fraction">
               <span class="num class math">current_race / races_count</span>
               <span class="den class math" style="border-top: 1px solid #000;">0.60</span>
           </span>
-          <span class="math">&copy;</span>
+          <span class="math">)</span>
       </div>
       <div class="explanation">
           <p>A szezon első felében (a futamok 60%-áig) mesterségesen visszafogja a BOP súlyokat, hogy az első pár futam véletlenszerű eredményei ne torzítsák el azonnal a bajnokságot.</p>
@@ -200,12 +200,14 @@
 
   <div class="card">
       <div class="math-block">
-          <span class="math">fuel_factor = current_track_fuel_factor</span>
-      </div>
+          <span class="math">catch_up = 0.85 &plus; 0.15 &times; H(all_drivers / 2 &minus; position)</span>
+          <br><br>
+          <span class="math">H(x) = 1, ha x &GreaterSlantEqual; 0, különben 0.</span>
+        </div>
       <div class="explanation">
           <p>&bull; Ha a pilóta a tabella első felében van: <span class="highlight">1.0</span></p>
           <p>&bull; Ha a mezőny hátsó felében: <span class="highlight">0.85</span></p>
-          <p>&bull; A mezőny gyengébb vagy szerencsétlenebb felét automatikusan megsegíti egy <span class="highlight">15%-os súlycsökkentéssel</span>, elősegítve a felzárkózásukat.</p>
+          <p>&bull; A mezőny gyengébb vagy szerencsétlenebb felét automatikusan megsegíti egy <span class="highlight">15%-os BoP érték enyhítéssel</span>, elősegítve a felzárkózásukat.</p>
       </div>
   </div>
 

@@ -1,0 +1,299 @@
+1. Versenyszabályok
+1.1 Tiszta versenyzés
+1.1.1
+Mindig a tiszta versenyzés a fő szempont. A pályán nem történhet ütközés az autók között, és mint versenyzőnek mindent meg kell tenned ennek elkerülésére. Balesetek előfordulhatnak, de ha Te vagy a felelős az ütközésért, és ezt jelentik a versenybíróknak, akkor büntetést kapsz. Bármilyen jellegű bosszúálló, megtorló vagy szándékosan kárt okozó magatartás szigorúan tilos, még akkor is, ha a balesetet egy másik versenyző hibája okozta. Az agresszivitásra vonatkozó szabályok tudatos megszegése, illetve a szándékos baleset-, ütközés- vagy bosszúokozás a bajnokságból való azonnali kizárást vonhatja maga után.
+
+1.2 Pályán való küzdelem
+1.2.1
+Ne legyél túl agresszív, amikor megpróbálsz előzni, és ne kényszeríts le másik autót a pályáról azzal, hogy túl kevés helyet hagysz neki. A küzdelemben mindkét versenyző felelőssége a verseny szellemiségének megőrzése és a balesetek elkerülése. Ha a másik autó veled egy vonalban halad a kanyar bejáratánál vagy kijáratánál (azaz a támadó autó első tengelye eléri a védekező autó hátsó kerekét), akkor módosítanod kell az íven, hogy elkerüld az ütközést és elegendő helyet biztosíts.
+
+1.2.2
+A fékezési zónában nem megengedett semmilyen mozgás, ha más autók közelében vagy, mivel ez könnyen balesetet okozhat. Válassz egy ívet a fékezési zónába való behajtás előtt, és tartsd azt a kanyarodási pontig.
+
+1.2.3
+Egyenes szakaszokon tilos a szlalomozás („waving”) és a blokkolás. Védekezés, illetve a szélárnyék megszakítása céljából mindössze egyetlen irányváltás engedélyezett, ezután a választott versenyívet következetesen tartani kell. Bármilyen további mozgás tilos (még akkor is, ha a mögöttes autó nincs közvetlen előzési pozícióban), és ha az ellenfeled autójának bármely része már melletted van, tiszteletben kell tartanod a pozícióját.
+
+1.2.4
+A sárga zászló alatt tilos más autót előzni a pályán. Ez alól kivételt képez az az eset, ha a másik autó sérülés miatt nagyon lassan halad, és/vagy részt vett a sárga zászlókat kiváltó balesetben. Ha egy versenyző sárga zászló alatt előz meg egy másik autót, akkor vissza kell adnia a pozícióját. Ez a szabály csak a versenyek alatt érvényes.
+
+1.3 Pályahatárok
+1.3.1
+A kanyarok levágása vagy a pálya meghosszabbítása előnyszerzés céljából nem megengedett. A versenybírók a szabályszegés súlyosságától és gyakoriságától függően büntetést szabnak ki azokra, akik folyamatosan megszegik ezt a szabályt. A büntetések elkerülése érdekében ügyelj arra, hogy sem a kvalifikáció, sem a verseny során ne nyerj időt a pálya határainak elhagyásával.
+
+1.3.2
+Ha a pálya elhagyásával (akár mind a négy kerékkel), vagy kanyarlevágással előzöl meg egy másik autót, illetve védekezőként ilyen módon tartod meg a pozíciódat, akkor azonnal lassítanod kell, és vissza kell adnod az így szerzett vagy megtartott helyezést.
+
+1.3.3
+A versenyt követő levezető kör (hűtőkör) a hivatalos esemény része, így ugyanazok a szabályok érvényesek rá: szigorúan tilos egymásnak ütközni! Továbbá büntetést kapnak azok a versenyzők is, akik a pályán szándékosan eltávolítják, ledöntik a fékezést jelző táblákat vagy más, referenciapontként használható jelzéseket.
+
+1.4 Kvalifikációs illemtan
+1.4.1
+A megosztott kvalifikáció menete és BOP beállítás: A kvalifikáció teljes időtartama 35 perc. A 35 perces kvalifikáció első 5 perce kizárólag a BOP beállítások elvégzésére szolgál, majd az 5. és a 20. perc között a GT3-as, a 20. perctől a 35. percig pedig a Hypercar kategória versenyzői teljesíthetik a maguk 15-15 perces időmérő szakaszát az alábbiak szerint:
+
+<span style="color:var(--text-primary);">0:00 – 5:00 perc:</span> BOP beállítások időszaka (pályára lépési tilalom mindenkinek).
+<span style="color:var(--text-primary);">5:00 – 20:00 perc:</span> GT3 kategória időmérő edzése.
+<span style="color:var(--text-primary);">20:00 – 35:00 perc:</span> Hypercar kategória időmérő edzése.
+
+1.4.2
+A kategóriák közötti váltást a versenyirányítás az LMU Race Control Driver Overlay szoftverén keresztül („GT3 IDŐMÉRŐ RAJT” vagy „HYPERCAR IDŐMÉRŐ RAJT” üzenetekkel) is jelzi, azonban ez az értesítés kizárólag tájékoztató jellegű. A kategóriák számára kijelölt idősávok (0–5. perc, 5–20. perc, illetve 20–35. perc) automatikusan és kötelező érvényűen szabályozzák a pályára lépést. Amennyiben technikai okokból nem érkezne meg az üzenet, a versenyzők akkor is kötelesek szigorúan tartani magukat az 1.4.1-es pontban meghatározott időpontokhoz.
+
+1.4.3
+Pályára lépési korlátozások és a boxutcában való tartózkodás: A BOP beállításokra szolgáló első 5 percben minden versenyző, majd az 5. és a 20. perc között a Hypercar kategória pilótái, a 20. perctől kezdve pedig a GT3-as kategória pilótái kötelesek a garázsban (boxutcában) tartózkodni. Amikor az adott kategória ideje lejár (a GT3-asoknak a 20. percben, a Hypercaroknak a 35. percben), a pályán lévő versenyzők még befejezhetik a már megkezdett gyors körüket, de a mért kör lezárása után azonnal vissza kell térniük a boxutcába: az LMU menüjén keresztül vissza kell lépniük a garázsba, és ott is kell maradniuk az időmérő edzés végéig.
+
+1.4.4
+A kvalifikáción a versenyző saját felelőssége, hogy a gyors kör megkezdésekor szabad helyet találjon a pályán. A gyors kört futó autó nem köteles utat adni a hátulról közeledő gyorsabb autónak, de a fel- vagy levezető körön haladókat el kell engedni, anélkül, hogy akadályoznád őket. Ezeken a fel- és levezető körökön is szigorúan tilos a pálya bármely szakaszát levágni vagy kihagyni: az időmegtakarítás céljából történő pályaelhagyás a kvalifikáció során is büntetést von maga után.
+
+1.5 Térbeli tájékozódás
+Fontos, hogy tudd, hol vannak a versenytársaid körülötted, és különösen óvatosnak kell lenned. Ha kicsúszol a pályáról, feltétlenül várnod kell, amíg biztonságosan vissza nem tudsz térni. Amennyiben a pályán maradsz, de megpördülsz (keresztbe vagy menetiránnyal szembe fordulsz), maradj teljesen mozdulatlan, amíg az érkező autók elhaladnak! Sokkal könnyebb kikerülni egy mozdulatlan akadályt, mint egy kiszámíthatatlanul mozgó autót.
+
+2. Pályán érvényes szabályok
+2.1 Lekörözés
+Ha körhátrányba kerülsz, a te felelősséged, hogy a lehető leghamarabb biztonságosan átengedd az élen haladókat, anélkül, hogy időt vesztenének. Tehát tilos olyan ívre áttérned, amivel akadályozod a másik fél elhaladását.
+
+Ugyanakkor, ha egy nálad lassabb, körhátrányban lévő autóhoz közeledsz (vagy lekörözöttként próbálsz visszavenni a körödből), csak akkor kísérelj meg felzárkózni és előzni, ha az teljesen biztonságos, és nem akadályozod vele az előtted haladó autót a versenyzésben.
+
+2.2 Biztonsági autós irányelvek
+2.2.1
+A Biztonsági Autó létjogosultsága és azonosítása: A Biztonsági Autót (SC) súlyos balesetek, a pályát elzáró akadályok, vagy a biztonságos versenyzést ellehetetlenítő szélsőséges időjárási körülmények esetén küldi be a versenyigazgatóság. A pályán a fizikai Biztonsági Autót egy sárga BMW képviseli, amelyet Csicsman Krisztián vezet.
+
+2.2.2
+A Biztonsági Autós fázis elrendelése és a felzárkózás szabályai:
+
+Azonnali sebességkorlátozás: A biztonsági autós fázis szoftveres jelzését követően minden versenyző köteles 5 másodpercen belül 60 km/h-s sebességre lassítani, és a sebesség megtartása érdekében a sebességkorlátozót (Pit Limiter) bekapcsolni. A lassítási fázis és a visszaszámlálás alatt az előzés szigorúan tilos.
+Felzárkózási engedély: Amint a versenyirányítás kiadja a jelzést a biztonsági autó utolérésére, a sebességkorlátozó (Pit Limiter) kikapcsolható. Az előzési tilalom ebben a fázisban is érvényben marad; a kategóriák közötti sorrendtől függetlenül (ha egy LMGT3-as autó halad egy Hypercar előtt) a pozíciókat szigorúan tartani kell.
+A Biztonsági Autó utolérése és a tempóváltás: A biztonsági autó mögé megérkező versenyzők kötelesek felvenni annak tempóját. Azok a versenyzők, akik még nem érték utol a biztonsági autó által vezetett vonatot, a pályán szabad tempóban (versenytempóban) haladhatnak a felzárkózásig, a sárga zászlós jelzések és az előzési tilalom szigorú betartása mellett.
+
+2.2.3
+Haladás a Biztonsági Autó mögött: A sárga BMW-t (Biztonsági Autót) szigorúan tilos megelőzni, kivéve, ha arra a versenyigazgatóság egyértelmű utasítást nem ad például a lekörözöttek elengedése okából! A Biztonsági Autó jogosulatlan megelőzése azonnali és szigorú szankciókat von maga után (lásd 5.4.2 pont).
+
+2.2.4
+A verseny befejezése Biztonsági Autó mögött: Amennyiben a futam legvégén történik olyan súlyos incidens, ami SC fázist tesz indokolttá, és a hátralévő idő vagy körök száma nem elegendő a biztonságos újraindításhoz, a verseny a Biztonsági Autó mögött érhet véget. Ebben a forgatókönyvben a zöld zászló már nem kerül lengetésre, az előzés a célvonalig szigorúan tilos marad, és a mezőny a sárga BMW mögött felsorakozva, aktuális sorrendjében lépi át a célvonalat.
+
+2.2.5
+Kategóriák szerinti mezőnyrendezési protokoll
+Amennyiben a Biztonsági Autós fázis alatt a mezőny tagjai felzárkóztak a biztonsági autóra, a versenyirányítás elrendeli a kategóriák szerinti rendezést. A folyamat végrehajtása az alábbiak szerint történik:
+
+Lehúzódási kötelezettség: A versenyirányítás erre vonatkozó jelzését követően az LMGT3 kategória összes versenyzője köteles a pálya jobb oldalára lehúzódni (már akik a biztonsági autós konvojban vannak, ez azokra nem értendő akik a pálya túlfelén vannak), és a sebességét megfelelően csökkenteni.
+A Hypercar kategória áthaladása: A Hypercar kategória résztvevői a pálya bal oldalára áttérve kötelesek elhaladni a lassító LMGT3-as mezőny mellett, és felzárkózni a Biztonsági Autó mögé.
+Visszasorolás: Az LMGT3 kategória versenyzői felvehetik a Biztonsági Autó tempóját, viszont ügyeljenek arra, hogy Hypercar előzésekre számítani kell. Az LMGT3 mezőny nagyjából 10-15 autónyi hátránnyal követheti a Hypercar vonatot.
+A rendezés lezárása és a pozíciók fixálása: Amennyiben a képernyőn megjlenik a ,,SAFETY CAR IN THIS LAP” üzenet onnantól kezdve a mezőnyrendezési protokoll lezárul és ha egy Hypercar/LMGT3 (vagy bármely lekörözött versenyző) az LMGT3-as mezőny mögé érkezne meg, úgy köteles tartania a pozícióját. Ezen versenyzők számára a zöld zászlós újraindításig további pozíciókorrekció vagy előzés nem engedélyezett. 
+2.2.6
+Biztonsági autó utáni újraindítás: Miután a szoftveren keresztül audiovizuálisan kiadásra történt a biztonsági autó távozása a pályáról (és a sárga BMW lehajt a boxutcába), a mezőny vezetője diktálja a tempót. A vezető versenyző köteles folyamatos, kiszámítható sebességet fenntartani a zöld jelzésig. Tilos a mezőny szándékos és veszélyes lelassítása, a hirtelen gáz- vagy fékreakciók, valamint az indokolatlan cikázás. Bármely versenyző, aki a mezőny újraindítás előtti ritmusát veszélyesen megzavarja, büntetésben részesül.
+
+2.2.7
+Az újraindításra való felkészülés során a versenyzők kötelesek tartani a pozíciójukat. Tilos a mögötte haladó autónak szándékosan vagy gondatlanul nekimenni az előtte haladónak azért, hogy jobb kigyorsítási pozíciót vagy lendületet szerezzen, illetve tilos az indokolatlan bemozdulás a másik szélárnyékából a zöld jelzés előtt. Ezen szabály megszegése esetén a Versenyfelügyelet megfelelő szankciókat alkalmaz.
+
+2.2.8
+Zöld zászló: A biztonsági autós fázis végét jelző zöld zászló megjelenése után (amit a szoftver fog jelezni audiovizuálisan) a verseny újraindul. A zöld zászló előtti előzésekért a Versenyfelügyelet utólagos időbüntetést szab ki.
+
+2.3 Teljes Pályás Sárga (FCY) protokoll
+2.3.1
+Az FCY elrendelése és az előzési tilalom: Amikor a versenyigazgatóság Teljes Pályás Sárgát (Full Course Yellow – FCY) rendel el, a pálya teljes egészén szigorú, 60 km/h-s sebességkorlátozás lép életbe, amelynek elérésére a versenyzőknek 5 másodpercük van. Az FCY fázis alatt a pozíciókat tartani kell és az előzés szigorúan tilos!
+
+2.3.2
+Sebességkorlátozás, a “Pit Limiter” használata és telemetriai ellenőrzés: A versenyzők kötelesek a jelzés pillanatától kezdve biztonságosan (a mögöttes forgalmat nem veszélyeztetve) lelassítani 60 km/h-ra, és a tempó egyenletes fenntartása érdekében kötelezően be kell kapcsolniuk a boxutca-sebességhatárolót (pit limiter). Ezt a funkciót az FCY fázis végéig, a zöld jelzés megadásáig folyamatosan aktívan kell tartani. Mivel a versenyirányítás élőben látja a versenyzők telemetriai adatait, pontosan és visszamenőleg is ellenőrizni tudják mindenki sebességét. A rendszer kijátszására tett kísérletek (például a pit limiter folyamatos ki-be kapcsolgatása) szigorúan tilosak.
+
+2.3.3
+Szabályszegés: Aki az FCY alatt nem használja a pit limitert, ezáltal a megengedett 60 km/h-s sebességhatárt túllépi, a zöld jelzés előtt kikapcsolja a limitert, vagy a hirtelen fékezéssel veszélyes helyzetet teremt versenytársai számára, az telemetriai bizonyítékok alapján utólagos büntetésben részesül.
+
+2.4 Gumiabroncs-szabályok
+Minden versenyző szabadon választhatja ki a rajtgumiabroncsát a versenyre magával hozott készletből.
+
+2.5 Boxkiállások
+2.5.1
+Minden versenyen kötelező egy boxutcába való kiállás, amely legkorábban az 1. kör végén, legkésőbb pedig a verseny utolsó körének megkezdése előtt hajtható végre (ez a szabály figyelembe veszi a körhátrány lehetőségét is). A boxutcán való puszta áthajtás (drive-through) nem minősül érvényes kiállásnak. Ezen szabály be nem tartása a versenyből való kizárást vonhatja maga után a versenyt követően.
+
+2.5.2
+A boxutcába való behajtáskor és onnan való kihajtáskor az egész autónak a fehér vonalak között kell maradnia, ellenkező esetben büntetés jár. Ugyancsak büntetést von maga után, ha a boxutcán áthajtva veszélyes helyzetet okozol, illetve időt vagy pályapozíciót nyersz. Különös figyelemmel kell lenni a kvalifikációra is: ha ekkor akarsz visszatérni a boxba, azt vagy a pályán kívülről, vagy a boxutcába manuálisan, szabályosan behajtva tedd, úgy, hogy semmiképp ne akadályozd a gyors körön lévő versenytársaidat.
+
+2.6 Vezetés különböző körülmények között
+2.6.1
+Éjszakai és esős versenyek esetén is kötelező a fényszórók használata, hogy autód mások számára is látható legyen, te pedig megfelelően lásd az utat. Esős, vagy esőre hajlamos futamokon szintén gondoskodnod kell az ablaktörlő bekapcsolásáról (manuálisan vagy automatikusan). Éjszakai versenyen, ha egy balesetben mindkét fényszóród megsérül, azonnal a boxba kell hajtanod javításra. Kérjük, előzetesen mindig győződj meg arról, hogy be van állítva a fényszóró és az ablaktörlő kezeléséhez szükséges gomb.
+
+2.7 A 70%-os szabály
+Azok a versenyzők, akik a versenytáv kevesebb mint 70%-át teljesítik, a végeredményben DNF (Did Not Finish) minősítést kapnak, és végső helyezésüktől függetlenül 0 ponttal zárnak. Ezzel szemben azok a pilóták, akik a táv több mint 70%-át teljesítik (mielőtt véletlenül kiesnek vagy megszakad a kapcsolatuk), befejezőként kerülnek rangsorolásra.
+
+2.8 Kizárások
+Azok a versenyzők, akiket kizárnak a versenyből (akár játékbeli büntetés, akár a versenybírók utólagos döntése alapján), DSQ (Disqualified) minősítést kapnak, és az eredménylistán az összes többi versenyző mögé, az utolsó hely(ek)re kerülnek. Amennyiben úgy érzed, hogy egy játékbeli kizárás igazságtalan volt, küldd el a futam teljes visszajátszását a versenybíróknak felülvizsgálatra! Ha a bírók úgy ítélik meg, hogy a kizárás indokolatlan, vagy a játék hibájából fakadt, akkor (ha futam közben történt) az utolsó helyen rangsorolnak a megfelelő pontszámmal, vagy (ha a célvonal átlépésekor történt) visszahelyezhetnek az eredeti, célba érkezési pozíciódba.
+
+2.9 Futam közbeni kilépés, a verseny feladása és technikai problémák
+2.9.1
+A versenyből való szándékos kilépés (menüből való kilépés vagy az autó szándékos összetörése) szigorúan tilos, kivéve alapos és indokolt esetben. Az, hogy „nem volt kedved” folytatni, vagy dühös voltál egy szituáció miatt, nem elfogadható indok. Ha többször is indokolatlanul kilépsz a versenyek befejezése előtt, a szervezőknek joga van azonnal kizárni a bajnokságból, és megtagadni a jövőbeli szezonokban való részvételt. Elfogadható oknak minősül a kilépésre, ha a folyamatos kapcsolati vagy ping problémáid miatt balesetveszélyt jelentesz a többiekre. Bár technikai gondok bárkinél előfordulhatnak, ha ezek folyamatosan megakadályozzák a biztonságos versenyzést, a pilóta kizárható a bajnokságból. A rendszeres felkészületlenség és a folyamatosan gyenge, kiszámíthatatlan teljesítmény szintén bírói felülvizsgálatot vonhat maga után.
+
+2.9.2
+A szervezők határozottan ellenzik a szándékos versenyfeladásokat, de ha a folytatás értelmetlenné válik, a verseny biztonságos feladása mellett dönthetsz. Ekkor köteles vagy a járművet a boxutcába visszavezetni, és ott jelezni a verseny feladását (a szoftverhibák elkerülése érdekében). Versenyzőként teljes mértékben te felelsz az autód viselkedéséért, függetlenül attól, hogy aktívan versenyzel, vagy épp a feladás mellett döntesz.
+
+2.9.3
+Amennyiben a jármű olyan mértékben sérül a pályán, hogy nem lehetséges a boxba való visszatérés, köteles vagy haladéktalanul lehúzódni a versenyívről a legbiztonságosabb oldalra. A futamot az adott oldalon található legközelebbi pályakijáratnál félreállva, vagy a menüből biztonságosan visszalépve kell feladnod. Szigorúan tilos és büntetést von maga után a sérült autót a pályán keresztben átvontatni (pl. a bal oldali kavicságyból a jobb oldali kijáratig)! Ha nincs a közeledben kijárat, maradj az adott oldalon, és egyértelmű jelzéssel (lassú tempóban, a versenyíven kívül) haladj a legközelebbi biztonságos pontig.
+
+2.9.4
+Az online versenyzésben a stabil kapcsolat kritikus fontosságú. Bár az alkalmi késleltetés (lag) elkerülhetetlen, a szervezők fenntartják a jogot, hogy megkérjenek a kilépésre, vagy egyenesen kizárjanak a futamból, ha az internetkapcsolatod folyamatos problémát okoz, és komoly veszélyt jelent a pályán lévő többi autóra.
+
+2.9.5
+Az LMU rendszere lehetővé teszi, hogy újracsatlakozz a szerverre. Arra biztatunk, hogy egyéni kapcsolatvesztés (lecsatlakozás) esetén lépj vissza a szerverre, hogy továbbra is pontot szerezhess a bajnokságban.
+
+2.10 Autócsere tilalma
+A versenyzők számára szigorúan tilos a bajnokság során, fordulónként autót cserélni. Minden résztvevő kizárólag a bajnokság elején általa kiválasztott járművel köteles teljesíteni az összes versenytávot, pályától függetlenül. Az esetleges autócsere megszegése automatikus versenyeltiltást von maga után az adott futamról, a versenybíróság mérlegelése nélkül.
+
+2.11 Zászlójelzések
+<span style="color:var(--text-primary);">Zöld zászló – Szabad pálya:</span> A korlátozások feloldását és a szabad versenyzés kezdetét vagy újrakezdését jelzi. A pálya az adott szakaszon akadálymentes.
+<span style="color:var(--text-primary);">Sárga zászló – Veszély a pályán:</span> Fokozott kockázatra hívja fel a figyelmet, amely során a versenyzőnek fel kell készülnie a hirtelen irányváltásokra vagy kitérő manőverekre. A balesetek elkerülése és a biztonságos áthaladás azonban a pilóta kizárólagos felelőssége; a helyzethez mérten meggondolatlan vagy veszélyes magatartást a versenybíróság szigorúan szankcionálja.
+<span style="color:var(--text-primary);">Kék zászló – Lekörözési figyelmeztetés:</span> A mögötte érkező, gyorsabb tempójú versenytárs jelenlétére figyelmezteti a pilótát. Szabadedzésen és időmérő edzésen a mért körön lévő autó elengedésére szolgál. Versenyfázisban a jelzés a lekörözés előtt álló versenyző számára kötelező érvényű magatartást ír elő.
+
+<span style="color:var(--text-primary);">Kategóriák közötti (Multiclass) különeljárás a kék zászlóra:</span> Amennyiben Hypercar kategóriás autó készül lekörözni egy LMGT3-as autót, az LMGT3-as versenyző nem köteles elhagyni az ideális versenyívet, saját tempóját megtartva, kiszámíthatóan kell haladnia.
+<span style="color:var(--text-primary);">Fekete zászló – Kizárás:</span> Azonnali és végleges kizárást jelent az adott edzésből vagy a versenyből. A jelzés megjelenésekor a versenyző köteles haladéktalanul a bokszutcába hajtani, a futamot nem folytathatja.
+<span style="color:var(--text-primary);">Fehér zászló – Lassú jármű a pályán:</span> Arra figyelmezteti a mezőnyt, hogy az érintett szakaszon egy rendkívül alacsony sebességgel haladó jármű (műszaki hibás autó) tartózkodik. A pilóták kötelesek fokozott körültekintéssel eljárni.
+<span style="color:var(--text-primary);">Narancs-fekete zászló – Műszaki hiba miatti behívás:</span> Olyan súlyos mechanikai vagy szerkezeti sérülést jelez az autón, amely veszélyezteti a biztonságos körözést. A versenyző a jelzést követő legelső alkalommal köteles a bokszutcába hajtani javításra. A hiba elhárítását és a technikai ellenőrzést követően a versenyző visszatérhet a pályára.
+<span style="color:var(--text-primary);">Fekete-fehér kockás zászló – Leintés:</span> A verseny, az időmérő vagy a szabadedzés hivatalos menetidejének lejárását és a futam végét jelzi.
+
+3. Általános viselkedés
+3.1 Közvetítés és szerver-hozzáférés
+3.1.1
+Versenyzőként nem nézheted és nem hallgathatod a közvetítést (még a boxkiállások alatt sem), mert ezzel irreális előnyre tehetsz szert. Az élő adás követése csak és kizárólag abban az esetben megengedett, ha balesetet szenvedtél, ki kellett állnod a versenyből (DNF), és már aktívan nem veszel részt benne.
+
+3.1.2
+A játékszerverhez kizárólag az adott futamon induló versenyzők, a kommentátorok és az FIA-tagok csatlakozhatnak. Bármilyen külső, harmadik fél belépése szigorúan tilos! Azok a versenyzők, akik versenymérnököt alkalmaznak, megoszthatják velük a képernyőjüket, vagy a mérnökök nézhetik a hivatalos streamet (illetve más versenyzők streamjét, ahol a streamer felelőssége elrejteni a kényes információkat). Ezentúl, amennyiben a játék (LMU) lehetőséget biztosít rá, a beépített versenymérnöki funkciók szabadon igénybe vehetők.
+
+3.2 Chat használat
+3.2.1
+Az időmérő edzés kezdetétől a verseny végéig a versenyzők nem használhatják a játékon belüli chatfunkciót, az ugyanis kizárólag a versenyiránytás használhatja. Ezen szabály megszegése büntetést von maga után. Amennyiben technikai vagy szervezési problémád merül fel, azt a bajnokság hivatalos Discord szerverén, a „Társalgó” csatornában kell jelezned egy szervező megjelölésével („pingelésével”).
+
+3.3 Élő hangkommunikáció a versenyirányítás részéről:
+A versenyirányítás fenntartja a jogot, hogy a futam bármely pillanatában – a szoftveres és chates üzeneteken felül – közvetlen rádiókapcsolaton (hangkommunikáción) keresztül is utasítást vagy tájékoztatást adjon a versenyzőknek. Ez a funkció kizárólag rendkívüli helyzetek kezelésére szolgál; a versenyfelügyelet törekszik arra, hogy a pályán zajló közvetlen csaták és kritikus versenyhelyzetek során ne zavarja meg a pilóták koncentrációját. 
+
+3.4 Kommunikációs etikett
+3.4.1
+Tartsd fenn a barátságos hangulatot, és tisztelj mindenkit: a versenytársaidat (tempójuktól függetlenül), a koordinátorokat és a versenybírókat egyaránt. A kiabálás, a becsmérlés, a durva beszéd, valamint a bírók nyilvános gúnyolása szigorúan tilos. Ha úgy érzed, hogy egy döntés vagy cselekedet helytelen, azt nyugodtan, éretten és tisztelettudóan kell jelezned. A közösség hangulatát romboló magatartás megfelelő büntetést, szélsőséges esetben a bajnokságból való azonnali kizárást vonhat maga után.
+
+4. Részvétel
+4.1 Valós névhasználat kötelezettsége
+4.1.1
+A Rajtvonal Sim Masters bajnokság valamennyi résztvevője köteles a saját valós nevét használni minden hivatalos felületen (beleértve a Discord-szervert és a Le Mans Ultimate platformot is). Ez a hiteles, átlátható és professzionális versenykörnyezet fenntartásának elengedhetetlen feltétele. Ezen szabály megszegése a bajnokságból való azonnali kizárást, valamint a kapcsolódó online felületekről történő eltávolítást vonja maga után.
+
+4.1.2
+Amennyiben a versenyző a Discordon már eleget tett a valós névhasználatnak, de bizonyítható technikai okokból nem tudja átírni a nevét az LMU platformon, a szervezőktől egyedi elbírálás alapján ideiglenes felmentést kérhet. Ennek menete és feltételei:
+
+<span style="color:var(--text-primary);">Igazolás:</span> A technikai problémát hitelt érdemlően bizonyítani kell (pl. képernyőkép, hivatalos support-visszajelzés).
+<span style="color:var(--text-primary);">Érvényesség:</span> Az engedmény kizárólag a technikai akadály fennállásáig, de legfeljebb annak megszűnését követő 7 naptári napig érvényes. Ez idő alatt a versenyző használhatja a személyazonosítást nem akadályozó technikai azonosítóját.
+<span style="color:var(--text-primary);">Kötelezettség:</span> Amint a technikai akadály elhárul, a versenyző köteles a névváltoztatást haladéktalanul végrehajtani. Ennek elmulasztása szintén azonnali kizárást von maga után.
+<span style="color:var(--text-primary);">Szervezői jogkör:</span> A szervezők az LMU technikai hibáiért nem vállalnak felelősséget, és fenntartják a jogot, hogy az ideiglenes felmentést indoklás nélkül visszavonják, ha a körülmények ezt indokolják.
+
+4.2 Bajnokságok és Pontozás
+Az egyéni, illetve a csapatbajnokság pontozását a „6. Pontrendszer”, a díjazást pedig a „7. Nyeremények” fejezet szabályozza. A csapattagok egyénileg megszerzett pontjai automatikusan beleszámítanak a csapatbajnokságba is.
+
+4.3 Csapatok és Autóhasználat
+4.3.1
+A bajnokság maximális létszáma 34 fő. A versenyzők indulhatnak egyénileg, vagy köztes megállapodás alapján csapatokban. Egy csapat maximális látszáma 2 fő; kettőnél több versenyző esetén külön csapatokat kell regisztrálni (pl. gyári csapat és privát csapat, Ferrari AF Corse / AF Corse).
+
+4.3.2
+A bajnokságon belül a csapattagok kizárólag azonos kategóriában indulhatnak.
+
+4.3.3
+Egy csapaton belül a versenyzők kizárólag azonos típusú (márkájú) autóval indulhatnak. Továbbá egyéni szinten a versenyzőknek a teljes szezon során ugyanazzal az autóval kell versenyezniük, az autó cseréjére a futamok között nincs lehetőség (összhangban a 2.10-es ponttal).
+
+4.4 Hiányzás és tartalékos pilóták szabályzata
+4.4.1
+A versenyzők a regisztrációval vállalták a rendszeres részvételt. Ha nem tudsz részt venni egy futamon, azt legalább 180 perccel a verseny kezdete előtt jelezned kell a szervezőknek a Discordon egy alapos és elfogadható indok kíséretében (a „nincs kedvem” vagy a pálya nem tetszése nem minősül ennek). Ezzel párhuzamosan a hiányzó versenyzőnek a futam kezdete előtt legkésőbb 2 órával (120 perccel) vissza kell lépnie („withdraw”) a SimGrid felületén. Ez az időkeret biztosítja, hogy a tartalékosok időben értesíthetők és aktiválhatók legyenek. Amennyiben a pilóta elmulasztja ezt a határidőre történő leiratkozást, úgy büntetésként 5 bajnoki pont kerül tőle levonásra. Amennyiben alapos indok nélkül mulasztasz, vagy sorozatban két futamon nem jelensz meg, elveszíted a teljes idejű ülésedet, és a tartaléklistára kerülsz (szélsőséges esetben kizárás is történhet). Szigorúan tilos más versenyző nevében versenyezni, ez súlyos büntetéssel jár! 
+
+4.4.2
+A 34 fős kereten felül jelentkezők tartalékos státuszba kerülnek. Ha egy állandó versenyző nem tud megjelenni a futamon, az egyéni induló vagy a csapat – a szezon során legfeljebb két alkalommal – bevethet egy tartalékos pilótát (ehhez javasolt, hogy minden csapat rendelkezzen egy állandó beugróval). A tartalékos versenyző a csapattagokkal felváltva vezethet egy autót. A csapatnak (vagy a versenyzőnek) a fent említett 1 órás SimGrid határidővel összhangban hivatalosan, a szervezők felé is be kell jelentenie a tartalékos pilóta személyét. Ennek a kötelezettségnek az elmulasztása szankciókat von maga után!
+
+4.5 Rajtszámok és autófestések (Livery) használata
+Egyedi autófestést (livery) kizárólag azok a versenyzők/csapatok használhatnak, akik rendelkeznek RaceControl Pro vagy Pro+ előfizetéssel. A festéseknek vizuálisan igényesnek kell lenniük; obszcén, sértő vagy nem odaillő tartalom használata szigorúan tilos. Amennyiben egy festés ezt a szabályt megsérti, a szervezők jogosultak a kifogásolható elemek eltávolítására, vagy a teljes festés cseréjére kötelezni az érintetteket.
+
+4.6 Tömeges lecsatlakozás és futamtörlés
+Bár technikai problémák miatt esetenként törölni vagy halasztani kell futamokat, amennyiben egy szakasz során a versenyzők fele (vagy több) egyszerre elveszíti a kapcsolatot a szerverrel (tömeges lecsatlakozás), az alábbi eljárásrend lép érvénybe:
+
+Kvalifikáció alatt: A teljes időmérő szakaszt újra kell kezdeni.
+A verseny első 50%-a alatt: A futamot a lehető leghamarabb újra kell indítani. Ha a szerverproblémák továbbra is fennállnak, a futamot elhalasztják.
+A verseny több mint 50%-ának teljesítése után: A versenyt lezárják, és az addigi eredmények alapján fél pontok kerülnek kiosztásra.
+4.7 Verseny újraindítás
+Ha a verseny első körében több autó is érintett egy súlyos balesetben, vagy általános problémák adódnak a szerverrel, a versenyigazgatóság a saját belátása szerint dönthet a futam újraindításáról (versenyhétenként maximum egy újraindítás engedélyezett). Fontos, hogy az újraindítás előtt bekövetkezett szabálytalanságok és balesetek továbbra is jelenthetők, és a versenybírók ugyanúgy ki fogják vizsgálni azokat!
+
+4.8 Kötelező szoftverhasználat
+A bajnokság hivatalos futamain való részvétel technikai feltétele az LMU Race Control Driver Overlay szoftver aktív használata a verseny teljes időtartama alatt. A szoftver célja, hogy a versenyzők valós időben megkapják a versenyirányítás hivatalos üzeneteit, figyelmeztetéseit, egyéni vagy mezőnynek szóló utasításait, valamint a biztonsági és zászlójelzéseket, ideértve különösen a Safety Car, Full Course Yellow, Green Flag állapotokat. Az alkalmazás websocket kapcsolaton keresztül kommunikál a versenyirányítás szerverével, és a működéséhez szükséges mértékben kezelheti a pilóta által kitöltött versenyző nevét, autószámát. Az alkalmazás nem olvas személyes fájlokat, nem rögzíti a képernyőt, nem figyel billentyűzetet, és nem használja a bemeneti eszközeti. A szoftver kizárólag versenyirányítási üzenetek, jelzések és adott esetben Race Control rádióhang fogadására szolgál. A szoftver használatának elmulasztása vagy megszakítása esetén a versenyző nem tekinthető teljes értékűen elérhetőnek a versenyirányítás számára, ezért ez kizárást vonhat maga után, ideértve a futamon való indulás megtagadását.
+
+4.9 Teljesítmény-kiegyenlítő súlyrendszer (BOP)
+A bajnokság szoros küzdelmének biztosítása érdekében a rendszer automatizált teljesítmény-kiegyenlítést (BoP) alkalmaz a bajnokság állása szerint legdominánsabb versenyzőknél. Az extra súly terhelése kategóriánként az alábbiak szerint korlátozódik:
+
+LMGT3 kategória: Kizárólag a bajnoki tabella első 10 helyezettje kap plusz súlyt.
+Hypercar kategória: Kizárólag a bajnoki tabella első 5 helyezettje kap plusz súlyt.
+A meghatározott létszámhatárokon belül a ballaszt mértéke arányos a tabellán elfoglalt pozícióval: a jobb bajnoki helyezés, a futamgyőzelmek, valamint a kiegyensúlyozottan magas eredmények magasabb plusz súlyt vonnak maguk után. Ezzel szemben a pontversenyben hátrébb elhelyezkedő, vagy ingadozó teljesítményt nyújtó versenyzők kisebb mértékű nehezítésben részesülnek.
+
+A bajnokság korai szakaszában a véletlenszerű vagy kiugró eredmények torzító hatásának elkerülése érdekében a rendszer a szezon elején szándékosan visszafogott, csökkentett büntetési tételekkel operál, majd a szezon előrehaladtával folyamatosan növeli azt.
+A plusz súlyok pontos mértékét a szoftver minden fordulóban dinamikusan igazítja az adott pálya hosszához és karakterisztikájához, garantálva, hogy a hosszabb vagy kanyargósabb vonalvezetéseken a terhelés ne okozzon aránytalan és igazságtalan versenyhátrányt.
+Tovább információ: 
+
+<a class="bekuldes link" style="font-size: 18px; color: var(--color-accent);" href="https://rajtvonal.github.io/season2/SimMasters/BOP/leiras" target="_blank">[BOP leírás]</a>
+ 
+
+5. Szabályok betartatása és Óvások
+Tekintettel arra, hogy az összes tevékenység ellenőrzése hatalmas kihívást jelent, a szervezők elkötelezettek a szabályzat betartatása mellett, és a rendelkezésre álló eszközökkel szigorúan szankcionálják a szabályszegőket.
+
+5.1 Óvások menete és határideje
+A verseny utáni szabályszegések bejelentésére a Discord „Óvás” csatornája szolgál. Minden esetet külön jegyben, megfelelő bizonyítékkal (videó vagy képernyőkép) és magyarázattal ellátva kell benyújtani! Az óvásokat kizárólag a futamot követő vasárnap 19:00 óráig lehet leadni. Az elbírálás után született versenybírói döntések véglegesek, azok kihirdetését követően fellebbezésnek helye nincs.
+
+5.2 Milyen esetekben lehet óvni?
+Pályán történt incidensek: Agresszív vezetés, balesetokozás, pályáról való lekényszerítés vagy veszélyes visszatérés.
+Pályahatárok visszaélésszerű használata: Ha egy versenyző folyamatosan időt nyer a pálya elhagyásával.
+Tisztességtelen (játék által kiosztott) időbüntetés: Az időbüntetések felülvizsgálata kérhető, de ehhez csatolni kell a büntetés kiszabásának egyértelmű bizonyítékát.
+5.3 A játékutasítások betartása és a szoftverhibák kezelése
+5.3.1
+A versenyzők alapvetően kötelesek betartani a játékban megjelenő utasításokat és letölteni a játék által kiosztott élő büntetéseket (pl. áthajtásos/drive-through vagy stop-and-go). Amennyiben azonban a versenyző úgy ítéli meg, hogy a büntetés tisztességtelen volt vagy a játék egyértelmű hibájából (bug) fakadt, az 5.2-es és 2.8-as pontok értelmében jogában áll óvást benyújtani. Ha a vizsgálat során bebizonyosodik a szoftverhiba, a versenybíróság utólagos kompenzációt (pl. időjóváírást vagy pozíció-visszaállítást) alkalmaz.
+
+5.3.2
+Első körös szoftverhibák: A játék gyakori bugjai miatt az első körben automatikusan kiosztott, indokolatlan áthajtásos (drive-through) büntetéseket a versenyirányítás igyekszik törölni. Amennyiben azonban a visszajátszások alapján kiderül, hogy egy versenyző a szabályt és a rendszer hibáját szándékosan kihasználta (például tudatos kanyarlevágással, korai kigyorsítással vagy illegális előnyszerzéssel), a versenybíróság szigorúan fellép ellene, és 60 másodperces utólagos büntetést, valamint 4 büntetőpontot szab ki rá.
+
+5.4 A versenybírók szerepe és az azonnali kizárás joga
+A szervezők a valódi FIA-hoz hasonló, teljesen pártatlan bírói rendszert alkalmaznak. A versenybírók a szabályszegés súlyosságától függően különböző büntetéseket szabhatnak ki. Amennyiben felmerül a gyanú, hogy egy játékos csal, etikátlanul befolyásolja az eredményt, vagy viselkedése ellentétes a bajnokság szellemiségével, a bírók fenntartják a jogot az adott ügy azonnali kivizsgálására és a versenyző/csapat azonnali kizárására (akár bizonyítási eljárás lefolytatása nélkül, a rendelkezésre álló adatok alapján).
+
+5.4.1
+Eltiltások, a 12 pontos szabály és a Feketelista
+Kvalifikációs eltiltás (QEX): A versenyző a következő futamon részt vehet, de az időmérőn a garázsban kell maradnia.
+Figyelmeztetések: Amennyiben nem állapítható meg egyértelmű szabálysértés, de a helyzet azt indokolja, a versenyzők 1-től 3-ig terjedő figyelmeztetésben részesülhetnek. A 4. összegyűjtött figyelmeztetéstől kezdve a versenyző automatikusan 1 büntetőpontot kap.
+Eltiltás (12 pont): Amennyiben egy pilóta 12 büntetőpontot összegyűjt, egy versenyes eltiltást kap. Ha az eltiltás letöltése után további 2 pontot szerez, véglegesen kizárásra kerül a szezonból.
+Feketelista: Azok a versenyzők kerülnek a feketelistára, akiket büntetőpontok, folyamatos hiányzás vagy érvényes indok nélküli kilépés miatt zártak ki. A feketelistára kerülés általában a jelenlegi és a következő szezonból való kitiltást vonja maga után.
+5.4.2
+A Büntetőpont-rendszer
+A visszaesők kiszűrésére szolgáló rendszer. A kiszabott időbüntetéseket utólagosan adjuk hozzá a versenyidőhöz. Az alapértelmezett büntetési tételek (melyektől a bírók az eset súlyosságának fényében eltérhetnek):
+
+<div class="container elikvali"><table><thead><tr><th style="text-align: center; vertical-align: middle;">Szabálysértés</th><th style="text-align: center; vertical-align: middle;">Időbüntetés<br>(eredményhez adva)</th><th style="text-align: center; vertical-align: middle;">Büntetőpont</th><th style="text-align: center; vertical-align: middle;">Egyéb szankció / Megjegyzés</th></tr></thead><tbody id="tbody"><tr><td>Kék zászló figyelmen kívül hagyása</td><td>10–30 másodperc</td><td>2 pont</td><td><strong>Utólagos kiosztás.</strong></td></tr><tr><td>Teljes Pályás Sárga (FCY) alatti sebességtúllépés</td><td>10–30 másodperc</td><td>2 pont</td><td><strong>Utólagos kiosztás / élőben való mérlegelés.</strong><br>Tolerancia: tartósan (>2 mp) 62 km/h feletti haladás.</td></tr><tr><td>Szándékos SC fázis okozása</td><td>–</td><td>6 pont</td><td><strong>Utólagos kiosztás / élőben való mérlegelés.</strong><br>Kizárás (DSQ).</td></tr><tr><td>Veszélyes vezetés, sportszerűtlen magatartás</td><td>20–40 másodperc</td><td>1 pont</td><td><strong>Utólagos kiosztás.</strong></td></tr><tr><td>Előzés Biztonsági Autó (SC) vagy FCY alatt</td><td>30 másodperc</td><td>3 pont</td><td><strong>Utólagos kiosztás / élőben való mérlegelés.</strong></td></tr><tr><td>A Biztonsági Autó (SC) protokolljának megsértése</td><td>30 másodperc</td><td>3 pont</td><td><strong>Utólagos kiosztás / élőben való mérlegelés.</strong><br>Kiszámíthatatlan és veszélyes manőverek az SC távozása és a zöld zászló között.</td></tr><tr><td>Fizikai Biztonsági Autó (sárga BMW) jogosulatlan megelőzése</td><td>Stop and Go: 30 másodperc</td><td>4 pont</td><td><strong>Élőben való mérlegelés/Utólagos kiosztás.</strong><br>Szándékosságtól függően akár azonnali kizárás (DSQ).</td></tr><tr><td>Első körös büntetéstörlés (szoftverhiba kompenzálás) szándékos kihasználása / Visszaélés a szabállyal</td><td>60 másodperc</td><td>4 pont</td><td><strong>Utólagos kiosztás.</strong><br>Indokolatlan előnyszerzés (kanyarlevágás, kiugrás) esetén, ha a játékos tudatosan a büntetés törlésére játszott.</td></tr><tr><td>Szándékos ütközés egy másik versenyzővel / megtorlás</td><td>–</td><td>6 pont</td><td><strong>Utólagos kiosztás / élőben való mérlegelés.</strong><br>Kizárás (DSQ) és 6 büntetőpont.</td></tr></tbody></table></div>
+
+
+5.5 Szervezői jogok és Kommunikáció
+A versenyek során az elsődleges hivatalos kommunikációs csatorna a Discord. A szervezőség minden kiemelten fontos információt (beleértve a bírói és biztonsági utasításokat) ezen a platformon keresztül közöl.
+
+5.6 Szabályváltoztatások joga
+A szervezők fenntartják a jogot a szabálykönyv előzetes értesítés nélkül módosítására. Olyan esetekben, amelyeket a szabályzat nem fed le, egyedi elbírálást alkalmaznak, szélsőséges esetekben – a fair play érdekében – a szabályzattól is eltérhetnek. Ha a szabályzat valamely rendelkezése érvénytelennek bizonyul, az nem érinti a többi pont érvényességét; ilyenkor az eredeti szándékhoz legközelebb álló logikus döntés lép életbe.
+
+5.7 Titoktartás
+Az óvások, a bírói vizsgálatok és a szervezőkkel folytatott hivatalos beszélgetések tartalma szigorúan bizalmas! Ezek nyilvánosságra hozatala a szervezők kifejezett beleegyezése nélkül szigorúan tilos.
+
+6. Pontrendszer
+A szezon minden versenyén a következő pontskála alapján kapják a versenyzők a pontokat:
+
+6.1 Hypercar kategória pontrendszere
+<div class="container elikvali"><table><thead><tr><th style="text-align:center;vertical-align:middle;width:100px;">Helyezés</th><th style="text-align:center;vertical-align:middle;width:100px;">Pont</th></tr></thead><tbody id="tbody"><tr class="rank-1 top-1"><td>1.</td><td>23</td></tr><tr class="rank-2 top-2"><td>2.</td><td>18</td></tr><tr class="rank-3 top-3"><td>3.</td><td>15</td></tr><tr><td>4.</td><td>12</td></tr><tr><td>5.</td><td>9</td></tr><tr><td>6.</td><td>7</td></tr><tr><td>7.</td><td>5</td></tr><tr><td>8.</td><td>3</td></tr><tr><td>9.</td><td>0</td></tr><tr><td>10.</td><td>0</td></tr></tbody></table></div> 
+
+
+6.2 GT3-as kategória pontrendszere
+<div class="container elikvali"><table><thead><tr><th style="width:100px;text-align:center;vertical-align:middle;">Helyezés</th><th style="width:100px;text-align:center;vertical-align:middle;">Pont</th></tr></thead><tbody id="tbody"><tr class="rank-1"><td>1.</td><td>45</td></tr><tr class="rank-2"><td>2.</td><td>40</td></tr><tr class="rank-3"><td>3.</td><td>36</td></tr><tr><td>4.</td><td>32</td></tr><tr><td>5.</td><td>28</td></tr><tr><td>6.</td><td>25</td></tr><tr><td>7.</td><td>22</td></tr><tr><td>8.</td><td>19</td></tr><tr><td>9.</td><td>16</td></tr><tr><td>10.</td><td>13</td></tr><tr><td>11.</td><td>11</td></tr><tr><td>12.</td><td>9</td></tr><tr><td>13.</td><td>8</td></tr><tr><td>14.</td><td>5</td></tr><tr><td>15.</td><td>4</td></tr><tr><td>16.</td><td>3</td></tr><tr><td>17.</td><td>2</td></tr><tr><td>18.</td><td>1</td></tr><tr><td>19-24.</td><td>0</td></tr></tbody></table></div>
+ 
+
+7. Nyeremények
+A Rajtvonal Sim Masters sorozat résztvevői a szezon végén az alábbi nem pénzbeli juttatásokban részesülnek, az EvoSim és GrindVR jóvoltából:
+
+<span style="color:var(--color-accent); font-size: 20px; font-weight: 700;">Hypercar kategória:</span>
+<span style="color:var(--text-primary);">1. helyezett:</span> 6.000 Ft értékű GrindVR utalvány + Kupa
+<span style="color:var(--text-primary);">2. helyezett:</span> Kupa
+<span style="color:var(--text-primary);">3. helyezett:</span> Kupa
+Ebben a kategóriában nincs csapatok szerinti besorolás. 
+<br>
+
+<span style="color:var(--color-accent); font-size: 20px; font-weight: 700;">GT3-as kategória:</span>
+<span style="color:var(--text-primary);">1. helyezett:</span> 6.000 Ft értékű GrindVR utalvány + Kupa
+<span style="color:var(--text-primary);">2. helyezett:</span> Kupa
+<span style="color:var(--text-primary);">3. helyezett:</span> Kupa
+<span style="color:var(--text-primary);">GT3 Csapatbajnok:</span> Bajnoki kupa
+
+Az átadás lebonyolításáról a szervezők gondoskodnak, a játékosok a szervezők iránymutatása szerint kötelesek eljárni.

@@ -1,8 +1,8 @@
-Silverstone International,2026.07.18 19:00,https://example.com
-Fuji,2026.08.01 19:00,https://xd
-Sebring,2026.08.16 19:00,https://example.com
-Bahrain,2026.08.29 19:00,https://example.com
-Spa,2026.09.12 19:00,https://example.com
-Circuit de la Sarthe,2026.09.26 19:00,https://example.com
-Interlagos,2026.10.10 19:00,https://example.com
-Monza,2026.10.24 19:00,https://example.com
+Silverstone International,2026.07.18 19:00,https://www.thesimgrid.com/championships/25693/races
+Fuji,2026.08.01 19:00,https://www.thesimgrid.com/championships/25693/races
+Sebring,2026.08.16 19:00,https://www.thesimgrid.com/championships/25693/races
+Bahrain,2026.08.29 19:00,https://www.thesimgrid.com/championships/25693/races
+Spa,2026.09.12 19:00,https://www.thesimgrid.com/championships/25693/races
+Circuit de la Sarthe,2026.09.26 19:00,https://www.thesimgrid.com/championships/25693/races
+Interlagos,2026.10.10 19:00,https://www.thesimgrid.com/championships/25693/races
+Monza,2026.10.24 19:00,https://www.thesimgrid.com/championships/25693/races
