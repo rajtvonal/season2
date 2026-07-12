@@ -1,4 +1,10 @@
-gb,Silverstone, kicsitfelhős, 18,20
-Időmérő:
+gb,Silverstone, felhős, 17,23
+- Kezdési idő a játékban, az időmérőn: 14:00
+- Kezdési idő a játékban, a versenyen: 16:00
+- Water depth: Dry
 
-Verseny:
+<div style="font-size: 14px; font-weight: 700; color: var(--text-primar);">Időmérő:</div> 
+Az időmérő kezdetén még csak könnyű felhőzet borítja az eget, ám a front fokozatosan sűrűsödő, egyre komor
+
+<div style="font-size: 14px; font-weight: 700; color: var(--text-primar);">Verseny:</div> 
+A verseny kezdetén még szakadozott, enyhén napos felhőzet jellemzi az eget, kellemes, mérsékelt
