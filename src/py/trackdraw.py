@@ -71,7 +71,6 @@ if len(trackpool) < 5:
 # race start / end
 if current:
     current_track = current[0]
-
     current.clear()
 
     if current_track in trackpool:
@@ -86,6 +85,12 @@ else:
 
     selected_track = random.choice(trackpool)
     current.append(selected_track)
+    trackpool.remove(selected_track)
+
+    excluded_track = random.choice(trackpool)
+    excluded.append(excluded_track)
+    trackpool.remove(excluded_track)
+
 
 # save
 write_tracks(TRACKS_FILE_PATH, data)

@@ -337,7 +337,7 @@ td.empty-state {
 }
 .drawn-track-live {
   color: var(--color-accent);
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   font-weight: 900;
   text-transform: uppercase;
   text-shadow: 0 0 10px var(--color-accent-glow), 0 0 18px var(--color-accent);
