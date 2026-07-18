@@ -1,5 +1,5 @@
 Bal
-MTSimTech,https://mtsimtech.hu,images/mtsimtech.png
+MT Simtech,https://mtsimtech.hu,images/mtsimtech.png
 
 Jobb
 GrindVR,https://grindvr.hu,images/grindvr.png

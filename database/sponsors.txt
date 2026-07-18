@@ -2,7 +2,7 @@ Bal
 EvoSim,https://evosim.hu,images/evosim.png
 
 Jobb
-MTSimTech,https://mtsimtech.hu,images/mtsimtech.png
+MT Simtech,https://mtsimtech.hu,images/mtsimtech.png
 GrindVR,https://grindvr.hu,images/grindvr.png
 
 Lent

@@ -54,47 +54,61 @@ Ugyanakkor, ha egy nálad lassabb, körhátrányban lévő autóhoz közeledsz (
 
 2.2 Biztonsági autós irányelvek
 2.2.1
-A Biztonsági Autó létjogosultsága és azonosítása: A Biztonsági Autót (SC) súlyos balesetek, a pályát elzáró akadályok, vagy a biztonságos versenyzést ellehetetlenítő szélsőséges időjárási körülmények esetén küldi be a versenyigazgatóság. A pályán a fizikai Biztonsági Autót egy sárga BMW képviseli, amelyet Csicsman Krisztián vezet.
+A Biztonsági Autó létjogosultsága és azonosítása: A Biztonsági Autót (SC) súlyos balesetek, a pályát elzáró akadályok, vagy a biztonságos versenyzést ellehetetlenítő szélsőséges időjárási körülmények esetén küldi be a versenyigazgatóság. A pályán a fizikai Biztonsági Autót egy sárga Aston Martin Vantage AMR GTE képviseli, amelyet Csicsman Krisztián vagy Kehrer Balázs vezet.
 
-2.2.2
-A Biztonsági Autós fázis elrendelése és a felzárkózás szabályai:
-
-Azonnali sebességkorlátozás: A biztonsági autós fázis szoftveres jelzését követően minden versenyző köteles 5 másodpercen belül 60 km/h-s sebességre lassítani, és a sebesség megtartása érdekében a sebességkorlátozót (Pit Limiter) bekapcsolni. A lassítási fázis és a visszaszámlálás alatt az előzés szigorúan tilos.
-Felzárkózási engedély: Amint a versenyirányítás kiadja a jelzést a biztonsági autó utolérésére, a sebességkorlátozó (Pit Limiter) kikapcsolható. Az előzési tilalom ebben a fázisban is érvényben marad; a kategóriák közötti sorrendtől függetlenül (ha egy LMGT3-as autó halad egy Hypercar előtt) a pozíciókat szigorúan tartani kell.
-A Biztonsági Autó utolérése és a tempóváltás: A biztonsági autó mögé megérkező versenyzők kötelesek felvenni annak tempóját. Azok a versenyzők, akik még nem érték utol a biztonsági autó által vezetett vonatot, a pályán szabad tempóban (versenytempóban) haladhatnak a felzárkózásig, a sárga zászlós jelzések és az előzési tilalom szigorú betartása mellett.
+2.2.2.
+A Biztonsági Autó elrendelése súlyos baleseteknél: A Biztonsági Autó (SC) beküldésére akkor kerül sor, ha egy ütközés következtében több autó is egyszerre szenved súlyos, kritikus strukturális sérülést (például leszakadó kerekek, hátsó szárnyak vagy kiterjedt karosszéria-törmelék borítja a pályát).
 
 2.2.3
-Haladás a Biztonsági Autó mögött: A sárga BMW-t (Biztonsági Autót) szigorúan tilos megelőzni, kivéve, ha arra a versenyigazgatóság egyértelmű utasítást nem ad például a lekörözöttek elengedése okából! A Biztonsági Autó jogosulatlan megelőzése azonnali és szigorú szankciókat von maga után (lásd 5.4.2 pont).
+A Biztonsági Autós (SC) fázis ideje alatt a bokszutca nyitva marad, a versenyzők számára a kiállás (kerékcsere, tankolás vagy javítás céljából) teljes mértékben engedélyezett.
 
 2.2.4
-A verseny befejezése Biztonsági Autó mögött: Amennyiben a futam legvégén történik olyan súlyos incidens, ami SC fázist tesz indokolttá, és a hátralévő idő vagy körök száma nem elegendő a biztonságos újraindításhoz, a verseny a Biztonsági Autó mögött érhet véget. Ebben a forgatókönyvben a zöld zászló már nem kerül lengetésre, az előzés a célvonalig szigorúan tilos marad, és a mezőny a sárga BMW mögött felsorakozva, aktuális sorrendjében lépi át a célvonalat.
+A Biztonsági Autós fázis elrendelése és a felzárkózás szabályai:
+
+Azonnali sebességkorlátozás: A biztonsági autós fázis szoftveres jelzését követően minden versenyző köteles 8 másodpercen belül 60 km/h-s sebességre lassítani, és a sebesség megtartása érdekében a sebességkorlátozót (Pit Limiter) bekapcsolni. A lassítási fázis és a visszaszámlálás alatt az előzés szigorúan tilos.
+
+Felzárkózási engedély: Amint a versenyirányítás kiadja a “CATCH THE SAFETY CAR” jelzést a biztonsági autó utolérésére, a sebességkorlátozó (Pit Limiter) kikapcsolható. Az előzési tilalom ebben a fázisban is érvényben marad; a kategóriák közötti sorrendtől függetlenül (ha egy LMGT3-as autó halad egy Hypercar előtt) a pozíciókat szigorúan tartani kell. Ha egy versenytárs kicsúszik, elveszíti az irányítást a járműve felett vagy letér a pályáról, természetesen meg szabad előzni.
+A Biztonsági Autó utolérése és a tempóváltás: A Biztonsági Autó (SC) mindaddig megelőzhető, amíg a kategória vezetője (leader) utol nem éri azt és meg nem kezdi a vonat vezetését. Az ezt még el nem érő versenyzők a pályán szabad tempóban (versenytempóban) haladhatnak a felzárkózásig, a sárga zászlós jelzések és az előzési tilalom szigorú betartása mellett.
 
 2.2.5
-Kategóriák szerinti mezőnyrendezési protokoll
-Amennyiben a Biztonsági Autós fázis alatt a mezőny tagjai felzárkóztak a biztonsági autóra, a versenyirányítás elrendeli a kategóriák szerinti rendezést. A folyamat végrehajtása az alábbiak szerint történik:
+Haladás a Biztonsági Autó mögött: A sárga Aston Martin Vantage AMR GTE-t (Biztonsági Autót) szigorúan tilos megelőzni, kivéve, ha arra a versenyigazgatóság egyértelmű utasítást nem ad például a lekörözöttek elengedése okából! A Biztonsági Autó jogosulatlan megelőzése azonnali és szigorú szankciókat von maga után (lásd 5.4.2 pont).
 
-Lehúzódási kötelezettség: A versenyirányítás erre vonatkozó jelzését követően az LMGT3 kategória összes versenyzője köteles a pálya jobb oldalára lehúzódni (már akik a biztonsági autós konvojban vannak, ez azokra nem értendő akik a pálya túlfelén vannak), és a sebességét megfelelően csökkenteni.
-A Hypercar kategória áthaladása: A Hypercar kategória résztvevői a pálya bal oldalára áttérve kötelesek elhaladni a lassító LMGT3-as mezőny mellett, és felzárkózni a Biztonsági Autó mögé.
-Visszasorolás: Az LMGT3 kategória versenyzői felvehetik a Biztonsági Autó tempóját, viszont ügyeljenek arra, hogy Hypercar előzésekre számítani kell. Az LMGT3 mezőny nagyjából 10-15 autónyi hátránnyal követheti a Hypercar vonatot.
-A rendezés lezárása és a pozíciók fixálása: Amennyiben a képernyőn megjlenik a ,,SAFETY CAR IN THIS LAP” üzenet onnantól kezdve a mezőnyrendezési protokoll lezárul és ha egy Hypercar/LMGT3 (vagy bármely lekörözött versenyző) az LMGT3-as mezőny mögé érkezne meg, úgy köteles tartania a pozícióját. Ezen versenyzők számára a zöld zászlós újraindításig további pozíciókorrekció vagy előzés nem engedélyezett. 
 2.2.6
-Biztonsági autó utáni újraindítás: Miután a szoftveren keresztül audiovizuálisan kiadásra történt a biztonsági autó távozása a pályáról (és a sárga BMW lehajt a boxutcába), a mezőny vezetője diktálja a tempót. A vezető versenyző köteles folyamatos, kiszámítható sebességet fenntartani a zöld jelzésig. Tilos a mezőny szándékos és veszélyes lelassítása, a hirtelen gáz- vagy fékreakciók, valamint az indokolatlan cikázás. Bármely versenyző, aki a mezőny újraindítás előtti ritmusát veszélyesen megzavarja, büntetésben részesül.
+A verseny befejezése Biztonsági Autó mögött:
+Amennyiben a futam legvégén történik olyan súlyos incidens, ami SC fázist tesz indokolttá, és a hátralévő idő vagy körök száma nem elegendő a biztonságos újraindításhoz, a verseny a Biztonsági Autó mögött érhet véget. Ebben a forgatókönyvben a zöld zászló már nem kerül lengetésre, az előzés a célvonalig szigorúan tilos marad, és a mezőny a sárga Aston Martin Vantage AMR GTE mögött felsorakozva, aktuális sorrendjében lépi át a célvonalat.
 
 2.2.7
-Az újraindításra való felkészülés során a versenyzők kötelesek tartani a pozíciójukat. Tilos a mögötte haladó autónak szándékosan vagy gondatlanul nekimenni az előtte haladónak azért, hogy jobb kigyorsítási pozíciót vagy lendületet szerezzen, illetve tilos az indokolatlan bemozdulás a másik szélárnyékából a zöld jelzés előtt. Ezen szabály megszegése esetén a Versenyfelügyelet megfelelő szankciókat alkalmaz.
+Kategóriák szerinti mezőnyrendezési protokoll:
+Amennyiben a Biztonsági Autós fázis alatt a mezőny tagjai felzárkóztak a biztonsági autóra, a versenyirányítás elrendeli a kategóriák szerinti rendezést.
+A folyamat végrehajtása az alábbiak szerint történik:
+Lehúzódási kötelezettség: A versenyirányítás erre vonatkozó jelzését “GT3 MOVE OVER OBLIGATION” követően az LMGT3 kategória összes versenyzője köteles a pálya jobb oldalára lehúzódni (már akik a biztonsági autós konvojban vannak, ez azokra nem értendő akik a pálya túlfelén vannak), és a sebességét megfelelően csökkenteni. Eközben a biztonsági autó eltávolodik a vonattól.
+A Hypercar kategória áthaladása: A versenyirányítás erre vonatkozó jelzését “HYPERCARS CAN PASS SAFELY” követően a Hypercar kategória résztvevői a pálya bal oldalára áttérve kötelesek elhaladni a lassító LMGT3-as mezőny mellett, és felzárkózni a Biztonsági Autó mögé.
+Visszasorolás:  A versenyirányítás erre vonatkozó jelzését követően az LMGT3 kategória versenyzői felvehetik a Biztonsági Autó tempóját. Az LMGT3 mezőny nagyjából 20 autónyi hátránnyal követheti a Hypercar vonatot.
+A rendezés lezárása és a pozíciók fixálása: Amennyiben a képernyőn megjelenik a ,,SORT BY CLASS COMPLETED” üzenet onnantól kezdve a mezőnyrendezési protokoll lezárul és ha egy Hypercar/LMGT3 (vagy bármely lekörözött versenyző) az LMGT3-as mezőny mögé érkezne meg, úgy köteles tartania a pozícióját. Ezen versenyzők számára a zöld zászlós újraindításig további pozíciókorrekció vagy előzés nem engedélyezett.
 
 2.2.8
-Zöld zászló: A biztonsági autós fázis végét jelző zöld zászló megjelenése után (amit a szoftver fog jelezni audiovizuálisan) a verseny újraindul. A zöld zászló előtti előzésekért a Versenyfelügyelet utólagos időbüntetést szab ki.
+A biztonsági autó (SC) távozását a szoftveren megjelenő “SAFETY CAR IN THIS LAP” üzenet jelzi, miközben a biztonsági autó teljes gázzal a boxba indul. Amint az SC eléri a boxutca bejáratát, életbe lép a “SAFETY CAR IN PIT LANE – PREPARE FOR GREEN” jelzés; ettől a pillanattól kezdve a gumik melegítése már megengedett, de a versenytempó felvétele és a hirtelen fékezés szigorúan tilos.
+
+Az újraindítás során a vezető versenyző köteles folyamatos, kiszámítható sebességet fenntartani. A mezőny szándékos és veszélyes lelassítása, valamint a hirtelen gáz- vagy fékreakciók tilosak, így minden olyan pilóta büntetésre számíthat, aki veszélyesen megzavarja az újraindítás előtti ritmust.
+
+Minden pályán kijelölésre kerül egy konkrét szakasz az újraindításhoz, amelynek pontos időzítése a kategória vezetőjére van bízva. Amint az élen álló megindítja a tempót, az adott kategória mezőnye megkapja a „Green Flag” jelzést, és ettől a pillanattól kezdve minden versenyző – azok is, akik időközben nem érték utol a biztonsági autó mögötti vonatot – azonnal felvehetik a versenytempót.
+
 
 2.3 Teljes Pályás Sárga (FCY) protokoll
 2.3.1
-Az FCY elrendelése és az előzési tilalom: Amikor a versenyigazgatóság Teljes Pályás Sárgát (Full Course Yellow – FCY) rendel el, a pálya teljes egészén szigorú, 60 km/h-s sebességkorlátozás lép életbe, amelynek elérésére a versenyzőknek 5 másodpercük van. Az FCY fázis alatt a pozíciókat tartani kell és az előzés szigorúan tilos!
+Az FCY elrendelése és az előzési tilalom: Amikor a versenyigazgatóság Teljes Pályás Sárgát (Full Course Yellow – FCY) rendel el, a pálya teljes egészén szigorú, 60 km/h-s sebességkorlátozás lép életbe, amelynek elérésére a versenyzőknek 8 másodpercük van. Az FCY fázis alatt a pozíciókat tartani kell és az előzés szigorúan tilos, , akkor is ha egy GT3-as megy egy Hypercar előtt! Amennyiben az FCY elrendelésének pillanatában két azonos kategóriájú autó egymás mellett halad, a fázis előtt hátrébb lévő autónak vissza kell húzódnia, és be kell sorolnia a korábban előrébb haladó versenyző mögé.
 
 2.3.2
-Sebességkorlátozás, a “Pit Limiter” használata és telemetriai ellenőrzés: A versenyzők kötelesek a jelzés pillanatától kezdve biztonságosan (a mögöttes forgalmat nem veszélyeztetve) lelassítani 60 km/h-ra, és a tempó egyenletes fenntartása érdekében kötelezően be kell kapcsolniuk a boxutca-sebességhatárolót (pit limiter). Ezt a funkciót az FCY fázis végéig, a zöld jelzés megadásáig folyamatosan aktívan kell tartani. Mivel a versenyirányítás élőben látja a versenyzők telemetriai adatait, pontosan és visszamenőleg is ellenőrizni tudják mindenki sebességét. A rendszer kijátszására tett kísérletek (például a pit limiter folyamatos ki-be kapcsolgatása) szigorúan tilosak.
+Az FCY alkalmazásának esetei: A versenyirányítás a könnyebb súlyú, lokális incidensek esetén dönt a korlátozás elrendelése mellett. Ilyen eset, ha egyetlen autó szenved technikai hibát vagy kisebb sérülést (például elhagyja a kerekét, szárnyát, vagy megsérül a futóműve), egy autónak elfogy az üzemanyaga egy forgalmas szektorban, illetve ha kettőnél több autó koccan össze, de a pályán nem keletkezik komolyabb törmelék.
 
 2.3.3
-Szabályszegés: Aki az FCY alatt nem használja a pit limitert, ezáltal a megengedett 60 km/h-s sebességhatárt túllépi, a zöld jelzés előtt kikapcsolja a limitert, vagy a hirtelen fékezéssel veszélyes helyzetet teremt versenytársai számára, az telemetriai bizonyítékok alapján utólagos büntetésben részesül.
+Az FCY fázis ideje alatt a bokszutca nyitva marad, a versenyzők számára a kiállás (kerékcsere, tankolás vagy javítás céljából) teljes mértékben engedélyezett.
+
+2.3.4
+Sebességkorlátozás, a “Pit Limiter” használata és telemetriai ellenőrzés: A versenyzők kötelesek a jelzés pillanatától kezdve biztonságosan (a mögöttes forgalmat nem veszélyeztetve) lelassítani 60 km/h-ra, és a tempó egyenletes fenntartása érdekében kötelezően be kell kapcsolniuk a boxutca-sebességhatárolót (pit limiter). Ezt a funkciót az FCY fázis végéig, a zöld jelzés megadásáig folyamatosan aktívan kell tartani. Mivel a versenyirányítás élőben látja a versenyzők telemetriai adatait, pontosan és visszamenőleg is ellenőrizni tudják mindenki sebességét. A rendszer kijátszására tett kísérletek (például a pit limiter folyamatos ki-be kapcsolgatása) szigorúan tilosak.
+
+2.3.5
+Minimális sebesség az FCY alatt: Az FCY fázis teljes időtartama alatt a versenyzőknek kötelező fenntartaniuk legalább 40 km/h-s minimális sebességet. A 40 km/h alatti haladás – különösen azzal a céllal, hogy a sofőr mesterséges előnyt vagy biztonsági rést alakítson ki az előtte haladó autóhoz képest – szigorúan tilos, és büntetést von maga után.
 
 2.4 Gumiabroncs-szabályok
 Minden versenyző szabadon választhatja ki a rajtgumiabroncsát a versenyre magával hozott készletből.
@@ -211,7 +225,7 @@ A verseny több mint 50%-ának teljesítése után: A versenyt lezárják, és a
 Ha a verseny első körében több autó is érintett egy súlyos balesetben, vagy általános problémák adódnak a szerverrel, a versenyigazgatóság a saját belátása szerint dönthet a futam újraindításáról (versenyhétenként maximum egy újraindítás engedélyezett). Fontos, hogy az újraindítás előtt bekövetkezett szabálytalanságok és balesetek továbbra is jelenthetők, és a versenybírók ugyanúgy ki fogják vizsgálni azokat!
 
 4.8 Kötelező szoftverhasználat
-A bajnokság hivatalos futamain való részvétel technikai feltétele az LMU Race Control Driver Overlay szoftver aktív használata a verseny teljes időtartama alatt. A szoftver célja, hogy a versenyzők valós időben megkapják a versenyirányítás hivatalos üzeneteit, figyelmeztetéseit, egyéni vagy mezőnynek szóló utasításait, valamint a biztonsági és zászlójelzéseket, ideértve különösen a Safety Car, Full Course Yellow, Green Flag állapotokat. Az alkalmazás websocket kapcsolaton keresztül kommunikál a versenyirányítás szerverével, és a működéséhez szükséges mértékben kezelheti a pilóta által kitöltött versenyző nevét, autószámát. Az alkalmazás nem olvas személyes fájlokat, nem rögzíti a képernyőt, nem figyel billentyűzetet, és nem használja a bemeneti eszközeti. A szoftver kizárólag versenyirányítási üzenetek, jelzések és adott esetben Race Control rádióhang fogadására szolgál. A szoftver használatának elmulasztása vagy megszakítása esetén a versenyző nem tekinthető teljes értékűen elérhetőnek a versenyirányítás számára, ezért ez kizárást vonhat maga után, ideértve a futamon való indulás megtagadását.
+A bajnokság hivatalos futamain való részvétel technikai feltétele az Rajtvonal Race Control szoftver aktív használata a verseny teljes időtartama alatt. A szoftver célja, hogy a versenyzők valós időben megkapják a versenyirányítás hivatalos üzeneteit, figyelmeztetéseit, egyéni vagy mezőnynek szóló utasításait, valamint a biztonsági és zászlójelzéseket, ideértve különösen a Safety Car, Full Course Yellow, Green Flag állapotokat. Az alkalmazás websocket kapcsolaton keresztül kommunikál a versenyirányítás szerverével, és a működéséhez szükséges mértékben kezelheti a pilóta által kitöltött versenyző nevét, autószámát. Az alkalmazás nem olvas személyes fájlokat, nem rögzíti a képernyőt, nem figyel billentyűzetet, és nem használja a bemeneti eszközeti. A szoftver kizárólag versenyirányítási üzenetek, jelzések és adott esetben Race Control rádióhang fogadására szolgál. A szoftver használatának elmulasztása vagy megszakítása esetén a versenyző nem tekinthető teljes értékűen elérhetőnek a versenyirányítás számára, ezért ez kizárást vonhat maga után, ideértve a futamon való indulás megtagadását.
 
 4.9 Teljesítmény-kiegyenlítő súlyrendszer (BOP)
 A bajnokság szoros küzdelmének biztosítása érdekében a rendszer automatizált teljesítmény-kiegyenlítést (BoP) alkalmaz a bajnokság állása szerint legdominánsabb versenyzőknél. Az extra súly terhelése kategóriánként az alábbiak szerint korlátozódik:
