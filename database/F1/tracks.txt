@@ -1,15 +1,17 @@
 Current
-Brazília
 
 
 Trackpool
 Bahrain
 Hollandia
 Szaudi Arábia
+Katar
+Magyarország
 
 
 Excluded
 Azerbajdzsán
+Brazília
 
 
 Options
@@ -20,12 +22,10 @@ Spanyol
 Ausztria
 Egyesült Királyság
 Kanada
-Magyarország
 Belgium
 Olaszország (Monza)
 Szingapúr
 Japán
-Katar
 USA (Ausztin)
 Mexikó
 USA (Las Vegas)
