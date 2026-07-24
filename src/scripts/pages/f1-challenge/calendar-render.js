@@ -53,7 +53,7 @@ function createDrawnTrackBox(track) {
       <div class="drawn-track-flag">${createTrackFlagImg(getTrackCountry(track))}</div>
       <div class="drawn-track-info">
         <div class="drawn-track-name">${track}</div>
-        <a class="drawn-track-live" href="https://www.youtube.com/watch?v=JRXXkELPBNA" target="_blank">Live ●</a>
+        <a class="drawn-track-live" href="https://www.youtube.com/@rajtvonalmagazinhu/streams" target="_blank">Live ●</a>
       </div>
     </div>
   `;
