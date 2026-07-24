@@ -1,10 +1,11 @@
-gb,Silverstone, felhős, 17,23
-- Kezdési idő a játékban, az időmérőn: 14:00
-- Kezdési idő a játékban, a versenyen: 16:00
-- Water depth: Dry
+jp,Fuji,felhős,16,22
 
-<div style="font-size: 17px; font-weight: 700; color: var(--text-primary);">Időmérő:</div> 
-<div style="text-align: justify;">Az időmérő kezdetén még csak könnyű felhőzet borítja az eget, ám a front fokozatosan sűrűsödő, egyre komorabb rétegfelhőzetet hoz Silverstone fölé. A levegő hőmérséklete lassan csökken, ezzel párhuzamosan a páratartalom emelkedik, ami az aszfalt hőmérsékletének folyamatos, mérsékelt visszaesését is magával vonja. A session utolsó szakaszára már borús, sűrű felhőzetre kell számítani.</div>
+<div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Időmérő:</div> 
+<div style="text-align: justify;">Session Start Time: 13:30<br>Surface Water: Damp</div> 
+<div style="text-align: justify;">A Fuji-hegy lábánál fekvő aszfaltcsíkon az ázsiai őszre jellemző, gyorsan változó és magas páratartalmú időjárás várható, ahol a kezdeti szűrt napsütést követően a szélcsendes időben hirtelen sűrűsödnek majd meg a felhők. A szekció derekára a felhőborítottság miatt a pályahőmérséklet meredeken, közel 28 fokról körülbelül 20 fokra esik vissza, majd a második felében beállító finom, szemerkélő eső enyhén nedvessé és csúszóssá teszi az aszfaltot. Ez a fokozatosan hűlő és nedvesedő felület radikálisan csökkenti a tapadást, ami a gumiválasztást és a kanyarvételi határokat is folyamatos alkalmazkodásra kényszeríti.</div> 
 
-<div style="font-size: 17px; font-weight: 700; color: var(--text-primary);">Verseny:</div> 
-<div style="text-align: justify;">A verseny kezdetén még szakadozott, enyhén napos felhőzet jellemzi az eget, kellemes, mérsékelt léghőmérséklettel, míg az aszfalt a korábbi napsütés hőjét őrzi. A délután előrehaladtával a felhőtakaró fokozatosan bezáródik, a páratartalom emelkedni kezd, majd a verseny középső szakaszában könnyű eső éri el a pályát, ami érezhetően lehűti az aszfaltott. A csapadék intenzitása a záró szakasz felé csökken, a borult égbolt azonban megmarad, így a pálya csak lassan indul száradásnak.</div>
+<br>
+
+<div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Verseny:</div> 
+<div style="text-align: justify;">Session Start Time: 15:00<br>Surface Water: Damp</div> 
+<div style="text-align: justify;">A Fuji-hegy lábánál elterülő versenypályán kora délután még zárt, magas páratartalmú felhőzetből szitáló, gyenge eső áztatja az aszfaltot, azonban az esemény előrehaladtával a csapadék megszűnik és a felhőzet fokozatosan felszakadozik. A szélcsendes időben a 20 fok körüli levegőhőmérséklet mellett a pálya kezdetben 22 fokos felülete a bealkonyodás és a tisztuló égbolt hatására meredeken, egészen 16 fokig hűl vissza. A kezdeti csapadékos időjárást felváltó száradási folyamat a futam közepére felszárítja az íveket, ám a naplementével járó drasztikus lehűlés jelentősen csökkenti a tapadást az aszfalt teljes terjedelmén.</div> 

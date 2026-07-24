@@ -34,23 +34,23 @@ def load_previous_totals(filename):
 
 
 def main():
-    current_file = "R2.json"
+    current_file = "R1_sg.json"
 
-    match = re.match(r"R(\d+)\.json$", current_file)
+    match = re.match(r"R(\d+)_sg\.json$", current_file)
     if not match:
         print("Hibás fájlnév!")
         return
 
     current_round = int(match.group(1))
     previous_file = f"R{current_round - 1}.json"
-    output_file = f"R{current_round}_new.json"
+    output_file = f"season2/database/SM/races/R{current_round}.json"
 
     hyper_points = load_pointsystem("season2/database/SM/pontrendszer_hyper.csv")
     gt_points = load_pointsystem("season2/database/SM/pontrendszer_gt.csv")
 
     previous_totals = load_previous_totals(previous_file)
 
-    with open(f"season2/database/SM/{current_file}", "r", encoding="utf-8") as f:
+    with open(f"season2/database/SM/races/{current_file}", "r", encoding="utf-8") as f:
         current_data = json.load(f)
 
     for car_class in current_data:
@@ -59,12 +59,16 @@ def main():
         else:                       pointsystem = gt_points
 
         for driver in car_class["result"]:
-            points_given = pointsystem.get(driver["position"], 0.0)
-            driver["pointsGiven"] = points_given
+            previous_total = previous_totals.get( (car_class["carClass"], driver["id"]) , 0.0)
 
-            previous_total = previous_totals.get((car_class["carClass"], driver["id"]), 0.0)
-            driver["pointTotal"] = previous_total + points_given
-
+            if driver.get("dnf", False):
+                driver["pointsGiven"] = 0.0
+                driver["pointTotal"] = previous_total
+            else:
+                points_given = pointsystem.get(driver["position"], 0.0)
+                driver["pointsGiven"] = points_given
+                driver["pointTotal"] = previous_total + points_given
+            
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(current_data, f, ensure_ascii=False, indent=3)
 
