@@ -25,7 +25,7 @@ function renderNextRaceBox(state, raceDates) {
 
 function updateCountdownOnly(raceDates) {
     const box = document.getElementById("nextRaceBox");
-    if (box.querySelector(".drawn-track")) { return; }
+    if (box.querySelector(".drawn-track, .draw-animation")) { return; }
 
     box.innerHTML = `<span>Következő verseny:</span><strong>${formatCountdown(getNextRaceDate(raceDates))}</strong>`;
 }
@@ -57,6 +57,63 @@ function createDrawnTrackBox(track) {
       </div>
     </div>
   `;
+}
+
+function renderDrawAnimation(tracks) {
+  const container = document.getElementById("nextRaceBox");
+  const candidates = tracks.slice(0, 5);
+
+  container.innerHTML = `
+    <div class="draw-animation">
+      <div class="draw-animation-wheel" aria-hidden="true">
+        <div class="draw-animation-wheel">
+  <span class="draw-animation-arm">
+    <span class="draw-animation-triangle"></span>
+  </span>
+
+  <span class="draw-animation-arm">
+    <span class="draw-animation-triangle"></span>
+  </span>
+
+  <span class="draw-animation-arm">
+    <span class="draw-animation-triangle"></span>
+  </span>
+
+  <span class="draw-animation-arm">
+    <span class="draw-animation-triangle"></span>
+  </span>
+
+  <span class="draw-animation-arm">
+    <span class="draw-animation-triangle"></span>
+  </span>
+
+  <span class="draw-animation-arm">
+    <span class="draw-animation-triangle"></span>
+  </span>
+</div>
+      </div>
+      <div class="draw-animation-copy">
+        <span>Sorsolás folyamatban</span>
+        <strong>${candidates.length ? "Pálya kiválasztása..." : "Frissítés..."}</strong>
+      </div>
+    </div>
+  `;
+
+  renderDrawingTrackPool(candidates);
+}
+
+function renderDrawingTrackPool(tracks) {
+  if (!tracks.length) return;
+
+  const container = document.getElementById("trackpool");
+  container.innerHTML = "";
+
+  tracks.forEach((track, index) => {
+    const card = createTrackCard(track);
+    card.classList.add("track-card-drawing");
+    card.style.animationDelay = `${index * 120}ms`;
+    container.appendChild(card);
+  });
 }
 
 function formatCountdown(date) {

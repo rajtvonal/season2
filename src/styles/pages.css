@@ -342,6 +342,92 @@ td.empty-state {
   text-transform: uppercase;
   text-shadow: 0 0 10px var(--color-accent-glow), 0 0 18px var(--color-accent);
 }
+.draw-animation {
+  width: 100%;
+  min-height: 118px;
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  align-items: center;
+  gap: 18px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.draw-animation-wheel {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  margin: auto;
+  animation: f1DrawWheel 0.82s linear infinite;
+}
+
+.draw-animation-arm {
+  position: absolute;
+  inset: 0;
+  transform-origin: center center;
+}
+
+.draw-animation-arm:nth-child(1) { transform: rotate(0deg); }
+.draw-animation-arm:nth-child(2) { transform: rotate(60deg); }
+.draw-animation-arm:nth-child(3) { transform: rotate(120deg); }
+.draw-animation-arm:nth-child(4) { transform: rotate(180deg); }
+.draw-animation-arm:nth-child(5) { transform: rotate(240deg); }
+.draw-animation-arm:nth-child(6) { transform: rotate(300deg); }
+
+.draw-animation-triangle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 34px solid var(--color-accent);
+  transform: translateX(-50%);
+  filter: drop-shadow(0 0 10px var(--color-accent-glow));
+  opacity: 0.8;
+}
+.draw-animation-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+.draw-animation-copy span {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  white-space: normal;
+}
+.draw-animation-copy strong {
+  align-items: flex-start;
+  color: var(--color-accent);
+  font-size: 1.35rem;
+  text-align: left;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px var(--color-accent-glow);
+}
+.track-card-drawing {
+  animation: f1DrawCardPulse 0.72s ease-in-out infinite alternate;
+}
+@keyframes f1DrawWheel {
+  from { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.1); }
+  to { transform: rotate(360deg) scale(1); }
+}
+@keyframes f1DrawCardPulse {
+  from {
+    border-color: var(--border-primary);
+    box-shadow: 0 0 0 rgba(219, 10, 64, 0);
+    transform: translateY(0) scale(1);
+  }
+  to {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 24px var(--color-accent-glow);
+    transform: translateY(-4px) scale(1.025);
+  }
+}
 .container-trackpool {
   display: flex;
   flex-wrap: wrap;
@@ -619,5 +705,4 @@ td.empty-state {
   color: var(--color-accent);
   min-height: 20px;
 }
-
 

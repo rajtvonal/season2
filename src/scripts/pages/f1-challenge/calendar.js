@@ -5,6 +5,9 @@ let calendarRaceDates = [];
 let currentState = null;
 let lastReloadedRace = null;
 let lastPostRaceReload = null;
+let isDrawAnimationActive = false;
+
+const DRAW_ANIMATION_MS = 5000;
 
 
 async function initCalendarPage() {
@@ -44,6 +47,7 @@ async function initCalendarPage() {
   calendarSourceText = tracksText;
   calendarRaceDates = parseCalendarDates(calendarText);
   currentState = parseTrackSections(tracksText);
+  markAlreadyStartedRace();
   
   renderCalendarPage(currentState, calendarRaceDates);
 
@@ -58,6 +62,7 @@ async function tickCalendar() {
     const raceStart = calendarRaceDates.find(date => date.getTime() <= now && now < date.getTime() + DRAW_DISPLAY_MS );
     if (raceStart && lastReloadedRace !== raceStart.getTime()) {
         lastReloadedRace = raceStart.getTime();
+        await playDrawAnimation();
         await reloadTracks();
     }
 
@@ -81,6 +86,31 @@ async function reloadTracks() {
     currentState = parseTrackSections(tracksText);
 
     renderCalendarPage(currentState, calendarRaceDates);
+}
+
+async function playDrawAnimation() {
+  if (isDrawAnimationActive) return;
+  isDrawAnimationActive = true;
+
+  renderDrawAnimation(currentState?.trackpool || []);
+  await delay(DRAW_ANIMATION_MS);
+
+  isDrawAnimationActive = false;
+}
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function markAlreadyStartedRace() {
+  const now = Date.now();
+  const activeRace = calendarRaceDates
+    .filter(date => date.getTime() <= now && now < date.getTime() + DRAW_DISPLAY_MS)
+    .sort((a, b) => b - a)[0];
+
+  if (activeRace) {
+    lastReloadedRace = activeRace.getTime();
+  }
 }
 
 
