@@ -1,9 +1,8 @@
 Current
+Hollandia
 
 
 Trackpool
-Bahrain
-Hollandia
 Szaudi Arábia
 Katar
 Magyarország
@@ -12,6 +11,7 @@ Magyarország
 Excluded
 Azerbajdzsán
 Brazília
+Bahrain
 
 
 Options
