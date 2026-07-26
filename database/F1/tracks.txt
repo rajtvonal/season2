@@ -1,17 +1,19 @@
 Current
-Hollandia
 
 
 Trackpool
 Szaudi Arábia
 Katar
 Magyarország
+Franciaország
+Egyesült Királyság
 
 
 Excluded
 Azerbajdzsán
 Brazília
 Bahrain
+Hollandia
 
 
 Options
@@ -20,7 +22,6 @@ USA (Miami)
 Olaszország (Imola)
 Spanyol
 Ausztria
-Egyesült Királyság
 Kanada
 Belgium
 Olaszország (Monza)
@@ -30,6 +31,5 @@ USA (Ausztin)
 Mexikó
 USA (Las Vegas)
 Abu Dhabi
-Franciaország
 Portugália
 Kína
