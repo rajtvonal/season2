@@ -8,6 +8,8 @@ const TRACK_COUNTRIES = {
   "Circuit Paul Ricard":"fr",
   "Circuit Paul Ricard (egyenes)":"fr",
   "COTA":"us",
+  "Daytona":"us",
+  "Laguna Seca":"us",
   "Fuji":"jp",
   "Imola":"it",
   "Interlagos":"br",

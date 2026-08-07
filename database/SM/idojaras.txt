@@ -1,11 +1,11 @@
-jp,Fuji,felhős,16,22
+bh,Bahrain,napos,0,99
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Időmérő:</div> 
-<div style="text-align: justify;">Session Start Time: 13:30<br>Surface Water: Damp</div> 
-<div style="text-align: justify;">A Fuji-hegy lábánál fekvő aszfaltcsíkon az ázsiai őszre jellemző, gyorsan változó és magas páratartalmú időjárás várható, ahol a kezdeti szűrt napsütést követően a szélcsendes időben hirtelen sűrűsödnek majd meg a felhők. A szekció derekára a felhőborítottság miatt a pályahőmérséklet meredeken, közel 28 fokról körülbelül 20 fokra esik vissza, majd a második felében beállító finom, szemerkélő eső enyhén nedvessé és csúszóssá teszi az aszfaltot. Ez a fokozatosan hűlő és nedvesedő felület radikálisan csökkenti a tapadást, ami a gumiválasztást és a kanyarvételi határokat is folyamatos alkalmazkodásra kényszeríti.</div> 
+<div style="text-align: justify;">Session Start Time: xx:xx<br>Surface Water: Damp</div> 
+<div style="text-align: justify;">.</div> 
 
 <br>
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Verseny:</div> 
-<div style="text-align: justify;">Session Start Time: 15:00<br>Surface Water: Damp</div> 
-<div style="text-align: justify;">A Fuji-hegy lábánál elterülő versenypályán kora délután még zárt, magas páratartalmú felhőzetből szitáló, gyenge eső áztatja az aszfaltot, azonban az esemény előrehaladtával a csapadék megszűnik és a felhőzet fokozatosan felszakadozik. A szélcsendes időben a 20 fok körüli levegőhőmérséklet mellett a pálya kezdetben 22 fokos felülete a bealkonyodás és a tisztuló égbolt hatására meredeken, egészen 16 fokig hűl vissza. A kezdeti csapadékos időjárást felváltó száradási folyamat a futam közepére felszárítja az íveket, ám a naplementével járó drasztikus lehűlés jelentősen csökkenti a tapadást az aszfalt teljes terjedelmén.</div> 
+<div style="text-align: justify;">Session Start Time: xx:xx<br>Surface Water: Damp</div> 
+<div style="text-align: justify;">.</div> 
