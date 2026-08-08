@@ -1,11 +1,11 @@
-bh,Bahrain,napos,0,99
+bh,Bahrain,kicsit felhős,22,28
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Időmérő:</div> 
-<div style="text-align: justify;">Session Start Time: xx:xx<br>Surface Water: Damp</div> 
-<div style="text-align: justify;">.</div> 
+<div style="text-align: justify;">Session Start Time: 20:00<br>Surface Water: Dry</div> 
+<div style="text-align: justify;">A bahreini sivatag felett az őszi éjszaka beköszöntével fokozatosan hűlő, 25 fok körüli kellemes levegőhőmérséklet és stabil, csapadékmentes időjárás várható az időmérő edzés során. A kezdetben teljesen tiszta eget az etap második felében könnyű felhőzet válthatja fel, miközben a tenger közelsége miatt a páratartalom az est előrehaladtával enyhén emelkedik. A sötétség beálltával az aszfalt hőmérséklete folyamatosan csökken, a kezdeti 30 Celsius-fokról megközelítve a 27 Celsius-fokos értéket a szakasz végére. Ez a fokozatosan hűlő felület ideális, egyre javuló tapadási viszonyokat teremt az abroncsok számára, ami a pálya állapotának folyamatos felgyorsulását fogja eredményezni.</div> 
 
 <br>
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Verseny:</div> 
-<div style="text-align: justify;">Session Start Time: xx:xx<br>Surface Water: Damp</div> 
-<div style="text-align: justify;">.</div> 
+<div style="text-align: justify;">Session Start Time: 16:00<br>Surface Water: Dry</div> 
+<div style="text-align: justify;">A bahreini sivatagban a késő délutáni rajt idején még 28 fokos, kellemes levegőre és tiszta égre számíthatunk, de a naplemente után gyorsan átalakulnak a meteorológiai viszonyok. Az este közeledtével mérsékelt felhősödés kezdődik, miközben a tenger közelsége miatt a páratartalom folyamatosan emelkedik a csapadékmentes futam során. A levegő 22 fokig történő éjszakai lehűlésével párhuzamosan az aszfalt hőmérséklete is drasztikusan esik, a kezdeti 32 fokos felület a leintéshez közeledve 23 fokra hűl vissza. Ez a jelentős és egyenletes hőmérséklet-esés száraz körülmények között folyamatosan átrendezi a tapadási viszonyokat, ami a táv előrehaladtával megváltozó abroncskopást és az egyre hűvösebb felület révén drasztikusan gyorsuló pályát eredményez.</div> 
