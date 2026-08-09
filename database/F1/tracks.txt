@@ -1,10 +1,9 @@
 Current
+Katar
 
 
 Trackpool
 Szaudi Arábia
-Katar
-Magyarország
 Franciaország
 Egyesült Királyság
 
@@ -14,6 +13,7 @@ Azerbajdzsán
 Brazília
 Bahrain
 Hollandia
+Magyarország
 
 
 Options
