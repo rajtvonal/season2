@@ -1,11 +1,12 @@
 Current
-Katar
 
 
 Trackpool
 Szaudi Arábia
 Franciaország
 Egyesült Királyság
+Abu Dhabi
+Kína
 
 
 Excluded
@@ -14,6 +15,7 @@ Brazília
 Bahrain
 Hollandia
 Magyarország
+Katar
 
 
 Options
@@ -30,6 +32,4 @@ Japán
 USA (Ausztin)
 Mexikó
 USA (Las Vegas)
-Abu Dhabi
 Portugália
-Kína
