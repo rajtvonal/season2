@@ -1,12 +1,8 @@
 Current
+Egyesült Királyság
 
 
 Trackpool
-Szaudi Arábia
-Franciaország
-Egyesült Királyság
-Abu Dhabi
-Kína
 
 
 Excluded
@@ -16,7 +12,10 @@ Bahrain
 Hollandia
 Magyarország
 Katar
-
+Szaudi Arábia
+Franciaország
+Abu Dhabi
+Kína
 
 Options
 Ausztrália
