@@ -13,7 +13,7 @@ const f1ResultsState = {
 
 const defaultResultsConfig = {
   databasePath: "../../database/F1",
-  totalRaces: 12
+  totalRaces: 6
 };
 
 function getResultsConfig() {
