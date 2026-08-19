@@ -1,4 +1,5 @@
 Current
+Ausztrália
 
 
 Trackpool
@@ -6,30 +7,29 @@ Trackpool
 
 Excluded
 Azerbajdzsán
+Belgium
 Brazília
 Bahrain
 Hollandia
 Magyarország
+Kanada
 Katar
 Szaudi Arábia
 Franciaország
 Abu Dhabi
 Kína
 Egyesült Királyság
+Szingapúr
+USA (Ausztin)
+USA (Las Vegas)
+Portugália
 
 
 Options
-Ausztrália
 USA (Miami)
 Olaszország (Imola)
 Spanyol
 Ausztria
-Kanada
-Belgium
 Olaszország (Monza)
-Szingapúr
 Japán
-USA (Ausztin)
 Mexikó
-USA (Las Vegas)
-Portugália
