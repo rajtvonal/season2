@@ -60,6 +60,7 @@ function createSmRaceRow(driver, index) {
 }
 
 function formatRacePosition(driver) {
+  if (driver.dsq) return "DSQ";
   if (driver.dns || driver.dnf) return "DNF";
   return driver.position || "-";
 }

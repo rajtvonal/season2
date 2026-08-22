@@ -26,7 +26,7 @@ function getClassGroup(event, className) {
 function updateDriverRace(drivers, raceNumber, result) {
   const driver = getOrCreateDriver(drivers, result.id, result);
   const raceIndex = raceNumber - 1;
-  const position = result.dnf || result.dns ? "DNF" : String(result.position);
+  const position = result.dsq ? "DSQ" : result.dnf ? "DNF" : result.dns ? "DNS" : String(result.position);
   const points = Number(result.pointTotal || result.pointsGiven || 0);
   driver.results[raceIndex] = position;
   driver.points[raceIndex] = points;

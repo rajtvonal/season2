@@ -14,7 +14,8 @@
             "bestLap": 93284,
             "totalTime": 5505118,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 2,
@@ -28,7 +29,8 @@
             "bestLap": 90641,
             "totalTime": 5509797,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 3,
@@ -42,7 +44,8 @@
             "bestLap": 94190,
             "totalTime": 5518417,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 4,
@@ -56,7 +59,8 @@
             "bestLap": 95285,
             "totalTime": 5529318,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 5,
@@ -70,7 +74,8 @@
             "bestLap": 94960,
             "totalTime": 5552917,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 6,
@@ -84,7 +89,8 @@
             "bestLap": 96452,
             "totalTime": 4505608,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 7,
@@ -98,7 +104,8 @@
             "bestLap": 96935,
             "totalTime": 3532874,
             "dnf": true,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 8,
@@ -112,7 +119,8 @@
             "bestLap": 101410,
             "totalTime": 2586808,
             "dnf": true,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 9,
@@ -126,7 +134,8 @@
             "bestLap": 105318,
             "totalTime": 1322814,
             "dnf": true,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 10,
@@ -140,7 +149,8 @@
             "bestLap": 0,
             "totalTime": 0,
             "dnf": true,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 11,
@@ -154,7 +164,8 @@
             "bestLap": 0,
             "totalTime": 0,
             "dnf": false,
-            "dns": true
+            "dns": true,
+            "dsq": false
          }
       ]
    },
@@ -173,7 +184,8 @@
             "bestLap": 103738,
             "totalTime": 5513358,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 2,
@@ -187,7 +199,8 @@
             "bestLap": 103728,
             "totalTime": 5513797,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 3,
@@ -201,7 +214,8 @@
             "bestLap": 102993,
             "totalTime": 5520498,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 4,
@@ -215,7 +229,8 @@
             "bestLap": 104473,
             "totalTime": 5520638,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 5,
@@ -229,7 +244,8 @@
             "bestLap": 104865,
             "totalTime": 5532017,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 6,
@@ -243,7 +259,8 @@
             "bestLap": 104286,
             "totalTime": 5533238,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 7,
@@ -257,7 +274,8 @@
             "bestLap": 103102,
             "totalTime": 5533498,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 8,
@@ -271,7 +289,8 @@
             "bestLap": 104676,
             "totalTime": 5543618,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 9,
@@ -285,7 +304,8 @@
             "bestLap": 106747,
             "totalTime": 5555937,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 10,
@@ -299,7 +319,8 @@
             "bestLap": 103901,
             "totalTime": 5562378,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 11,
@@ -313,7 +334,8 @@
             "bestLap": 103399,
             "totalTime": 5562838,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 12,
@@ -327,7 +349,8 @@
             "bestLap": 106743,
             "totalTime": 5638477,
             "dnf": false,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 13,
@@ -341,7 +364,8 @@
             "bestLap": 110712,
             "totalTime": 3192882,
             "dnf": true,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 14,
@@ -355,7 +379,8 @@
             "bestLap": 114286,
             "totalTime": 3398528,
             "dnf": true,
-            "dns": false
+            "dns": false,
+            "dsq": true
          },
          {
             "position": 15,
@@ -369,7 +394,8 @@
             "bestLap": 141265,
             "totalTime": 463953,
             "dnf": true,
-            "dns": false
+            "dns": false,
+            "dsq": false
          },
          {
             "position": 16,
@@ -383,7 +409,8 @@
             "bestLap": 0,
             "totalTime": 0,
             "dnf": false,
-            "dns": true
+            "dns": true,
+            "dsq": false
          },
          {
             "position": 17,
@@ -397,7 +424,8 @@
             "bestLap": 0,
             "totalTime": 0,
             "dnf": false,
-            "dns": true
+            "dns": true,
+            "dsq": false
          },
          {
             "position": 18,
@@ -411,7 +439,8 @@
             "bestLap": 0,
             "totalTime": 0,
             "dnf": false,
-            "dns": true
+            "dns": true,
+            "dsq": false
          },
          {
             "position": 19,
@@ -425,7 +454,8 @@
             "bestLap": 0,
             "totalTime": 0,
             "dnf": false,
-            "dns": true
+            "dns": true,
+            "dsq": false
          },
          {
             "position": 20,
@@ -439,7 +469,8 @@
             "bestLap": 0,
             "totalTime": 0,
             "dnf": false,
-            "dns": true
+            "dns": true,
+            "dsq": false
          },
          {
             "position": 21,
@@ -453,7 +484,8 @@
             "bestLap": 0,
             "totalTime": 0,
             "dnf": false,
-            "dns": true
+            "dns": true,
+            "dsq": false
          }
       ]
    }
