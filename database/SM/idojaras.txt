@@ -1,4 +1,4 @@
-us,Daytona,kicsit felhős,14,18
+us,Daytona,kicsit felhős,16,18
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Időmérő:</div> 
 <div style="text-align: justify;">Session Start Time: 07:00<br>Surface Water: Dry</div> 
