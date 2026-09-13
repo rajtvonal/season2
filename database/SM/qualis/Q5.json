@@ -1,0 +1,117 @@
+[
+  {
+    "carClass": "Hypercar - PRO/AM",
+    "result": [
+      {
+        "id": "Máté Sonn",
+        "carNum": 95,
+        "car": "Porsche 963",
+        "totalLaps": 6,
+        "bestLap": 120587
+      },
+      {
+        "id": "Laszlo Rado",
+        "carNum": 56,
+        "car": "Alpine A424",
+        "totalLaps": 7,
+        "bestLap": 122253
+      },
+      {
+        "id": "László Varga",
+        "carNum": 20,
+        "car": "BMW M Hybrid V8",
+        "totalLaps": 7,
+        "bestLap": 123717
+      },
+      {
+        "id": "Edvin Mekis",
+        "carNum": 7,
+        "car": "Aston Martin Valkyrie LMH",
+        "totalLaps": 5,
+        "bestLap": 125753
+      }
+    ]
+  },
+  {
+    "carClass": "LMGT3 - PRO/AM",
+    "result": [
+      {
+        "id": "Sa'ndor Szabo",
+        "carNum": 14,
+        "car": "Lexus RCF LMGT3",
+        "totalLaps": 7,
+        "bestLap": 137941
+      },
+      {
+        "id": "Balázs Czuczor",
+        "carNum": 28,
+        "car": "Porsche 911 GT3 R LMGT3",
+        "totalLaps": 6,
+        "bestLap": 138395
+      },
+      {
+        "id": "Zoltán Balogh",
+        "carNum": 888,
+        "car": "Porsche 911 GT3 R LMGT3",
+        "totalLaps": 7,
+        "bestLap": 138773
+      },
+      {
+        "id": "Mark Cserhati",
+        "carNum": 25,
+        "car": "Ford Mustang LMGT3",
+        "totalLaps": 7,
+        "bestLap": 138852
+      },
+      {
+        "id": "Szabolcs Hentes",
+        "carNum": 22,
+        "car": "Porsche 911 GT3 R LMGT3",
+        "totalLaps": 7,
+        "bestLap": 139280
+      },
+      {
+        "id": "Dániel Lindwurm",
+        "carNum": 30,
+        "car": "Lexus RCF LMGT3",
+        "totalLaps": 5,
+        "bestLap": 139906
+      },
+      {
+        "id": "Tamas Perger",
+        "carNum": 80,
+        "car": "BMW M4 LMGT3",
+        "totalLaps": 8,
+        "bestLap": 139922
+      },
+      {
+        "id": "Kovács Péter",
+        "carNum": 2,
+        "car": "BMW M4 LMGT3",
+        "totalLaps": 6,
+        "bestLap": 140686
+      },
+      {
+        "id": "Norbert Császár",
+        "carNum": 127,
+        "car": "Porsche 911 GT3 R LMGT3",
+        "totalLaps": 7,
+        "bestLap": 141783
+      },
+      {
+        "id": "Roland Szakszon",
+        "carNum": 985,
+        "car": "Porsche 911 GT3 R LMGT3",
+        "totalLaps": 6,
+        "bestLap": 142433
+      },
+      {
+        "id": "Németh Zoltán",
+        "carNum": 88,
+        "car": "BMW M4 LMGT3",
+        "totalLaps": 6,
+        "bestLap": 142466
+      }
+    ]
+  }
+]
