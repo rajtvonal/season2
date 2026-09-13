@@ -441,36 +441,6 @@
             "dnf": false,
             "dns": true,
             "dsq": false
-         },
-         {
-            "position": 20,
-            "id": "AJ Biro",
-            "carNum": 67,
-            "car": "Porsche 911 GT3 R LMGT3",
-            "pointsGiven": 0.0,
-            "penaltyPoints": 0,
-            "pointTotal": 0.0,
-            "totalLaps": null,
-            "bestLap": null,
-            "totalTime": null,
-            "dnf": false,
-            "dns": true,
-            "dsq": false
-         },
-         {
-            "position": 21,
-            "id": "Marcell Gyori",
-            "carNum": 69,
-            "car": "Mercedes-AMG LMGT3",
-            "pointsGiven": 0.0,
-            "penaltyPoints": 0,
-            "pointTotal": 0.0,
-            "totalLaps": null,
-            "bestLap": null,
-            "totalTime": null,
-            "dnf": false,
-            "dns": true,
-            "dsq": false
          }
       ]
    }

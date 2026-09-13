@@ -197,17 +197,5 @@
         "bestLap": 123468
       }
     ]
-  },
-  {
-    "carClass": "Biztonsági autó (SC)",
-    "result": [
-      {
-        "id": "Balázs Kehrer",
-        "carNum": 9,
-        "car": "Aston Martin Vantage AMR",
-        "totalLaps": 0,
-        "bestLap": 0
-      }
-    ]
   }
 ]

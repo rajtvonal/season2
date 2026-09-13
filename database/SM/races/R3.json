@@ -136,21 +136,6 @@
             "dnf": false,
             "dns": true,
             "dsq": false
-         },
-         {
-            "position": 10,
-            "id": "Bartucz Andras",
-            "carNum": 12,
-            "car": "BMW M Hybrid V8",
-            "pointsGiven": 0.0,
-            "penaltyPoints": 0,
-            "pointTotal": 0.0,
-            "totalLaps": null,
-            "bestLap": null,
-            "totalTime": null,
-            "dnf": false,
-            "dns": true,
-            "dsq": false
          }
       ]
    },
@@ -365,21 +350,6 @@
             "totalTime": 0,
             "dnf": true,
             "dns": false,
-            "dsq": false
-         },
-         {
-            "position": 15,
-            "id": "Marcell Gyori",
-            "carNum": 69,
-            "car": "Mercedes-AMG LMGT3",
-            "pointsGiven": 0.0,
-            "penaltyPoints": 0,
-            "pointTotal": 0.0,
-            "totalLaps": null,
-            "bestLap": null,
-            "totalTime": null,
-            "dnf": false,
-            "dns": true,
             "dsq": false
          },
          {
