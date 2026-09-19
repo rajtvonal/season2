@@ -7,5 +7,5 @@ fr,Circuit de la Sarthe,esős,16,25
 <br>
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Verseny:</div> 
-<div style="text-align: justify;">Session Start Time: 4:00<br>Surface Water: Damp</div> 
+<div style="text-align: justify;">Session Start Time: 4:00<br>Surface Water: Dry</div> 
 <div style="text-align: justify;">A Sarthe-vidék felett uralkodó stabil, száraz légtömegnek köszönhetően csillagfényes, enyhe körülmények uralkodnak a virradat előtti órákban. A 16–17°C-os környezeti hőmérséklet mellett a korábbi meleg nap hőjét megőrző aszfalt csupán 19°C-ig hűl vissza a hajnali minimumra, miközben a mérsékelt páratartalom mellett sem alakul ki tapadást rontó lecsapódás. A felkelő nap sugárzását csak néhány vékony fátyolfelhő szűri, így a reggeli órákban a felület gyorsan melegedni kezd, egészen 26°C-ig emelkedve. Csapadék kialakulása teljességgel kizárt, a száraz nyomvonal fokozatos felmelegedése pedig folyamatosan javuló mechanikai tapadást és stabil abroncsműködést biztosít.</div> 
