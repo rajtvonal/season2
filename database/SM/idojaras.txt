@@ -1,4 +1,4 @@
-fr,Circuit de la Sarthe,esős,16,25
+fr,Circuit de la Sarthe,kicsit felhős,16,25
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Időmérő:</div> 
 <div style="text-align: justify;">Session Start Time: 13:00<br>Surface Water: Dry</div> 
