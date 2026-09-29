@@ -1,0 +1,96 @@
+[
+  {
+    "carClass": "Hypercar - PRO/AM",
+    "result": [
+      {
+        "id": "Máté Sonn",
+        "carNum": 95,
+        "car": "Porsche 963",
+        "totalLaps": 5,
+        "bestLap": 205054
+      },
+      {
+        "id": "Attila Csókás",
+        "carNum": 17,
+        "car": "BMW M Hybrid V8",
+        "totalLaps": 6,
+        "bestLap": 208244
+      },
+      {
+        "id": "Laszlo Rado",
+        "carNum": 56,
+        "car": "Alpine A424",
+        "totalLaps": 5,
+        "bestLap": 210212
+      }
+    ]
+  },
+  {
+    "carClass": "LMGT3 - PRO/AM",
+    "result": [
+      {
+        "id": "Sa'ndor Szabo",
+        "carNum": 14,
+        "car": "Lexus RC F GT3",
+        "totalLaps": 5,
+        "bestLap": 235689
+      },
+      {
+        "id": "Balázs Czuczor",
+        "carNum": 28,
+        "car": "Porsche 911 GT3 R",
+        "totalLaps": 4,
+        "bestLap": 236276
+      },
+      {
+        "id": "Zoltán Balogh",
+        "carNum": 888,
+        "car": "Porsche 911 GT3 R",
+        "totalLaps": 5,
+        "bestLap": 236432
+      },
+      {
+        "id": "Mark Cserhati",
+        "carNum": 25,
+        "car": "Ford Mustang GT3",
+        "totalLaps": 4,
+        "bestLap": 237938
+      },
+      {
+        "id": "Tomi Rendes",
+        "carNum": 1,
+        "car": "Porsche 911 GT3 R",
+        "totalLaps": 5,
+        "bestLap": 238181
+      },
+      {
+        "id": "Richárd Bacskó",
+        "carNum": 3,
+        "car": "Porsche 911 GT3 R",
+        "totalLaps": 5,
+        "bestLap": 238440
+      },
+      {
+        "id": "Szabolcs Hentes",
+        "carNum": 22,
+        "car": "Porsche 911 GT3 R",
+        "totalLaps": 5,
+        "bestLap": 239255
+      },
+      {
+        "id": "Kovács Péter",
+        "carNum": 2,
+        "car": "BMW M4 LMGT3",
+        "totalLaps": 3,
+        "bestLap": 240347
+      },
+      {
+        "id": "Norbert Császár",
+        "carNum": 127,
+        "car": "Porsche 911 GT3 R",
+        "totalLaps": 4,
+        "bestLap": 245194
+      }
+    ]
+  }
+]
