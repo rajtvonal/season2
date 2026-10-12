@@ -1,0 +1,138 @@
+[
+  {
+    "carClass": "Hypercar - PRO/AM",
+    "result": [
+      {
+        "position": 1,
+        "id": "Attila Csókás",
+        "carNum": 17,
+        "car": "BMW M Hybrid V8",
+        "pointsGiven": 23,
+        "penaltyPoints": null,
+        "pointTotal": 23,
+        "totalLaps": 59,
+        "bestLap": 84620,
+        "totalTime": 5460438,
+        "dnf": false,
+        "dns": false
+      },
+      {
+        "position": 2,
+        "id": "László Varga",
+        "carNum": 20,
+        "car": "BMW M Hybrid V8",
+        "pointsGiven": 0,
+        "penaltyPoints": null,
+        "pointTotal": 0,
+        "totalLaps": 20,
+        "bestLap": 85454,
+        "totalTime": 1791052,
+        "dnf": true,
+        "dns": false
+      }
+    ]
+  },
+  {
+    "carClass": "LMGT3 - PRO/AM",
+    "result": [
+      {
+        "position": 1,
+        "id": "Sa'ndor Szabo",
+        "carNum": 14,
+        "car": "Lexus RC F GT3",
+        "pointsGiven": 23,
+        "penaltyPoints": null,
+        "pointTotal": 23,
+        "totalLaps": 56,
+        "bestLap": 94492,
+        "totalTime": 5562698,
+        "dnf": false,
+        "dns": false
+      },
+      {
+        "position": 2,
+        "id": "Balázs Czuczor",
+        "carNum": 28,
+        "car": "Porsche 911 GT3 R",
+        "pointsGiven": 18,
+        "penaltyPoints": null,
+        "pointTotal": 18,
+        "totalLaps": 55,
+        "bestLap": 94826,
+        "totalTime": 5460718,
+        "dnf": false,
+        "dns": false
+      },
+      {
+        "position": 3,
+        "id": "Zoltán Balogh",
+        "carNum": 888,
+        "car": "Porsche 911 GT3 R",
+        "pointsGiven": 15,
+        "penaltyPoints": null,
+        "pointTotal": 15,
+        "totalLaps": 55,
+        "bestLap": 94693,
+        "totalTime": 5461057,
+        "dnf": false,
+        "dns": false
+      },
+      {
+        "position": 4,
+        "id": "Mark Cserhati",
+        "carNum": 25,
+        "car": "Ford Mustang GT3",
+        "pointsGiven": 12,
+        "penaltyPoints": null,
+        "pointTotal": 12,
+        "totalLaps": 55,
+        "bestLap": 94794,
+        "totalTime": 5522578,
+        "dnf": false,
+        "dns": false
+      },
+      {
+        "position": 5,
+        "id": "Dániel Lindwurm",
+        "carNum": 30,
+        "car": "Lexus RC F GT3",
+        "pointsGiven": 9,
+        "penaltyPoints": null,
+        "pointTotal": 9,
+        "totalLaps": 55,
+        "bestLap": 94933,
+        "totalTime": 5523237,
+        "dnf": false,
+        "dns": false
+      },
+      {
+        "position": 6,
+        "id": "Tamas Lanyi",
+        "carNum": 27,
+        "car": "Lamborghini Huracan GT3",
+        "pointsGiven": 7,
+        "penaltyPoints": null,
+        "pointTotal": 7,
+        "totalLaps": 55,
+        "bestLap": 94953,
+        "totalTime": 5523618,
+        "dnf": false,
+        "dns": false
+      },
+      {
+        "position": 7,
+        "id": "Kovács Péter",
+        "carNum": 2,
+        "car": "BMW M4 LMGT3",
+        "pointsGiven": 5,
+        "penaltyPoints": null,
+        "pointTotal": 5,
+        "totalLaps": 54,
+        "bestLap": 95722,
+        "totalTime": 5461777,
+        "dnf": false,
+        "dns": false
+      }
+    ]
+  }
+]
