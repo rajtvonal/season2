@@ -1,11 +1,11 @@
-br,Interlagos,napos,20,24
+it,Monza,napos,17,15
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Időmérő:</div> 
-<div style="text-align: justify;">Session Start Time: 10:00<br>Surface Water: Dry</div> 
-<div style="text-align: justify;">Interlagosban a délelőtti órákban teljesen száraz és stabil légtömeg alakítja az időjárást, így semmilyen formában nem várható csapadék a versenypályán. A kezdetben jelen lévő gomolyfelhőzet fokozatosan feloszlik, a levegő hőmérséklete 20 fokról 23 fokig emelkedik, miközben a relatív páratartalom érezhetően csökken. A közvetlen napsütés hatására az aszfalt hőmérséklete lendületesen kúszik fel 22-ről 30 fokra, ami folyamatosan javítja a nyomvonal tapadási szintjét. A melegedő pálya kedvez a gumik optimális működési tartományának eléréséhez, de a session végére az abroncsok túlmelegedése már komoly kihívást jelenthet.</div> 
+<div style="text-align: justify;">Session Start Time: 14:00<br>Surface Water: Dry</div> 
+<div style="text-align: justify;">Monzában derült, kora délutáni napsütés és kellemes, 16–17°C-os környezeti levegő fogadja a mezőnyt teljesen száraz aszfaltfelület mellett. A délután folyamán fokozatosan megjelenő vékony felhőzet és a nap beesési szögének változása miatt a kezdeti 22°C-os aszfalthőmérséklet lassan mérséklődik, de a 18°C-os minimumérték felett stabilizálódik. A páratartalom az enyhe lehűléssel párhuzamosan csupán kismértékben növekszik, így a tapadási viszonyok kiszámíthatóak maradnak.</div> 
 
 <br>
 
 <div style="font-size: 20px; font-weight: 700; color: var(--text-primary);">Verseny:</div> 
-<div style="text-align: justify;">Session Start Time: 10:00<br>Surface Water: Dry</div> 
-<div style="text-align: justify;">Interlagos térségében stabil, teljesen száraz légtömeg alakítja az időjárást a délelőtti órákban, így semmilyen csapadék kialakulására nem kell számítani. A kezdetben jelen lévő mérsékelt gomolyfelhőzet a déli órák közeledtével fokozatosan felszakadozik, a levegő hőmérséklete pedig 20-ról 24 fokig emelkedik a csökkenő páratartalom mellett. A kisütő nap hatására a pálya hőmérséklete a kezdeti 22 fokról ütemesen felkúszik egészen 31 fokig. Ez a melegedés folyamatosan növeli az elérhető mechanikai tapadást a nyomvonalon, ugyanakkor a táv második felében már fokozott figyelmet követel az abroncsok túlmelegedésének elkerülése érdekében. </div> 
+<div style="text-align: justify;">Session Start Time: 17:00<br>Surface Water: Dry</div> 
+<div style="text-align: justify;">Monzában derült égbolt és 17°C-os levegő mellett 21°C-os száraz aszfalton rajtol a futam. Az alkonyat során átmenetileg vékony, majd részleges felhőzet érkezik, miközben a pálya hőmérséklete 20°C-ra, majd 19°C-ra hűl. A leszálló éjszakában a felhők teljesen eloszlanak, a növekvő páratartalom mellett pedig a felület előbb 18°C-ra, végül 17°C-ra mérséklődik csapadékmentes körülmények között.</div> 
