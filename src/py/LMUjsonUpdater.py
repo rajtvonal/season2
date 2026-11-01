@@ -34,7 +34,7 @@ def load_previous_totals(filename):
 
 
 def main():
-    current_file = "R1_sg.json"
+    current_file = "R8_sg.json"
 
     match = re.match(r"R(\d+)_sg\.json$", current_file)
     if not match:
@@ -61,13 +61,15 @@ def main():
         for driver in car_class["result"]:
             previous_total = previous_totals.get( (car_class["carClass"], driver["id"]) , 0.0)
 
-            if driver.get("dnf", False):
+            if driver.get("dnf", False) or driver.get("dns", False):
                 driver["pointsGiven"] = 0.0
                 driver["pointTotal"] = previous_total
             else:
                 points_given = pointsystem.get(driver["position"], 0.0)
                 driver["pointsGiven"] = points_given
                 driver["pointTotal"] = previous_total + points_given
+            driver["dsq"] = False
+            
             
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(current_data, f, ensure_ascii=False, indent=3)

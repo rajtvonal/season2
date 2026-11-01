@@ -76,3 +76,32 @@ function getQualifyingOrder(results) {
 function normalizeLap(lap) {
   return lap && lap > 0 ? lap : Number.MAX_SAFE_INTEGER;
 }
+
+
+// A rangsorolás feltétele: legalább 5 értékelhető futam.
+// A helyezés és a DNF teljesített futamnak számít; a DNS és DSQ nem.
+function getCompletedRaceCount(driver) {
+  return (driver.raceDetails || []).filter(result => {
+    if (!result) return false;
+    if (result.dsq || result.dns) return false;
+    if (result.dnf) return true;
+    const position = Number(result.position);
+    return Number.isFinite(position) && position > 0;
+  }).length;
+}
+
+function isDriverRanked(driver) {
+  const exceptions = ["Dániel Lindwurm", "Tamas Lanyi"];
+  const excludedDrivers = ["Richárd Bacskó"];
+  if (excludedDrivers.includes(driver.name)) {
+    return false;
+  }
+  return exceptions.includes(driver.name) || getCompletedRaceCount(driver) >= 5;
+}
+
+function splitRankedDrivers(data) {
+  return {
+    ranked: data.filter(isDriverRanked),
+    unranked: data.filter(driver => !isDriverRanked(driver))
+  };
+}

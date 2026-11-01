@@ -42,17 +42,24 @@ function createClassButton(className) {
 
 function renderActiveClassView() {
   resetResultsTable();
-  const data = addGapToFirst(calculateGains(buildDriverStandings(smResultsState.activeClass)));
-  setCurrentData(data);
-  if (smResultsState.activeView === "individual") return renderIndividualView(data);
-  if (smResultsState.activeView === "teams") return renderTeamView(data);
-  if (smResultsState.activeView === "statistics") return renderStatisticsView(data);
-  renderTable(data, "main");
+  const allDrivers = buildDriverStandings(smResultsState.activeClass);
+  setCurrentData(allDrivers);
+  if (smResultsState.activeView === "individual") {
+    return renderIndividualView(addGapToFirst(calculateGains(allDrivers)));
+  }
+  if (smResultsState.activeView === "teams") return renderTeamView(allDrivers);
+  if (smResultsState.activeView === "statistics") return renderStatisticsView(allDrivers);
+
+  const { ranked, unranked } = splitRankedDrivers(allDrivers);
+  const rankedWithGains = addGapToFirst(calculateGains(ranked));
+  renderTable(rankedWithGains, "main");
   updateHeader(createResultsHeader(smResultsConfig.totalRaces));
+  renderUnrankedDriversTable(unranked);
 }
 
 function resetResultsTable() {
   const container = document.querySelector(".container.results");
+  container.querySelector(".unranked-standings")?.remove();
   if (container.querySelector("#tbody")) return;
   container.innerHTML = "<table><thead><tr></tr></thead><tbody id=\"tbody\"></tbody></table>";
 }

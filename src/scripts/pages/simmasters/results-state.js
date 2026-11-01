@@ -4,7 +4,7 @@ const smResultsState = {
   qualis: [],
   teams: {},
   drivers: {},
-  activeClass: "Hypercar",
+  activeClass: "LMGT3",
   activeView: "main"
 };
 

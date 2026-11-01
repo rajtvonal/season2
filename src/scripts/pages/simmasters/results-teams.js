@@ -1,16 +1,22 @@
 function showIndividual(btn) {
+  const tableTitle = document.getElementById("tableTitle");
+  if (tableTitle) { tableTitle.textContent = ""; }
   setActive(btn);
   setClass("container results", "individual");
   showClassButtons("individual");
 }
 
 function showTeams(btn) {
+  const tableTitle = document.getElementById("tableTitle");
+  if (tableTitle) { tableTitle.textContent = ""; }
   setActive(btn);
   setClass("container results", "teams");
   showClassButtons("teams");
 }
 
 function showStatistics(btn) {
+  const tableTitle = document.getElementById("tableTitle");
+  if (tableTitle) { tableTitle.textContent = ""; }
   setActive(btn);
   setClass("container results", "statistics");
   showClassButtons("statistics");
@@ -28,7 +34,9 @@ function renderTeamView(data) {
 
 
 function createTeamStandings(data) {
-  const teams = groupDriversByTeam(data);
+  // A csapatbajnokságba csak az egyéni minimumot teljesítő pilóták pontjai számítanak.
+  const eligibleDrivers = data.filter(isDriverRanked);
+  const teams = groupDriversByTeam(eligibleDrivers);
   const standings = Object.entries(teams).map(([team, drivers]) => ({
     team,
     players: drivers.map(driver => driver.name),

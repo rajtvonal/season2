@@ -12,6 +12,20 @@ function updateHeader(cols) {
 }
 
 function renderTable(data, mode = "main") {
+  const tableTitle = document.getElementById("tableTitle");
+  if (tableTitle) {
+    tableTitle.textContent = "Hivatalos bajnoki tabella";
+    tableTitle.classList.add("level-1-title");
+    Object.assign(tableTitle.style, {
+        display: "flex",
+        justifyContent: "center",
+        paddingTop: "1px",
+        paddingBottom: "0px",
+        margin: "auto",
+        fontSize: "36px"
+    });
+  }
+
   const tbody = document.getElementById("tbody");
   tbody.innerHTML = "";
   data.forEach((driver, index) => tbody.appendChild(createDriverRow(driver, index, mode)));
@@ -87,4 +101,53 @@ function formatTeamName(team) {
   if (!team) return "-";
   const normalized = team.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   return normalized === "fuggetlen" ? "-" : team;
+}
+
+
+function renderUnrankedDriversTable(data) {
+  const container = document.querySelector(".container.results");
+  if (!container || data.length === 0) return;
+
+  const section = document.createElement("section");
+  section.className = "unranked-standings";
+  const title = document.createElement("h2");
+  title.className = "level-1-title";
+  title.style.display = "flex";
+  title.style.fontSize = "36px";
+  title.style.justifyContent = "center";
+  title.style.paddingTop = "64px";
+  title.textContent = "Nem rangsorolt (NC) versenyzők";
+  section.appendChild(title);
+
+  const table = document.createElement("table");
+  const thead = document.createElement("thead");
+  const header = document.createElement("tr");
+  createResultsHeader(smResultsConfig.totalRaces).filter(label => label !== "Gain").forEach(label => {
+    const th = document.createElement("th");
+    th.textContent = label;
+    header.appendChild(th);
+  });
+  thead.appendChild(header);
+  table.appendChild(thead);
+
+  const tbody = document.createElement("tbody");
+  [...data].sort((a, b) => b.total - a.total).forEach((driver, index) => {
+    const tr = document.createElement("tr");
+    tr.className = "row";
+    const results = getResultColumns().map((column, eventIndex) => {
+      const className = column.type || "race";
+      return `<td class="races ${className}-${index + 1}">${driver.results[eventIndex] || "-"}</td>`;
+    }).join("");
+    tr.innerHTML = `
+      <td class="pos">NC</td>
+      <td class="name >${createFlagImg(driver.country)}${driver.name}</td>
+      <td class="team">${formatTeamName(driver.team)}</td>
+      ${results}
+      <td class="total">${driver.total}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+  table.appendChild(tbody);
+  section.appendChild(table);
+  container.appendChild(section);
 }
