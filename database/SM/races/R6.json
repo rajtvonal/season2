@@ -63,21 +63,6 @@
             "dsq": false
          },
          {
-            "position": 5,
-            "id": "Bartucz Andras",
-            "carNum": 12,
-            "car": "BMW M Hybrid V8",
-            "pointsGiven": 0.0,
-            "penaltyPoints": 0,
-            "pointTotal": 0.0,
-            "totalLaps": null,
-            "bestLap": null,
-            "totalTime": null,
-            "dnf": false,
-            "dns": true,
-            "dsq": false
-         },
-         {
             "position": 6,
             "id": "DOBOS Attila",
             "carNum": 73,
@@ -267,21 +252,6 @@
             "id": "Dorián Németh",
             "carNum": 99,
             "car": "McLaren 720S GT3 Evo",
-            "pointsGiven": 0.0,
-            "penaltyPoints": 0,
-            "pointTotal": 0.0,
-            "totalLaps": null,
-            "bestLap": null,
-            "totalTime": null,
-            "dnf": false,
-            "dns": true,
-            "dsq": false
-         },
-         {
-            "position": 11,
-            "id": "Marcell Gyori",
-            "carNum": 69,
-            "car": "Mercedes-AMG GT3 Evo",
             "pointsGiven": 0.0,
             "penaltyPoints": 0,
             "pointTotal": 0.0,
